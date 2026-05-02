@@ -1,5 +1,7 @@
 {
-  "public": "quote-web-app",
+  "public": false,
+  "buildCommand": "echo 'Static site'",
+  "outputDirectory": "quote-web-app",
   "cleanUrls": true,
   "rewrites": [
     {
