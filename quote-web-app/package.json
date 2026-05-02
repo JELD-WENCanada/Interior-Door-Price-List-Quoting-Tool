@@ -1,0 +1,12 @@
+{
+  "name": "jeldwen-door-quoting-tool",
+  "version": "1.0.0",
+  "description": "JELD-WEN Interior Door Quoting Tool",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'"
+  },
+  "keywords": ["quoting", "doors", "pricing"],
+  "author": "JELD-WEN",
+  "license": "ISC"
+}
