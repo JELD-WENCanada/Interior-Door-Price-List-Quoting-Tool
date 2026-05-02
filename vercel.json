@@ -1,9 +1,5 @@
 {
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "framework": "static",
-  "env": [],
-  "public": false,
+  "public": "quote-web-app",
   "cleanUrls": true,
   "rewrites": [
     {
