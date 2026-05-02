@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JELD-WEN Interior Door Quoting Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       HEADER
+  ══════════════════════════════════════════════════════════ -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand-mark">JW</div>
+      <div class="header-titles">
+        <h1 class="header-title">Interior Door Quoting Tool</h1>
+        <span class="header-sub">Master Pricing — All Dealer Groups</span>
+      </div>
+    </div>
+    <div class="header-center">
+      <label class="group-label" for="groupSelect">Dealer Group</label>
+      <select id="groupSelect" class="group-select">
+        <option value="">— Select Dealer Group —</option>
+      </select>
+    </div>
+    <div class="header-right">
+      <span class="header-meta" id="dataMetaLabel">Loading data…</span>
+      <span class="header-date" id="quoteDateDisplay"></span>
+    </div>
+  </header>
+
+  <!-- ══════════════════════════════════════════════════════════
+       MAIN LAYOUT (two-column grid)
+  ══════════════════════════════════════════════════════════ -->
+  <main class="app-main">
+
+    <!-- ╔══════════════════════════════════════╗
+         ║  LEFT — Configuration Panel          ║
+         ╚══════════════════════════════════════╝ -->
+    <section class="panel config-panel" id="configPanel">
+
+      <div class="panel-header">
+        <h2 class="panel-title">Configure Product</h2>
+        <span class="panel-hint" id="configHint">Start by selecting a dealer group above</span>
+      </div>
+
+      <!-- ── Step 1 : Product Type ─────────────────────────── -->
+      <div class="step-card disabled" id="step-type">
+        <div class="step-header">
+          <span class="step-num">1</span>
+          <span class="step-label">Product Type</span>
+        </div>
+        <div class="type-buttons">
+          <button class="type-btn" data-type="door" id="typeBtn-door">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="2" width="18" height="20" rx="1" ry="1"/><circle cx="17" cy="12" r="1.2"/></svg>
+            Door Slab
+          </button>
+          <button class="type-btn" data-type="bifold" id="typeBtn-bifold">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="9" height="20" rx="1"/><rect x="13" y="2" width="9" height="20" rx="1"/></svg>
+            Bifold
+          </button>
+        </div>
+      </div>
+
+      <!-- ── Step 2 : Style ─────────────────────────────────── -->
+      <div class="step-card disabled" id="step-style">
+        <div class="step-header">
+          <span class="step-num">2</span>
+          <span class="step-label">Door Style</span>
+        </div>
+        <select id="styleSelect" class="form-select" disabled>
+          <option value="">— Select a style —</option>
+        </select>
+      </div>
+
+      <!-- ── Step 3 : Size ──────────────────────────────────── -->
+      <div class="step-card disabled" id="step-size">
+        <div class="step-header">
+          <span class="step-num">3</span>
+          <span class="step-label">Size</span>
+        </div>
+        <select id="sizeSelect" class="form-select" disabled>
+          <option value="">— Select a size —</option>
+        </select>
+      </div>
+
+      <!-- ── Step 4 : Variant ──────────────────────────────── -->
+      <div class="step-card disabled" id="step-variant">
+        <div class="step-header">
+          <span class="step-num">4</span>
+          <span class="step-label">Core / Variant</span>
+        </div>
+        <select id="variantSelect" class="form-select" disabled>
+          <option value="">— Select variant —</option>
+        </select>
+      </div>
+
+      <!-- ── Step 5 : Add-ons ──────────────────────────────── -->
+      <div class="step-card disabled" id="step-addons">
+        <div class="step-header">
+          <span class="step-num">5</span>
+          <span class="step-label">Add-ons &amp; Upgrades</span>
+          <span class="step-badge" id="addonBadge" style="display:none"></span>
+        </div>
+        <div id="addonsList" class="addons-list">
+          <p class="empty-addons">Select a group and product type to see available add-ons.</p>
+        </div>
+      </div>
+
+      <!-- ── Reset ────────────────────────────────────────── -->
+      <div class="config-actions">
+        <button id="clearSelectionBtn" class="btn btn-ghost btn-full">
+          ↺ Reset
+        </button>
+      </div>
+
+    </section><!-- /config-panel -->
+
+    <!-- ╔══════════════════════════════════════╗
+         ║  RIGHT — Price Display               ║
+         ╚══════════════════════════════════════╝ -->
+    <section class="panel price-panel" id="pricePanel">
+
+      <div class="panel-header">
+        <h2 class="panel-title">Price</h2>
+        <span class="group-badge" id="quoteGroupBadge">No Group Selected</span>
+      </div>
+
+      <!-- Door image -->
+      <div class="door-image-wrap" id="doorImageWrap" style="display:none">
+        <img id="doorImageEl" class="door-image" src="" alt="" loading="lazy" />
+        <span class="door-image-caption" id="doorImageCaption"></span>
+      </div>
+
+      <div class="live-price-section">
+
+        <div class="product-card" id="productCard">
+          <div class="product-card-empty">
+            <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="4" width="28" height="40" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="35" cy="24" r="2" fill="currentColor"/></svg>
+            <p>Select dealer group, product type, style, size and variant to see pricing.</p>
+          </div>
+          <div class="product-card-content" style="display:none">
+            <div class="pc-badge-row">
+              <span class="pc-type-badge" id="pcTypeBadge">door</span>
+              <span class="pc-group-tag" id="pcGroupTag"></span>
+            </div>
+            <div class="pc-style" id="pcStyle"></div>
+            <div class="pc-meta" id="pcMeta"></div>
+            <div class="pc-base-price" id="pcBasePrice"></div>
+          </div>
+        </div>
+
+        <div class="price-breakdown" id="priceBreakdown">
+          <div class="price-row">
+            <span class="pr-label">Base Price</span>
+            <span class="pr-value" id="basePriceDisplay">—</span>
+          </div>
+          <div id="addonPriceRows"></div>
+          <div class="price-row price-grand">
+            <span class="pr-label">TOTAL</span>
+            <span class="pr-value grand" id="totalDisplay">—</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /price-panel -->
+
+  </main><!-- /app-main -->
+
+  <footer class="app-footer" aria-label="Internal notice">
+    <p class="footer-text">Disclaimer: This tool is for internal estimating reference only and does not constitute a final quote, order confirmation, or contractual pricing.</p>
+    <p class="footer-text">Prepared by the JELD-WEN of Canada PLM team.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/pricing_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
