@@ -464,24 +464,17 @@
       addonRows.appendChild(row);
     });
 
-    // Per-unit total (base + addons), then qty multiplier → subtotal
+    // Per-unit total (base + addons). We intentionally do NOT multiply
+    // by qty — for tiered-volume products the tier selection just picks
+    // the per-unit price; we never want to calculate the cost of N doors.
     const perUnit  = basePrice !== null ? basePrice + addonTotal : null;
-    const subtotal = perUnit !== null ? perUnit * qty : null;
+    const subtotal = perUnit;
 
-    // Quantity row visibility (only meaningful when we have a price)
+    // The qty/subtotal rows are no longer used (single-unit pricing only).
     const qtyRow      = el('qtyRow');
-    const qtyDisplay  = el('qtyDisplay');
     const subtotalRow = el('subtotalRow');
-    const subDisp     = el('subtotalDisplay');
-    if (perUnit !== null && qty > 1) {
-      qtyRow.style.display = '';
-      qtyDisplay.textContent = '\u00d7' + qty;
-      subtotalRow.style.display = '';
-      subDisp.textContent = fmt(subtotal);
-    } else {
-      qtyRow.style.display = 'none';
-      subtotalRow.style.display = 'none';
-    }
+    if (qtyRow)      qtyRow.style.display = 'none';
+    if (subtotalRow) subtotalRow.style.display = 'none';
 
     // Show tier badge under qty input when product uses qty_tiers
     const tierHint = el('qtyHint');
@@ -561,8 +554,11 @@
     el('totalDisplay').textContent = fmt(total);
     el('totalDisplay').className   = total === null ? 'pr-value grand na' : 'pr-value grand';
 
-    // Quantity step enable/disable
-    setStepEnabled('step-qty', !!state.variant);
+    // Quantity step is only relevant for products with tiered volume pricing.
+    const hasTiers = !!(product && Array.isArray(product.qty_tiers) && product.qty_tiers.length > 1);
+    const qtyStep  = el('step-qty');
+    if (qtyStep) qtyStep.style.display = hasTiers ? '' : 'none';
+    setStepEnabled('step-qty', hasTiers);
   }
 
   // ── UI helpers ───────────────────────────────────────────────

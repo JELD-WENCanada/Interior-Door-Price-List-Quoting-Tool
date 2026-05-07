@@ -723,6 +723,8 @@ a { color: var(--primary); text-decoration: none; }
 }
 
 /* ─── Responsive ─────────────────────────────────────────────── */
+
+/* Tablet / small laptop — stack the two columns */
 @media (max-width: 900px) {
   .app-main {
     grid-template-columns: 1fr;
@@ -732,25 +734,158 @@ a { color: var(--primary); text-decoration: none; }
   .header-center { max-width: 100%; }
   .header-right  { display: none; }
   .group-select  { min-width: 160px; }
+
+  /* Show the price panel BEFORE the config panel so the running
+     total stays visible at the top after a tap, but keep DOM order
+     intact for accessibility. */
+  .price-panel  { order: 1; position: sticky; top: var(--header-h); z-index: 50; }
+  .config-panel { order: 2; }
+
+  /* Compact the price panel when stacked so it doesn't dominate */
+  .door-image-wrap { padding: 12px var(--panel-pad) 6px; }
+  .door-image      { max-height: 180px; }
+  .live-price-section { padding: 14px var(--panel-pad); }
 }
 
-@media (max-width: 560px) {
-  .app-header { padding: 0 14px; gap: 12px; }
+/* Phone — single column, full-width controls, larger tap targets */
+@media (max-width: 640px) {
+  :root {
+    --header-h: auto;
+    --panel-pad: 14px;
+  }
+  html { font-size: 16px; } /* prevent iOS auto-zoom on focus */
+
+  /* Header wraps to two rows: brand + meta on top, group select below */
+  .app-header {
+    position: static;
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    gap: 10px;
+    row-gap: 10px;
+  }
+  .header-left { flex: 1 1 auto; min-width: 0; }
   .header-left .header-sub { display: none; }
-  .brand-mark  { width: 32px; height: 32px; }
-  .header-title { font-size: 14px; }
-  .group-select { min-width: 120px; font-size: 12.5px; }
-  .app-main { padding: 10px; }
+  .brand-mark  { width: 34px; height: 34px; }
+  .header-title { font-size: 15px; }
+  .header-center {
+    flex: 1 1 100%;
+    order: 3;
+    max-width: 100%;
+    justify-content: stretch;
+  }
+  .group-label { display: none; }
+  .group-select {
+    width: 100%;
+    min-width: 0;
+    height: 44px;
+    font-size: 16px;
+  }
+
+  /* Main layout: edge-to-edge with small breathing room */
+  .app-main {
+    padding: 10px;
+    gap: 10px;
+    min-height: 0;
+  }
+
+  /* Sticky price panel becomes a compact summary at top */
+  .price-panel {
+    position: sticky;
+    top: 0;
+  }
+  .door-image-wrap { display: none !important; } /* save vertical space on phones */
+  .live-price-section { padding: 12px var(--panel-pad); }
+  .product-card { padding: 10px 12px; margin-bottom: 10px; min-height: 0; }
+  .pc-style { font-size: 16px; }
+  .pc-base-price { font-size: 22px; }
+  .pr-value.grand { font-size: 22px; }
+  .price-row { padding: 8px 10px; font-size: 14px; }
+  .price-row.price-grand { padding: 12px 14px; }
+
+  /* Step cards & form controls — chunkier, easier to tap */
+  .step-card { padding: 14px var(--panel-pad); }
+  .step-num  { width: 24px; height: 24px; font-size: 12px; }
+  .step-label { font-size: 14px; }
+  .form-select {
+    height: 48px;
+    font-size: 16px; /* prevent iOS zoom */
+    padding: 0 36px 0 14px;
+  }
+  .type-btn {
+    padding: 16px 10px;
+    font-size: 14px;
+    min-height: 64px;
+  }
+  .type-btn svg { width: 26px; height: 26px; }
+
+  /* Add-ons: full-width tappable rows, no inner scroll */
+  .addons-list { max-height: none; overflow: visible; }
+  .addon-item {
+    padding: 12px 12px;
+    gap: 10px;
+    min-height: 48px;
+    border: 1px solid var(--border-light);
+    margin-bottom: 6px;
+    border-radius: var(--radius);
+  }
+  .addon-item input[type="checkbox"] { width: 20px; height: 20px; }
+  .addon-name  { font-size: 14px; }
+  .addon-price { font-size: 14px; }
+
+  /* Quantity stepper — bigger buttons & input */
+  .qty-btn   { width: 48px; height: 48px; font-size: 22px; }
+  .qty-input { height: 48px; font-size: 18px; }
+
+  /* Rebate */
+  .rebate-toggle input[type="checkbox"] { width: 20px; height: 20px; }
+  .rebate-toggle { font-size: 14px; }
+
+  /* Reset button — full width, comfortable */
+  .config-actions {
+    position: static;
+    padding: 14px var(--panel-pad);
+  }
+  .btn { height: 48px; font-size: 15px; }
+
+  /* Footer */
   .app-footer {
     margin: 0 10px 10px;
+    padding: 10px 12px;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
     align-items: flex-start;
   }
+  .footer-text { font-size: 12px; }
   .footer-text + .footer-text {
     padding-left: 0;
     border-left: none;
   }
+
+  /* Toast: respect screen edges + safe area */
+  .toast {
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
+    left: 16px;
+    right: 16px;
+    transform: translateY(100px);
+    white-space: normal;
+    text-align: center;
+    max-width: none;
+  }
+  .toast.show { transform: translateY(0); }
+
+  /* Group badge in price panel header — allow wrapping */
+  .group-badge { max-width: 100%; white-space: normal; text-overflow: clip; }
+}
+
+/* Very narrow phones */
+@media (max-width: 380px) {
+  .type-buttons { grid-template-columns: 1fr; }
+  .header-title { font-size: 14px; }
+}
+
+/* Landscape phones — keep header compact */
+@media (max-width: 900px) and (orientation: landscape) and (max-height: 480px) {
+  .price-panel { position: static; }
 }
 
 /* ─── Optgroup styling ───────────────────────────────────────── */

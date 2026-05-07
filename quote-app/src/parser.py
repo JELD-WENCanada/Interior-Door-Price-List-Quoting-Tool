@@ -1088,6 +1088,17 @@ def _parse_simple_dealer_pages(
             ):
                 current_styles = [_canonicalize_style("PRIMED HARDBOARD")]
 
+        # ── Sexton variant: "PRIMED HARDBOARD" rotated 90° emits each
+        #    word as a single reversed-letter line ("DEMIRP", "DRAOBDRAH"),
+        #    typically AFTER the price column rather than before. Scan the
+        #    whole page for these tokens and override regardless of any
+        #    style carried over from the previous page.
+        page_words = {ln.strip().upper() for ln in page_lines if ln.strip()}
+        if "DEMIRP" in page_words and (
+            "DRAOBDRAH" in page_words or "HARDBOARD" in page_words
+        ):
+            current_styles = [_canonicalize_style("PRIMED HARDBOARD")]
+
         # ── Detect "COLONIST" + "TEXTURED" split across lines ─────────────
         # ILDC page 2 emits the multi-line label "COLONIST TEXTURED" where
         # COLONIST is alone on one line and TEXTURED is on a separate line.

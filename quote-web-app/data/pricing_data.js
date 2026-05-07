@@ -2,7 +2,7 @@
 window.PRICING_DATA = {
   "meta": {
     "generated_at": "2026-05-07",
-    "record_count": 4308,
+    "record_count": 3768,
     "addon_count": 159
   },
   "groups": {
@@ -557,6 +557,18 @@ window.PRICING_DATA = {
           "34\" x 80\" (2'10\" x 6'8\")",
           "36\" x 80\" (3'0\" x 6'8\")"
         ],
+        "Primed Hardboard": [
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
+        ],
         "Rockport": [
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
@@ -596,8 +608,7 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Camden": [
           "12\" x 80\" (1'0\" x 6'8\")",
@@ -675,8 +686,7 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Euro": [
           "12\" x 80\" (1'0\" x 6'8\")",
@@ -707,10 +717,24 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Monroe": [
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
+        ],
+        "Primed Hardboard": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
           "16\" x 80\" (1'4\" x 6'8\")",
@@ -1367,8 +1391,6 @@ window.PRICING_DATA = {
     "HomeHardware": {
       "bifold": {
         "Birkdale": [
-          "18\" x 80\" (1'6\" x 6'8\")",
-          "20\" x 80\" (1'8\" x 6'8\")",
           "22\" x 80\" (1'10\" x 6'8\")",
           "24\" x 80\" (2'0\" x 6'8\")",
           "26\" x 80\" (2'2\" x 6'8\")",
@@ -1427,8 +1449,6 @@ window.PRICING_DATA = {
           "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Craftsman": [
-          "18\" x 80\" (1'6\" x 6'8\")",
-          "20\" x 80\" (1'8\" x 6'8\")",
           "22\" x 80\" (1'10\" x 6'8\")",
           "24\" x 80\" (2'0\" x 6'8\")",
           "26\" x 80\" (2'2\" x 6'8\")",
@@ -1439,8 +1459,6 @@ window.PRICING_DATA = {
           "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Madison": [
-          "18\" x 80\" (1'6\" x 6'8\")",
-          "20\" x 80\" (1'8\" x 6'8\")",
           "22\" x 80\" (1'10\" x 6'8\")",
           "24\" x 80\" (2'0\" x 6'8\")",
           "26\" x 80\" (2'2\" x 6'8\")",
@@ -1451,6 +1469,16 @@ window.PRICING_DATA = {
           "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Monroe": [
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
+        ],
+        "Primed Hardboard": [
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
           "22\" x 80\" (1'10\" x 6'8\")",
@@ -1502,8 +1530,7 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Camden": [
           "12\" x 80\" (1'0\" x 6'8\")",
@@ -1585,8 +1612,7 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Madison": [
           "12\" x 80\" (1'0\" x 6'8\")",
@@ -1602,14 +1628,28 @@ window.PRICING_DATA = {
           "30\" x 80\" (2'6\" x 6'8\")",
           "32\" x 80\" (2'8\" x 6'8\")",
           "34\" x 80\" (2'10\" x 6'8\")",
-          "36\" x 80\" (3'0\" x 6'8\")",
-          "38\" x 80\" (3'2\" x 6'8\")"
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Monroe": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
           "16\" x 80\" (1'4\" x 6'8\")",
           "18\" x 80\"",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
+        ],
+        "Primed Hardboard": [
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
           "22\" x 80\" (1'10\" x 6'8\")",
@@ -5727,29 +5767,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -5766,29 +5783,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$90.40",
           "price_numeric": 90.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
         }
       ]
     },
@@ -5819,29 +5813,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -5865,29 +5836,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -5904,29 +5852,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$98.50",
           "price_numeric": 98.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
         }
       ]
     },
@@ -5957,29 +5882,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -6003,29 +5905,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -6042,29 +5921,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -6095,29 +5951,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -6134,29 +5967,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -7107,29 +6917,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -7146,29 +6933,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$90.40",
           "price_numeric": 90.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
         }
       ]
     },
@@ -7199,29 +6963,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -7245,29 +6986,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -7284,29 +7002,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$98.50",
           "price_numeric": 98.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
         }
       ]
     },
@@ -7337,29 +7032,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -7383,29 +7055,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -7422,29 +7071,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -7475,29 +7101,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -7514,29 +7117,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -7797,29 +7377,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -7836,29 +7393,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$90.40",
           "price_numeric": 90.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
         }
       ]
     },
@@ -7889,29 +7423,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -7935,29 +7446,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -7974,29 +7462,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$98.50",
           "price_numeric": 98.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
         }
       ]
     },
@@ -8027,29 +7492,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -8073,29 +7515,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -8112,29 +7531,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -8165,29 +7561,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
@@ -8204,29 +7577,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$103.70",
           "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
         }
       ]
     },
@@ -8257,29 +7607,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -8296,29 +7623,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$90.40",
           "price_numeric": 90.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
         }
       ]
     },
@@ -8349,29 +7653,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 104.5,
@@ -8395,29 +7676,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 83.4,
-      "price_display": "$83.40",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$83.40",
-          "price_numeric": 83.4
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$72.15",
-          "price_numeric": 72.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -8434,29 +7692,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$98.50",
           "price_numeric": 98.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
         }
       ]
     },
@@ -8487,29 +7722,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 113.85,
@@ -8533,76 +7745,7 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "bifold",
       "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 90.6,
-      "price_display": "$90.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.60",
-          "price_numeric": 90.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.35",
-          "price_numeric": 78.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 119.9,
-      "price_display": "$119.90",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$119.90",
-          "price_numeric": 119.9
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$103.70",
-          "price_numeric": 103.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 119.9,
       "price_display": "$119.90",
@@ -8627,20 +7770,20 @@ window.PRICING_DATA = {
       "style": "Monroe",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 96.95,
-      "price_display": "$96.95",
+      "price": 119.9,
+      "price_display": "$119.90",
       "qty_tiers": [
         {
           "min_qty": 1,
           "max_qty": 1099,
-          "price": "$96.95",
-          "price_numeric": 96.95
+          "price": "$119.90",
+          "price_numeric": 119.9
         },
         {
           "min_qty": 1100,
           "max_qty": null,
-          "price": "$83.85",
-          "price_numeric": 83.85
+          "price": "$103.70",
+          "price_numeric": 103.7
         }
       ]
     },
@@ -8670,7 +7813,214 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "bifold",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 83.4,
+      "price_display": "$83.40",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$83.40",
+          "price_numeric": 83.4
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$72.15",
+          "price_numeric": 72.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 83.4,
+      "price_display": "$83.40",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$83.40",
+          "price_numeric": 83.4
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$72.15",
+          "price_numeric": 72.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 83.4,
+      "price_display": "$83.40",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$83.40",
+          "price_numeric": 83.4
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$72.15",
+          "price_numeric": 72.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 83.4,
+      "price_display": "$83.40",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$83.40",
+          "price_numeric": 83.4
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$72.15",
+          "price_numeric": 72.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 90.6,
+      "price_display": "$90.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.60",
+          "price_numeric": 90.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.35",
+          "price_numeric": 78.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 90.6,
+      "price_display": "$90.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.60",
+          "price_numeric": 90.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.35",
+          "price_numeric": 78.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 90.6,
+      "price_display": "$90.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.60",
+          "price_numeric": 90.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.35",
+          "price_numeric": 78.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 96.95,
+      "price_display": "$96.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$96.95",
+          "price_numeric": 96.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$83.85",
+          "price_numeric": 83.85
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 96.95,
+      "price_display": "$96.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$96.95",
+          "price_numeric": 96.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$83.85",
+          "price_numeric": 83.85
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "bifold",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 96.95,
@@ -9178,29 +8528,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -9216,29 +8543,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -9270,29 +8574,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -9308,29 +8589,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -9362,29 +8620,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -9400,29 +8635,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -9454,29 +8666,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -9492,29 +8681,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -9546,29 +8712,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -9584,29 +8727,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -9638,29 +8758,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -9676,29 +8773,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -9730,29 +8804,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -9768,29 +8819,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -9822,29 +8850,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -9860,29 +8865,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -9914,29 +8896,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -9952,29 +8911,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -10006,29 +8942,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -10044,29 +8957,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -10098,29 +8988,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -10136,29 +9003,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -10190,29 +9034,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -10228,29 +9049,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -10282,29 +9080,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -10320,29 +9095,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -10374,29 +9126,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -10412,29 +9141,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -10466,29 +9172,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -10504,29 +9187,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -10558,29 +9218,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -10596,29 +9233,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -10650,29 +9264,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -10688,29 +9279,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -10742,29 +9310,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -10780,29 +9325,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -10834,29 +9356,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -10880,29 +9379,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -10918,29 +9394,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -10972,29 +9425,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -11010,29 +9440,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$76.10",
           "price_numeric": 76.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
         }
       ]
     },
@@ -11063,29 +9470,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 156.55,
@@ -11102,29 +9486,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$135.40",
           "price_numeric": 135.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
         }
       ]
     },
@@ -11156,29 +9517,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -11194,29 +9532,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
         }
       ]
     },
@@ -11248,29 +9563,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 90.85,
       "price_display": "$90.85",
@@ -11294,29 +9586,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -11332,29 +9601,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -11386,29 +9632,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -11424,29 +9647,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -11478,29 +9678,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -11516,29 +9693,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -11570,29 +9724,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -11608,29 +9739,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -11662,29 +9770,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -11700,29 +9785,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -11754,29 +9816,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -11792,29 +9831,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -11846,29 +9862,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -11884,29 +9877,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -11938,29 +9908,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 132.95,
-      "price_display": "$132.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.95",
-          "price_numeric": 132.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$115.00",
-          "price_numeric": 115.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 173.15,
       "price_display": "$173.15",
@@ -11984,29 +9931,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 146.75,
-      "price_display": "$146.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.75",
-          "price_numeric": 146.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.95",
-          "price_numeric": 126.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -12022,29 +9946,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 98.0,
-      "price_display": "$98.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$98.00",
-          "price_numeric": 98.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.75",
-          "price_numeric": 84.75
         }
       ]
     },
@@ -12076,29 +9977,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 152.6,
-      "price_display": "$152.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.60",
-          "price_numeric": 152.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$132.00",
-          "price_numeric": 132.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 93.65,
       "price_display": "$93.65",
@@ -12114,29 +9992,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$81.00",
           "price_numeric": 81.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 67.25,
-      "price_display": "$67.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$67.25",
-          "price_numeric": 67.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$58.15",
-          "price_numeric": 58.15
         }
       ]
     },
@@ -12167,29 +10022,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 132.45,
-      "price_display": "$132.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.45",
-          "price_numeric": 132.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$114.55",
-          "price_numeric": 114.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 163.35,
@@ -12206,29 +10038,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.30",
           "price_numeric": 141.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
         }
       ]
     },
@@ -12260,29 +10069,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -12298,29 +10084,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
         }
       ]
     },
@@ -12352,29 +10115,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 97.65,
       "price_display": "$97.65",
@@ -12398,29 +10138,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 185.65,
       "price_display": "$185.65",
@@ -12436,29 +10153,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$160.60",
           "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
         }
       ]
     },
@@ -12490,29 +10184,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 177.15,
       "price_display": "$177.15",
@@ -12528,29 +10199,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$153.25",
           "price_numeric": 153.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
         }
       ]
     },
@@ -12582,29 +10230,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 224.85,
       "price_display": "$224.85",
@@ -12620,29 +10245,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$194.50",
           "price_numeric": 194.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
         }
       ]
     },
@@ -12674,29 +10276,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 185.65,
       "price_display": "$185.65",
@@ -12712,98 +10291,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$160.60",
           "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 190.65,
-      "price_display": "$190.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$190.65",
-          "price_numeric": 190.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$164.90",
-          "price_numeric": 164.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 105.3,
-      "price_display": "$105.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$105.30",
-          "price_numeric": 105.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$91.10",
-          "price_numeric": 91.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 170.5,
-      "price_display": "$170.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$170.50",
-          "price_numeric": 170.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$147.50",
-          "price_numeric": 147.5
         }
       ]
     },
@@ -19321,29 +16808,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -19359,29 +16823,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -19413,29 +16854,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -19451,29 +16869,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -19505,29 +16900,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -19543,29 +16915,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -19597,29 +16946,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -19635,29 +16961,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -19689,29 +16992,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -19727,29 +17007,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -19781,29 +17038,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -19819,29 +17053,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -19873,29 +17084,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -19911,29 +17099,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -19965,29 +17130,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -20003,29 +17145,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -20057,29 +17176,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -20095,29 +17191,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -20149,29 +17222,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -20195,29 +17245,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -20233,29 +17260,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
         }
       ]
     },
@@ -20287,29 +17291,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 84.15,
       "price_display": "$84.15",
@@ -20325,29 +17306,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$72.80",
           "price_numeric": 72.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
         }
       ]
     },
@@ -20378,29 +17336,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 153.7,
@@ -20417,29 +17352,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$132.95",
           "price_numeric": 132.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
         }
       ]
     },
@@ -20471,29 +17383,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -20509,29 +17398,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -20563,29 +17429,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -20609,29 +17452,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -20647,29 +17467,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -20701,29 +17498,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -20739,29 +17513,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -20793,29 +17544,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -20831,29 +17559,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -20885,29 +17590,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -20923,29 +17605,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -20977,29 +17636,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -21023,29 +17659,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -21061,29 +17674,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -21115,29 +17705,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -21153,29 +17720,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$76.10",
           "price_numeric": 76.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
         }
       ]
     },
@@ -21206,29 +17750,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 156.55,
@@ -21245,29 +17766,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$135.40",
           "price_numeric": 135.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
         }
       ]
     },
@@ -21299,29 +17797,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -21337,29 +17812,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
         }
       ]
     },
@@ -21391,29 +17843,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 90.85,
       "price_display": "$90.85",
@@ -21437,29 +17866,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -21475,29 +17881,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -21529,29 +17912,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -21567,29 +17927,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -21621,29 +17958,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -21659,29 +17973,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -21713,29 +18004,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -21751,29 +18019,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -21805,29 +18050,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -21843,29 +18065,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -21897,29 +18096,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -21935,29 +18111,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -21989,29 +18142,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -22027,29 +18157,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -22081,29 +18188,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 132.95,
-      "price_display": "$132.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.95",
-          "price_numeric": 132.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$115.00",
-          "price_numeric": 115.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 173.15,
       "price_display": "$173.15",
@@ -22127,29 +18211,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 146.75,
-      "price_display": "$146.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.75",
-          "price_numeric": 146.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.95",
-          "price_numeric": 126.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -22165,29 +18226,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 98.0,
-      "price_display": "$98.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$98.00",
-          "price_numeric": 98.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.75",
-          "price_numeric": 84.75
         }
       ]
     },
@@ -22219,29 +18257,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 152.6,
-      "price_display": "$152.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.60",
-          "price_numeric": 152.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$132.00",
-          "price_numeric": 132.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 93.65,
       "price_display": "$93.65",
@@ -22257,29 +18272,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$81.00",
           "price_numeric": 81.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 67.25,
-      "price_display": "$67.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$67.25",
-          "price_numeric": 67.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$58.15",
-          "price_numeric": 58.15
         }
       ]
     },
@@ -22310,29 +18302,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 132.45,
-      "price_display": "$132.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.45",
-          "price_numeric": 132.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$114.55",
-          "price_numeric": 114.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 163.35,
@@ -22349,29 +18318,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.30",
           "price_numeric": 141.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
         }
       ]
     },
@@ -22403,29 +18349,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -22441,29 +18364,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
         }
       ]
     },
@@ -22495,29 +18395,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 97.65,
       "price_display": "$97.65",
@@ -22541,29 +18418,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 185.65,
       "price_display": "$185.65",
@@ -22579,29 +18433,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$160.60",
           "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
         }
       ]
     },
@@ -22633,29 +18464,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 177.15,
       "price_display": "$177.15",
@@ -22671,29 +18479,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$153.25",
           "price_numeric": 153.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
         }
       ]
     },
@@ -22725,29 +18510,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 224.85,
       "price_display": "$224.85",
@@ -22763,29 +18525,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$194.50",
           "price_numeric": 194.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
         }
       ]
     },
@@ -22817,29 +18556,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 185.65,
       "price_display": "$185.65",
@@ -22855,98 +18571,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$160.60",
           "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 190.65,
-      "price_display": "$190.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$190.65",
-          "price_numeric": 190.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$164.90",
-          "price_numeric": 164.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 105.3,
-      "price_display": "$105.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$105.30",
-          "price_numeric": 105.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$91.10",
-          "price_numeric": 91.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 170.5,
-      "price_display": "$170.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$170.50",
-          "price_numeric": 170.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$147.50",
-          "price_numeric": 147.5
         }
       ]
     },
@@ -24243,29 +19867,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -24281,29 +19882,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -24335,29 +19913,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -24373,29 +19928,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -24427,29 +19959,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -24465,29 +19974,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -24519,29 +20005,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -24557,29 +20020,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -24611,29 +20051,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -24649,29 +20066,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -24703,29 +20097,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -24741,29 +20112,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -24795,29 +20143,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -24833,29 +20158,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -24887,29 +20189,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -24925,29 +20204,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -24979,29 +20235,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -25017,29 +20250,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -25071,29 +20281,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -25117,29 +20304,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -25155,29 +20319,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
         }
       ]
     },
@@ -25209,29 +20350,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 84.15,
       "price_display": "$84.15",
@@ -25247,29 +20365,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$72.80",
           "price_numeric": 72.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
         }
       ]
     },
@@ -25300,29 +20395,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 153.7,
@@ -25339,29 +20411,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$132.95",
           "price_numeric": 132.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
         }
       ]
     },
@@ -25393,29 +20442,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -25431,29 +20457,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -25485,29 +20488,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -25531,29 +20511,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -25569,29 +20526,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -25623,29 +20557,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -25661,29 +20572,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -25715,29 +20603,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -25753,29 +20618,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -25807,29 +20649,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -25845,29 +20664,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -25899,29 +20695,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -25945,29 +20718,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -25983,29 +20733,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -26037,29 +20764,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -26075,29 +20779,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$76.10",
           "price_numeric": 76.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
         }
       ]
     },
@@ -26128,29 +20809,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 156.55,
@@ -26167,29 +20825,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$135.40",
           "price_numeric": 135.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
         }
       ]
     },
@@ -26221,29 +20856,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -26259,29 +20871,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
         }
       ]
     },
@@ -26313,29 +20902,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 90.85,
       "price_display": "$90.85",
@@ -26359,29 +20925,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -26397,29 +20940,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -26451,29 +20971,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -26489,29 +20986,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -26543,29 +21017,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -26581,29 +21032,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -26635,29 +21063,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -26673,29 +21078,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -26727,29 +21109,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -26765,29 +21124,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -26819,29 +21155,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -26857,29 +21170,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -26911,29 +21201,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -26949,29 +21216,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -27003,29 +21247,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 132.95,
-      "price_display": "$132.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.95",
-          "price_numeric": 132.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$115.00",
-          "price_numeric": 115.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 173.15,
       "price_display": "$173.15",
@@ -27049,29 +21270,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 146.75,
-      "price_display": "$146.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.75",
-          "price_numeric": 146.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.95",
-          "price_numeric": 126.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -27087,29 +21285,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 98.0,
-      "price_display": "$98.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$98.00",
-          "price_numeric": 98.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.75",
-          "price_numeric": 84.75
         }
       ]
     },
@@ -27141,29 +21316,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 152.6,
-      "price_display": "$152.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.60",
-          "price_numeric": 152.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$132.00",
-          "price_numeric": 132.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 93.65,
       "price_display": "$93.65",
@@ -27179,29 +21331,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$81.00",
           "price_numeric": 81.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 67.25,
-      "price_display": "$67.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$67.25",
-          "price_numeric": 67.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$58.15",
-          "price_numeric": 58.15
         }
       ]
     },
@@ -27232,29 +21361,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 132.45,
-      "price_display": "$132.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.45",
-          "price_numeric": 132.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$114.55",
-          "price_numeric": 114.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 163.35,
@@ -27271,29 +21377,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.30",
           "price_numeric": 141.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
         }
       ]
     },
@@ -27325,29 +21408,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -27363,29 +21423,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
         }
       ]
     },
@@ -27417,29 +21454,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 97.65,
       "price_display": "$97.65",
@@ -27463,29 +21477,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 185.65,
       "price_display": "$185.65",
@@ -27501,29 +21492,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$160.60",
           "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
         }
       ]
     },
@@ -27555,29 +21523,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 138.5,
-      "price_display": "$138.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.50",
-          "price_numeric": 138.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.80",
-          "price_numeric": 119.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 177.15,
       "price_display": "$177.15",
@@ -27601,29 +21546,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 152.3,
-      "price_display": "$152.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.30",
-          "price_numeric": 152.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$131.75",
-          "price_numeric": 131.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -27639,29 +21561,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 103.55,
-      "price_display": "$103.55",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$103.55",
-          "price_numeric": 103.55
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$89.55",
-          "price_numeric": 89.55
         }
       ]
     },
@@ -27693,29 +21592,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 158.15,
-      "price_display": "$158.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$158.15",
-          "price_numeric": 158.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$136.80",
-          "price_numeric": 136.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 97.65,
       "price_display": "$97.65",
@@ -27731,29 +21607,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$84.45",
           "price_numeric": 84.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 72.8,
-      "price_display": "$72.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$72.80",
-          "price_numeric": 72.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$62.95",
-          "price_numeric": 62.95
         }
       ]
     },
@@ -27783,98 +21636,6 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 138.0,
-      "price_display": "$138.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$138.00",
-          "price_numeric": 138.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$119.35",
-          "price_numeric": 119.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 190.65,
-      "price_display": "$190.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$190.65",
-          "price_numeric": 190.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$164.90",
-          "price_numeric": 164.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 105.3,
-      "price_display": "$105.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$105.30",
-          "price_numeric": 105.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$91.10",
-          "price_numeric": 91.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 170.5,
-      "price_display": "$170.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$170.50",
-          "price_numeric": 170.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$147.50",
-          "price_numeric": 147.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
@@ -27892,29 +21653,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$129.60",
           "price_numeric": 129.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
         }
       ]
     },
@@ -27946,29 +21684,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -27984,29 +21699,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
         }
       ]
     },
@@ -28038,29 +21730,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 84.15,
       "price_display": "$84.15",
@@ -28084,29 +21753,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -28122,29 +21768,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -28176,29 +21799,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -28214,29 +21814,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -28268,29 +21845,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -28306,29 +21860,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -28360,29 +21891,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -28398,29 +21906,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -28452,29 +21937,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -28490,29 +21952,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -28544,29 +21983,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -28582,29 +21998,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -28636,29 +22029,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -28674,29 +22044,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -28728,29 +22075,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 125.45,
-      "price_display": "$125.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$125.45",
-          "price_numeric": 125.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.50",
-          "price_numeric": 108.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 163.65,
       "price_display": "$163.65",
@@ -28766,29 +22090,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$141.55",
           "price_numeric": 141.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 139.25,
-      "price_display": "$139.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$139.25",
-          "price_numeric": 139.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$120.45",
-          "price_numeric": 120.45
         }
       ]
     },
@@ -28820,29 +22121,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 90.5,
-      "price_display": "$90.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$90.50",
-          "price_numeric": 90.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$78.30",
-          "price_numeric": 78.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 211.35,
       "price_display": "$211.35",
@@ -28858,29 +22136,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$182.80",
           "price_numeric": 182.8
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 145.1,
-      "price_display": "$145.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$145.10",
-          "price_numeric": 145.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.50",
-          "price_numeric": 125.5
         }
       ]
     },
@@ -28912,29 +22167,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 59.75,
-      "price_display": "$59.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$59.75",
-          "price_numeric": 59.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$51.70",
-          "price_numeric": 51.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 172.15,
       "price_display": "$172.15",
@@ -28950,29 +22182,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$148.90",
           "price_numeric": 148.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 124.95,
-      "price_display": "$124.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$124.95",
-          "price_numeric": 124.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$108.10",
-          "price_numeric": 108.1
         }
       ]
     },
@@ -29004,29 +22213,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -29042,29 +22228,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -29096,29 +22259,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -29134,29 +22274,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -29188,29 +22305,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -29226,29 +22320,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -29280,29 +22351,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -29318,29 +22366,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$144.90",
           "price_numeric": 144.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
         }
       ]
     },
@@ -29372,29 +22397,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 215.2,
       "price_display": "$215.20",
@@ -29410,29 +22412,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$186.15",
           "price_numeric": 186.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
         }
       ]
     },
@@ -29464,29 +22443,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 176.0,
       "price_display": "$176.00",
@@ -29502,29 +22458,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$152.25",
           "price_numeric": 152.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
         }
       ]
     },
@@ -29556,29 +22489,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 126.7,
-      "price_display": "$126.70",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.70",
-          "price_numeric": 126.7
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.60",
-          "price_numeric": 109.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 167.5,
       "price_display": "$167.50",
@@ -29602,29 +22512,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 140.5,
-      "price_display": "$140.50",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$140.50",
-          "price_numeric": 140.5
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$121.55",
-          "price_numeric": 121.55
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -29640,29 +22527,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.75,
-      "price_display": "$91.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$91.75",
-          "price_numeric": 91.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$79.35",
-          "price_numeric": 79.35
         }
       ]
     },
@@ -29694,29 +22558,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 146.35,
-      "price_display": "$146.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.35",
-          "price_numeric": 146.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.60",
-          "price_numeric": 126.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.0,
       "price_display": "$88.00",
@@ -29732,29 +22573,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$76.10",
           "price_numeric": 76.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.0,
-      "price_display": "$61.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$61.00",
-          "price_numeric": 61.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$52.75",
-          "price_numeric": 52.75
         }
       ]
     },
@@ -29785,29 +22603,6 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 126.2,
-      "price_display": "$126.20",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$126.20",
-          "price_numeric": 126.2
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$109.15",
-          "price_numeric": 109.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 156.55,
@@ -29824,29 +22619,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$135.40",
           "price_numeric": 135.4
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
         }
       ]
     },
@@ -29878,29 +22650,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -29916,29 +22665,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
         }
       ]
     },
@@ -29970,29 +22696,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 90.85,
       "price_display": "$90.85",
@@ -30016,29 +22719,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -30054,29 +22734,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -30108,29 +22765,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -30146,29 +22780,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -30200,29 +22811,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -30238,29 +22826,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -30292,29 +22857,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -30330,29 +22872,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -30384,29 +22903,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 130.8,
-      "price_display": "$130.80",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.80",
-          "price_numeric": 130.8
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$113.15",
-          "price_numeric": 113.15
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 170.35,
       "price_display": "$170.35",
@@ -30422,29 +22918,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$147.35",
           "price_numeric": 147.35
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 144.6,
-      "price_display": "$144.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$144.60",
-          "price_numeric": 144.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$125.10",
-          "price_numeric": 125.1
         }
       ]
     },
@@ -30476,29 +22949,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.85,
-      "price_display": "$95.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$95.85",
-          "price_numeric": 95.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$82.90",
-          "price_numeric": 82.9
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 218.05,
       "price_display": "$218.05",
@@ -30514,29 +22964,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$188.60",
           "price_numeric": 188.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 150.45,
-      "price_display": "$150.45",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$150.45",
-          "price_numeric": 150.45
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$130.15",
-          "price_numeric": 130.15
         }
       ]
     },
@@ -30568,29 +22995,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 65.1,
-      "price_display": "$65.10",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$65.10",
-          "price_numeric": 65.1
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$56.30",
-          "price_numeric": 56.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 178.85,
       "price_display": "$178.85",
@@ -30606,29 +23010,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$154.70",
           "price_numeric": 154.7
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.3,
-      "price_display": "$130.30",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$130.30",
-          "price_numeric": 130.3
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$112.70",
-          "price_numeric": 112.7
         }
       ]
     },
@@ -30660,29 +23041,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 132.95,
-      "price_display": "$132.95",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$132.95",
-          "price_numeric": 132.95
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$115.00",
-          "price_numeric": 115.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 173.15,
       "price_display": "$173.15",
@@ -30706,29 +23064,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 146.75,
-      "price_display": "$146.75",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$146.75",
-          "price_numeric": 146.75
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$126.95",
-          "price_numeric": 126.95
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A",
@@ -30744,29 +23079,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "N/A",
           "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 98.0,
-      "price_display": "$98.00",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$98.00",
-          "price_numeric": 98.0
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.75",
-          "price_numeric": 84.75
         }
       ]
     },
@@ -30798,29 +23110,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 152.6,
-      "price_display": "$152.60",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$152.60",
-          "price_numeric": 152.6
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$132.00",
-          "price_numeric": 132.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 93.65,
       "price_display": "$93.65",
@@ -30836,29 +23125,6 @@ window.PRICING_DATA = {
           "max_qty": null,
           "price": "$81.00",
           "price_numeric": 81.0
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 67.25,
-      "price_display": "$67.25",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$67.25",
-          "price_numeric": 67.25
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$58.15",
-          "price_numeric": 58.15
         }
       ]
     },
@@ -30889,6 +23155,1777 @@ window.PRICING_DATA = {
       "group": "Group D",
       "type": "door",
       "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 163.35,
+      "price_display": "$163.35",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$163.35",
+          "price_numeric": 163.35
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$141.30",
+          "price_numeric": 141.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 177.15,
+      "price_display": "$177.15",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$177.15",
+          "price_numeric": 177.15
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$153.25",
+          "price_numeric": 153.25
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "N/A",
+          "price_numeric": null
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "N/A",
+          "price_numeric": null
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 224.85,
+      "price_display": "$224.85",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$224.85",
+          "price_numeric": 224.85
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$194.50",
+          "price_numeric": 194.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 97.65,
+      "price_display": "$97.65",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$97.65",
+          "price_numeric": 97.65
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$84.45",
+          "price_numeric": 84.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 185.65,
+      "price_display": "$185.65",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$185.65",
+          "price_numeric": 185.65
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$160.60",
+          "price_numeric": 160.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 163.35,
+      "price_display": "$163.35",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$163.35",
+          "price_numeric": 163.35
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$141.30",
+          "price_numeric": 141.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 177.15,
+      "price_display": "$177.15",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$177.15",
+          "price_numeric": 177.15
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$153.25",
+          "price_numeric": 153.25
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "N/A",
+          "price_numeric": null
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "N/A",
+          "price_numeric": null
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 224.85,
+      "price_display": "$224.85",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$224.85",
+          "price_numeric": 224.85
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$194.50",
+          "price_numeric": 194.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 97.65,
+      "price_display": "$97.65",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$97.65",
+          "price_numeric": 97.65
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$84.45",
+          "price_numeric": 84.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 185.65,
+      "price_display": "$185.65",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$185.65",
+          "price_numeric": 185.65
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$160.60",
+          "price_numeric": 160.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 125.45,
+      "price_display": "$125.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$125.45",
+          "price_numeric": 125.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.50",
+          "price_numeric": 108.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 139.25,
+      "price_display": "$139.25",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$139.25",
+          "price_numeric": 139.25
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$120.45",
+          "price_numeric": 120.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 90.5,
+      "price_display": "$90.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.50",
+          "price_numeric": 90.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.30",
+          "price_numeric": 78.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 145.1,
+      "price_display": "$145.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$145.10",
+          "price_numeric": 145.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.50",
+          "price_numeric": 125.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 59.75,
+      "price_display": "$59.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$59.75",
+          "price_numeric": 59.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$51.70",
+          "price_numeric": 51.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 124.95,
+      "price_display": "$124.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$124.95",
+          "price_numeric": 124.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.10",
+          "price_numeric": 108.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 125.45,
+      "price_display": "$125.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$125.45",
+          "price_numeric": 125.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.50",
+          "price_numeric": 108.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 139.25,
+      "price_display": "$139.25",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$139.25",
+          "price_numeric": 139.25
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$120.45",
+          "price_numeric": 120.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 90.5,
+      "price_display": "$90.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.50",
+          "price_numeric": 90.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.30",
+          "price_numeric": 78.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 145.1,
+      "price_display": "$145.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$145.10",
+          "price_numeric": 145.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.50",
+          "price_numeric": 125.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 59.75,
+      "price_display": "$59.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$59.75",
+          "price_numeric": 59.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$51.70",
+          "price_numeric": 51.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 124.95,
+      "price_display": "$124.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$124.95",
+          "price_numeric": 124.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.10",
+          "price_numeric": 108.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 125.45,
+      "price_display": "$125.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$125.45",
+          "price_numeric": 125.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.50",
+          "price_numeric": 108.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 139.25,
+      "price_display": "$139.25",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$139.25",
+          "price_numeric": 139.25
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$120.45",
+          "price_numeric": 120.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 90.5,
+      "price_display": "$90.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.50",
+          "price_numeric": 90.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.30",
+          "price_numeric": 78.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 145.1,
+      "price_display": "$145.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$145.10",
+          "price_numeric": 145.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.50",
+          "price_numeric": 125.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 59.75,
+      "price_display": "$59.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$59.75",
+          "price_numeric": 59.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$51.70",
+          "price_numeric": 51.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 124.95,
+      "price_display": "$124.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$124.95",
+          "price_numeric": 124.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.10",
+          "price_numeric": 108.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 125.45,
+      "price_display": "$125.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$125.45",
+          "price_numeric": 125.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.50",
+          "price_numeric": 108.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 139.25,
+      "price_display": "$139.25",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$139.25",
+          "price_numeric": 139.25
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$120.45",
+          "price_numeric": 120.45
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 90.5,
+      "price_display": "$90.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$90.50",
+          "price_numeric": 90.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$78.30",
+          "price_numeric": 78.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 145.1,
+      "price_display": "$145.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$145.10",
+          "price_numeric": 145.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.50",
+          "price_numeric": 125.5
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 59.75,
+      "price_display": "$59.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$59.75",
+          "price_numeric": 59.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$51.70",
+          "price_numeric": 51.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 124.95,
+      "price_display": "$124.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$124.95",
+          "price_numeric": 124.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$108.10",
+          "price_numeric": 108.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 126.7,
+      "price_display": "$126.70",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.70",
+          "price_numeric": 126.7
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.60",
+          "price_numeric": 109.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 140.5,
+      "price_display": "$140.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$140.50",
+          "price_numeric": 140.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$121.55",
+          "price_numeric": 121.55
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.75,
+      "price_display": "$91.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$91.75",
+          "price_numeric": 91.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$79.35",
+          "price_numeric": 79.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 146.35,
+      "price_display": "$146.35",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$146.35",
+          "price_numeric": 146.35
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$126.60",
+          "price_numeric": 126.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.0,
+      "price_display": "$61.00",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$61.00",
+          "price_numeric": 61.0
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$52.75",
+          "price_numeric": 52.75
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 126.2,
+      "price_display": "$126.20",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.20",
+          "price_numeric": 126.2
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.15",
+          "price_numeric": 109.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 126.7,
+      "price_display": "$126.70",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.70",
+          "price_numeric": 126.7
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.60",
+          "price_numeric": 109.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 140.5,
+      "price_display": "$140.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$140.50",
+          "price_numeric": 140.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$121.55",
+          "price_numeric": 121.55
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.75,
+      "price_display": "$91.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$91.75",
+          "price_numeric": 91.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$79.35",
+          "price_numeric": 79.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 146.35,
+      "price_display": "$146.35",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$146.35",
+          "price_numeric": 146.35
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$126.60",
+          "price_numeric": 126.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.0,
+      "price_display": "$61.00",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$61.00",
+          "price_numeric": 61.0
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$52.75",
+          "price_numeric": 52.75
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 126.2,
+      "price_display": "$126.20",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.20",
+          "price_numeric": 126.2
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.15",
+          "price_numeric": 109.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 126.7,
+      "price_display": "$126.70",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.70",
+          "price_numeric": 126.7
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.60",
+          "price_numeric": 109.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 140.5,
+      "price_display": "$140.50",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$140.50",
+          "price_numeric": 140.5
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$121.55",
+          "price_numeric": 121.55
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.75,
+      "price_display": "$91.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$91.75",
+          "price_numeric": 91.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$79.35",
+          "price_numeric": 79.35
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 146.35,
+      "price_display": "$146.35",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$146.35",
+          "price_numeric": 146.35
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$126.60",
+          "price_numeric": 126.6
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.0,
+      "price_display": "$61.00",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$61.00",
+          "price_numeric": 61.0
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$52.75",
+          "price_numeric": 52.75
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 126.2,
+      "price_display": "$126.20",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$126.20",
+          "price_numeric": 126.2
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$109.15",
+          "price_numeric": 109.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 130.8,
+      "price_display": "$130.80",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.80",
+          "price_numeric": 130.8
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$113.15",
+          "price_numeric": 113.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 144.6,
+      "price_display": "$144.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$144.60",
+          "price_numeric": 144.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.10",
+          "price_numeric": 125.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.85,
+      "price_display": "$95.85",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$95.85",
+          "price_numeric": 95.85
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$82.90",
+          "price_numeric": 82.9
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 150.45,
+      "price_display": "$150.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$150.45",
+          "price_numeric": 150.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$130.15",
+          "price_numeric": 130.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 65.1,
+      "price_display": "$65.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$65.10",
+          "price_numeric": 65.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$56.30",
+          "price_numeric": 56.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.3,
+      "price_display": "$130.30",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.30",
+          "price_numeric": 130.3
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$112.70",
+          "price_numeric": 112.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 130.8,
+      "price_display": "$130.80",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.80",
+          "price_numeric": 130.8
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$113.15",
+          "price_numeric": 113.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 144.6,
+      "price_display": "$144.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$144.60",
+          "price_numeric": 144.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.10",
+          "price_numeric": 125.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.85,
+      "price_display": "$95.85",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$95.85",
+          "price_numeric": 95.85
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$82.90",
+          "price_numeric": 82.9
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 150.45,
+      "price_display": "$150.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$150.45",
+          "price_numeric": 150.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$130.15",
+          "price_numeric": 130.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 65.1,
+      "price_display": "$65.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$65.10",
+          "price_numeric": 65.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$56.30",
+          "price_numeric": 56.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.3,
+      "price_display": "$130.30",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.30",
+          "price_numeric": 130.3
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$112.70",
+          "price_numeric": 112.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 130.8,
+      "price_display": "$130.80",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.80",
+          "price_numeric": 130.8
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$113.15",
+          "price_numeric": 113.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 144.6,
+      "price_display": "$144.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$144.60",
+          "price_numeric": 144.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$125.10",
+          "price_numeric": 125.1
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.85,
+      "price_display": "$95.85",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$95.85",
+          "price_numeric": 95.85
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$82.90",
+          "price_numeric": 82.9
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 150.45,
+      "price_display": "$150.45",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$150.45",
+          "price_numeric": 150.45
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$130.15",
+          "price_numeric": 130.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 65.1,
+      "price_display": "$65.10",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$65.10",
+          "price_numeric": 65.1
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$56.30",
+          "price_numeric": 56.3
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.3,
+      "price_display": "$130.30",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$130.30",
+          "price_numeric": 130.3
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$112.70",
+          "price_numeric": 112.7
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
+      "price": 132.95,
+      "price_display": "$132.95",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$132.95",
+          "price_numeric": 132.95
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$115.00",
+          "price_numeric": 115.0
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 146.75,
+      "price_display": "$146.75",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$146.75",
+          "price_numeric": 146.75
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$126.95",
+          "price_numeric": 126.95
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 98.0,
+      "price_display": "$98.00",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$98.00",
+          "price_numeric": 98.0
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$84.75",
+          "price_numeric": 84.75
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 152.6,
+      "price_display": "$152.60",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$152.60",
+          "price_numeric": 152.6
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$132.00",
+          "price_numeric": 132.0
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 67.25,
+      "price_display": "$67.25",
+      "qty_tiers": [
+        {
+          "min_qty": 1,
+          "max_qty": 1099,
+          "price": "$67.25",
+          "price_numeric": 67.25
+        },
+        {
+          "min_qty": 1100,
+          "max_qty": null,
+          "price": "$58.15",
+          "price_numeric": 58.15
+        }
+      ]
+    },
+    {
+      "group": "Group D",
+      "type": "door",
+      "style": "Primed Hardboard",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 132.45,
@@ -30911,30 +24948,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 163.35,
-      "price_display": "$163.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$163.35",
-          "price_numeric": 163.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$141.30",
-          "price_numeric": 141.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 138.5,
@@ -30957,30 +24971,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 177.15,
-      "price_display": "$177.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$177.15",
-          "price_numeric": 177.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$153.25",
-          "price_numeric": 153.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 152.3,
@@ -31003,30 +24994,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "N/A",
-          "price_numeric": null
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "N/A",
-          "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": 103.55,
@@ -31049,30 +25017,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 224.85,
-      "price_display": "$224.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$224.85",
-          "price_numeric": 224.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$194.50",
-          "price_numeric": 194.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 158.15,
@@ -31095,30 +25040,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 97.65,
-      "price_display": "$97.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$97.65",
-          "price_numeric": 97.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.45",
-          "price_numeric": 84.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 72.8,
@@ -31141,30 +25063,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 185.65,
-      "price_display": "$185.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$185.65",
-          "price_numeric": 185.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$160.60",
-          "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 138.0,
@@ -31187,30 +25086,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
-      "price": 163.35,
-      "price_display": "$163.35",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$163.35",
-          "price_numeric": 163.35
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$141.30",
-          "price_numeric": 141.3
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install FJ Pine (KD Unit)",
       "price": 138.5,
@@ -31233,30 +25109,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 177.15,
-      "price_display": "$177.15",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$177.15",
-          "price_numeric": 177.15
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$153.25",
-          "price_numeric": 153.25
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 152.3,
@@ -31279,30 +25132,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "N/A",
-          "price_numeric": null
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "N/A",
-          "price_numeric": null
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": 103.55,
@@ -31325,30 +25155,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 224.85,
-      "price_display": "$224.85",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$224.85",
-          "price_numeric": 224.85
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$194.50",
-          "price_numeric": 194.5
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 158.15,
@@ -31371,30 +25178,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 97.65,
-      "price_display": "$97.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$97.65",
-          "price_numeric": 97.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$84.45",
-          "price_numeric": 84.45
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 72.8,
@@ -31417,30 +25201,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 185.65,
-      "price_display": "$185.65",
-      "qty_tiers": [
-        {
-          "min_qty": 1,
-          "max_qty": 1099,
-          "price": "$185.65",
-          "price_numeric": 185.65
-        },
-        {
-          "min_qty": 1100,
-          "max_qty": null,
-          "price": "$160.60",
-          "price_numeric": 160.6
-        }
-      ]
-    },
-    {
-      "group": "Group D",
-      "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 138.0,
@@ -31463,7 +25224,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 190.65,
@@ -31486,7 +25247,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 105.3,
@@ -31509,7 +25270,7 @@ window.PRICING_DATA = {
     {
       "group": "Group D",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 170.5,
@@ -65508,37 +59269,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 94.8,
       "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
     },
     {
       "group": "HomeHardware",
@@ -65553,28 +59287,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 102.55,
       "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
     },
     {
       "group": "HomeHardware",
@@ -65589,15 +59305,6 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 102.55,
@@ -65607,28 +59314,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 107.5,
       "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
     },
     {
       "group": "HomeHardware",
@@ -65643,28 +59332,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 107.5,
       "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
     },
     {
       "group": "HomeHardware",
@@ -66030,6 +59701,222 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "bifold",
       "style": "Craftsman",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Craftsman",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 94.8,
+      "price_display": "$94.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 102.55,
+      "price_display": "$102.55"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 107.5,
+      "price_display": "$107.50"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "bifold",
+      "style": "Primed Hardboard",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 66.89,
@@ -66038,7 +59925,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 66.89,
@@ -66047,16 +59934,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "22\" x 80\" (1'10\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 66.89,
@@ -66065,16 +59943,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 66.89,
@@ -66083,16 +59952,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 72.91,
@@ -66101,16 +59961,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 72.91,
@@ -66119,16 +59970,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 72.91,
@@ -66137,16 +59979,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 78.27,
@@ -66155,16 +59988,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
+      "style": "Primed Hardboard",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 78.27,
@@ -66173,340 +59997,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "bifold",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 94.8,
-      "price_display": "$94.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 66.89,
-      "price_display": "$66.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 102.55,
-      "price_display": "$102.55"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 72.91,
-      "price_display": "$72.91"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 78.27,
-      "price_display": "$78.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Bifold 1 3/8 c/w hardware",
-      "price": 107.5,
-      "price_display": "$107.50"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "bifold",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 78.27,
@@ -66706,36 +60197,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -66751,27 +60215,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
     },
     {
       "group": "HomeHardware",
@@ -66787,15 +60233,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -66805,24 +60242,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -66832,54 +60251,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -66895,36 +60269,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
     },
     {
       "group": "HomeHardware",
@@ -66940,42 +60287,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
@@ -66984,118 +60295,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
       "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
     },
     {
       "group": "HomeHardware",
@@ -67110,60 +60313,6 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
@@ -67173,118 +60322,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
     },
     {
       "group": "HomeHardware",
@@ -67299,118 +60340,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
     },
     {
       "group": "HomeHardware",
@@ -67425,82 +60358,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 166.43,
       "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
     },
     {
       "group": "HomeHardware",
@@ -67516,15 +60377,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -67534,81 +60386,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Birkdale",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 166.43,
       "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 181.89,
-      "price_display": "$181.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 88.88,
-      "price_display": "$88.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Birkdale",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.11,
-      "price_display": "$158.11"
     },
     {
       "group": "HomeHardware",
@@ -69118,36 +61898,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -69163,27 +61916,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
     },
     {
       "group": "HomeHardware",
@@ -69199,15 +61934,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -69217,24 +61943,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -69244,54 +61952,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -69307,36 +61970,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
     },
     {
       "group": "HomeHardware",
@@ -69352,42 +61988,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
@@ -69396,118 +61996,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
       "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
     },
     {
       "group": "HomeHardware",
@@ -69522,60 +62014,6 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
@@ -69585,118 +62023,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
     },
     {
       "group": "HomeHardware",
@@ -69711,118 +62041,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
     },
     {
       "group": "HomeHardware",
@@ -69837,82 +62059,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 166.43,
       "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
     },
     {
       "group": "HomeHardware",
@@ -69928,45 +62078,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Craftsman",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
     },
     {
       "group": "HomeHardware",
@@ -69980,65 +62094,11 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 181.89,
-      "price_display": "$181.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 88.88,
-      "price_display": "$88.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Craftsman",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.11,
-      "price_display": "$158.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
       "price": 141.15,
       "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
     },
     {
       "group": "HomeHardware",
@@ -70054,24 +62114,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -70081,27 +62123,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
     },
     {
       "group": "HomeHardware",
@@ -70117,15 +62141,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -70135,24 +62150,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -70162,54 +62159,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -70225,36 +62177,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
     },
     {
       "group": "HomeHardware",
@@ -70270,42 +62195,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
@@ -70314,118 +62203,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
       "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
     },
     {
       "group": "HomeHardware",
@@ -70440,60 +62221,6 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
@@ -70503,118 +62230,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
     },
     {
       "group": "HomeHardware",
@@ -70629,118 +62248,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
     },
     {
       "group": "HomeHardware",
@@ -70755,82 +62266,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 166.43,
       "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
     },
     {
       "group": "HomeHardware",
@@ -70846,45 +62285,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Madison",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
     },
     {
       "group": "HomeHardware",
@@ -70898,65 +62301,11 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 181.89,
-      "price_display": "$181.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 88.88,
-      "price_display": "$88.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.11,
-      "price_display": "$158.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
       "price": 141.15,
       "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
     },
     {
       "group": "HomeHardware",
@@ -70972,24 +62321,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -70999,27 +62330,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
     },
     {
       "group": "HomeHardware",
@@ -71035,15 +62348,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -71053,24 +62357,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 75.15,
       "price_display": "$75.15"
@@ -71080,54 +62366,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
     },
     {
       "group": "HomeHardware",
@@ -71143,36 +62384,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
     },
     {
       "group": "HomeHardware",
@@ -71188,42 +62402,6 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 155.2,
       "price_display": "$155.20"
@@ -71232,118 +62410,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
       "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
       "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
     },
     {
       "group": "HomeHardware",
@@ -71358,60 +62428,6 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
       "size": "24\" x 80\" (2'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.52,
@@ -71421,118 +62437,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
       "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
     },
     {
       "group": "HomeHardware",
@@ -71547,118 +62455,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
       "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 160.77,
       "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
     },
     {
       "group": "HomeHardware",
@@ -71673,82 +62473,10 @@ window.PRICING_DATA = {
       "group": "HomeHardware",
       "type": "door",
       "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
       "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 166.43,
       "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
     },
     {
       "group": "HomeHardware",
@@ -71764,45 +62492,9 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Monroe",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 hollow core",
       "price": null,
       "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
     },
     {
       "group": "HomeHardware",
@@ -71816,7 +62508,673 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 136.63,
+      "price_display": "$136.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.22,
+      "price_display": "$91.22"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 149.64,
+      "price_display": "$149.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 56.63,
+      "price_display": "$56.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 125.87,
+      "price_display": "$125.87"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 122.63,
+      "price_display": "$122.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.56,
+      "price_display": "$130.56"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 127.33,
+      "price_display": "$127.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 130.56,
@@ -71825,7 +63183,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 127.33,
@@ -71834,7 +63192,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 solid core",
       "price": 181.89,
@@ -71843,7 +63201,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 88.88,
@@ -71852,7 +63210,7 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Monroe",
+      "style": "Primed Hardboard",
       "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 158.11,
