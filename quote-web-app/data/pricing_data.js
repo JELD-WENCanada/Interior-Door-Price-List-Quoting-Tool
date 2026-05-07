@@ -17,10 +17,12 @@ window.PRICING_DATA = {
   },
   "rebates": {
     "Group A": 0.1275,
+    "Group B": 0.1275,
     "Group D": 0.1075,
     "Group F": 0.18,
     "HomeHardware": 0.21,
-    "PQ East": 0.05
+    "PQ East": 0.05,
+    "Trimlite": 0.0
   },
   "catalog": {
     "Group A": {

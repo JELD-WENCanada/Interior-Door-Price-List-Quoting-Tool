@@ -38,10 +38,12 @@ GROUP_LABELS = {
 # Maps group key → rebate as decimal (0.1275 = 12.75%).
 GROUP_REBATES = {
     "Group A":      0.1275,   # Castle
+    "Group B":      0.1275,   # Grunthal Lumber (AA-Dealer)
     "Group D":      0.1075,   # Sexton
     "Group F":      0.18,     # ILDC
     "HomeHardware": 0.21,     # Home Hardware
     "PQ East":      0.05,     # Alexandria Moulding / PQ East
+    "Trimlite":     0.00,     # Trimlite (no rebate)
 }
 
 # ─── Add-on category patterns (order matters – first match wins) ─────────────

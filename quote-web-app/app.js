@@ -36,10 +36,12 @@
   // ── Fallback rebate map (used if data file omits 'rebates') ─────
   const DEFAULT_REBATES = {
     'Group A':      0.1275,
+    'Group B':      0.1275,
     'Group D':      0.1075,
     'Group F':      0.18,
     'HomeHardware': 0.21,
     'PQ East':      0.05,
+    'Trimlite':     0.00,
   };
 
   function getRebatePct(group) {
