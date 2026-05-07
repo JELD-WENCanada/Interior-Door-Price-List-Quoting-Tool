@@ -597,3 +597,232 @@
 
   document.addEventListener('DOMContentLoaded', init);
 })();
+
+/* ============================================================
+ * Tab nav + Competitor Analysis module
+ * ============================================================ */
+(function () {
+  'use strict';
+
+  const $ = id => document.getElementById(id);
+  const fmt = n => (n !== null && n !== undefined && !isNaN(n))
+    ? '$' + Number(n).toFixed(2) : '\u2014';
+  const escHtml = s => String(s ?? '').replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+  // ── Tab switching ──────────────────────────────────────────
+  function setView(view) {
+    document.querySelectorAll('.app-tab').forEach(t => {
+      const on = t.dataset.view === view;
+      t.classList.toggle('active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    const q = $('viewQuote');
+    const c = $('viewCompetitor');
+    const hc = $('headerCenterQuote');
+    if (q) q.style.display = view === 'quote' ? '' : 'none';
+    if (c) c.style.display = view === 'competitor' ? '' : 'none';
+    if (hc) hc.style.visibility = view === 'quote' ? '' : 'hidden';
+  }
+
+  // ── Competitor logic ───────────────────────────────────────
+  const compState = {
+    retail: null, margin: 30, rebate: 0,
+    type: '', style: '', group: '',
+  };
+
+  function computeCompetitor() {
+    const retail = compState.retail;
+    const marginPct = clampPct(compState.margin);
+    const rebatePct = clampPct(compState.rebate);
+
+    const cost       = (retail !== null) ? retail * (1 - marginPct / 100) : null;
+    const marginAmt  = (retail !== null) ? retail - cost : null;
+    const rebateAmt  = (cost   !== null) ? cost   * (rebatePct / 100) : null;
+    const tripleNet  = (cost   !== null) ? cost   - rebateAmt : null;
+
+    $('compRetailDisp').textContent     = fmt(retail);
+    $('compMarginPctLbl').textContent   = marginPct + '%';
+    $('compMarginAmtDisp').textContent  = (marginAmt !== null) ? '\u2212' + fmt(marginAmt) : '\u2014';
+    $('compCostDisp').textContent       = fmt(cost);
+    $('compRebatePctLbl').textContent   = rebatePct + '%';
+    $('compRebateAmtDisp').textContent  = (rebateAmt !== null && rebateAmt > 0) ? '\u2212' + fmt(rebateAmt) : fmt(rebateAmt);
+    $('compTripleNetDisp').textContent  = fmt(tripleNet);
+
+    renderMatches(tripleNet);
+  }
+
+  function clampPct(v) {
+    const n = Number(v);
+    if (!Number.isFinite(n) || n < 0) return 0;
+    if (n >= 100) return 99.99;
+    return n;
+  }
+
+  function getAllProducts() {
+    if (!window.PRICING_DATA || !Array.isArray(window.PRICING_DATA.products)) return [];
+    return window.PRICING_DATA.products;
+  }
+
+  function productEffectivePrice(p) {
+    // Use lowest qty-tier price if present (best volume price) — that's the
+    // most aggressive price we can quote against a competitor.
+    if (Array.isArray(p.qty_tiers) && p.qty_tiers.length) {
+      const tiered = p.qty_tiers
+        .map(t => t.price_numeric)
+        .filter(v => v !== null && v !== undefined);
+      if (tiered.length) return Math.min(...tiered);
+    }
+    return (p.price !== null && p.price !== undefined) ? p.price : null;
+  }
+
+  function renderMatches(tripleNet) {
+    const list  = $('compMatchesList');
+    const badge = $('compMatchBadge');
+    const cntLbl = $('compMatchCountLbl');
+
+    if (tripleNet === null || !isFinite(tripleNet) || tripleNet <= 0) {
+      list.innerHTML = '<p class="empty-addons">Enter a competitor retail price to see matches.</p>';
+      badge.textContent = 'No retail entered';
+      badge.className = 'group-badge';
+      cntLbl.textContent = '';
+      return;
+    }
+
+    const all = getAllProducts();
+    const filtered = all.filter(p => {
+      if (compState.type  && p.type  !== compState.type)  return false;
+      if (compState.style && p.style !== compState.style) return false;
+      if (compState.group && p.group !== compState.group) return false;
+      const eff = productEffectivePrice(p);
+      return eff !== null && eff > 0;
+    });
+
+    // Score by absolute distance to tripleNet, prefer prices ≤ target.
+    const scored = filtered.map(p => {
+      const price = productEffectivePrice(p);
+      const delta = price - tripleNet;
+      return { p, price, delta, absDelta: Math.abs(delta) };
+    }).sort((a, b) => a.absDelta - b.absDelta);
+
+    const top = scored.slice(0, 12);
+    if (!top.length) {
+      list.innerHTML = '<p class="empty-addons">No matches found with current filters.</p>';
+      badge.textContent = 'No matches';
+      badge.className = 'group-badge';
+      cntLbl.textContent = '';
+      return;
+    }
+
+    badge.textContent = 'Target: ' + fmt(tripleNet);
+    badge.className = 'group-badge active';
+    cntLbl.textContent = scored.length + ' candidate' + (scored.length === 1 ? '' : 's');
+
+    const groupsLabels = (window.PRICING_DATA && window.PRICING_DATA.groups) || {};
+    list.innerHTML = top.map((m, i) => {
+      const groupLabel = groupsLabels[m.p.group] || m.p.group;
+      const dCls = m.delta < 0 ? 'under' : (m.delta > 0 ? 'over' : 'exact');
+      const dSign = m.delta < 0 ? '\u2212' : (m.delta > 0 ? '+' : '');
+      const dPct  = (m.delta / tripleNet) * 100;
+      const dTxt  = m.delta === 0
+        ? 'Match'
+        : (dSign + '$' + Math.abs(m.delta).toFixed(2) + '  (' + dSign + Math.abs(dPct).toFixed(1) + '%)');
+      const tierNote = (Array.isArray(m.p.qty_tiers) && m.p.qty_tiers.length > 1)
+        ? ' \u00b7 volume price' : '';
+      return '<div class="comp-match' + (i === 0 ? ' best' : '') + '">'
+        + '<div class="comp-match-rank">' + (i + 1) + '</div>'
+        + '<div class="comp-match-info">'
+        +   '<div class="comp-match-style">'
+        +     '<span class="comp-match-group">' + escHtml(m.p.group) + '</span>'
+        +     escHtml(m.p.style) + ' \u00b7 ' + escHtml(m.p.type)
+        +   '</div>'
+        +   '<div class="comp-match-meta">'
+        +     escHtml(m.p.size) + ' \u00b7 ' + escHtml(m.p.variant) + tierNote
+        +     '<br>' + escHtml(groupLabel)
+        +   '</div>'
+        + '</div>'
+        + '<div class="comp-match-prices">'
+        +   '<div class="comp-match-price">' + fmt(m.price) + '</div>'
+        +   '<div class="comp-match-delta ' + dCls + '">' + dTxt + '</div>'
+        + '</div>'
+        + '</div>';
+    }).join('');
+  }
+
+  function populateCompFilters() {
+    const all = getAllProducts();
+    const styles = [...new Set(all.map(p => p.style))].sort();
+    const styleSel = $('compStyleFilter');
+    if (styleSel) {
+      styles.forEach(s => {
+        const o = document.createElement('option');
+        o.value = s; o.textContent = s;
+        styleSel.appendChild(o);
+      });
+    }
+    const groupSel = $('compGroupFilter');
+    const groups = (window.PRICING_DATA && window.PRICING_DATA.groups) || {};
+    if (groupSel) {
+      Object.entries(groups).forEach(([id, label]) => {
+        const o = document.createElement('option');
+        o.value = id; o.textContent = label;
+        groupSel.appendChild(o);
+      });
+    }
+  }
+
+  function wireCompetitor() {
+    const r  = $('compRetail');
+    const m  = $('compMargin');
+    const rb = $('compRebate');
+    const tf = $('compTypeFilter');
+    const sf = $('compStyleFilter');
+    const gf = $('compGroupFilter');
+    const reset = $('compResetBtn');
+
+    if (r)  r.addEventListener('input', () => {
+      const v = parseFloat(r.value);
+      compState.retail = (Number.isFinite(v) && v > 0) ? v : null;
+      computeCompetitor();
+    });
+    if (m)  m.addEventListener('input', () => {
+      compState.margin = parseFloat(m.value);
+      computeCompetitor();
+    });
+    if (rb) rb.addEventListener('input', () => {
+      compState.rebate = parseFloat(rb.value);
+      computeCompetitor();
+    });
+    if (tf) tf.addEventListener('change', () => { compState.type  = tf.value; computeCompetitor(); });
+    if (sf) sf.addEventListener('change', () => { compState.style = sf.value; computeCompetitor(); });
+    if (gf) gf.addEventListener('change', () => { compState.group = gf.value; computeCompetitor(); });
+
+    if (reset) reset.addEventListener('click', () => {
+      compState.retail = null; compState.margin = 30; compState.rebate = 0;
+      compState.type = ''; compState.style = ''; compState.group = '';
+      if (r) r.value = '';
+      if (m) m.value = 30;
+      if (rb) rb.value = 0;
+      if (tf) tf.value = '';
+      if (sf) sf.value = '';
+      if (gf) gf.value = '';
+      computeCompetitor();
+    });
+  }
+
+  function init() {
+    document.querySelectorAll('.app-tab').forEach(t => {
+      t.addEventListener('click', () => setView(t.dataset.view));
+    });
+    populateCompFilters();
+    wireCompetitor();
+    computeCompetitor();
+  }
+
+  // Run after the main app initializes (PRICING_DATA must be loaded).
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();

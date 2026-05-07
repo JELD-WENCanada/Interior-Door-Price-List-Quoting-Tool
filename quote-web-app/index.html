@@ -23,7 +23,7 @@
         <span class="header-sub">Master Pricing — All Dealer Groups</span>
       </div>
     </div>
-    <div class="header-center">
+    <div class="header-center" id="headerCenterQuote">
       <label class="group-label" for="groupSelect">Dealer Group</label>
       <select id="groupSelect" class="group-select">
         <option value="">— Select Dealer Group —</option>
@@ -36,9 +36,21 @@
   </header>
 
   <!-- ══════════════════════════════════════════════════════════
+       TAB NAV
+  ══════════════════════════════════════════════════════════ -->
+  <nav class="app-tabs" role="tablist" aria-label="Tools">
+    <button class="app-tab active" id="tabQuoteBtn" role="tab" data-view="quote" aria-selected="true">
+      Quoting Tool
+    </button>
+    <button class="app-tab" id="tabCompBtn" role="tab" data-view="competitor" aria-selected="false">
+      Competitor Analysis
+    </button>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════════════════
        MAIN LAYOUT (two-column grid)
   ══════════════════════════════════════════════════════════ -->
-  <main class="app-main">
+  <main class="app-main" id="viewQuote" data-view="quote">
 
     <!-- ╔══════════════════════════════════════╗
          ║  LEFT — Configuration Panel          ║
@@ -218,7 +230,122 @@
 
     </section><!-- /price-panel -->
 
-  </main><!-- /app-main -->
+  </main><!-- /app-main (quote view) -->
+
+  <!-- ══════════════════════════════════════════════════════════
+       COMPETITOR ANALYSIS VIEW
+  ══════════════════════════════════════════════════════════ -->
+  <main class="app-main" id="viewCompetitor" data-view="competitor" style="display:none">
+
+    <!-- LEFT — Reverse-engineering inputs -->
+    <section class="panel config-panel">
+      <div class="panel-header">
+        <h2 class="panel-title">Competitor Reverse Pricing</h2>
+        <span class="panel-hint">Enter retail → work back to triple-net cost</span>
+      </div>
+
+      <div class="step-card">
+        <div class="step-header">
+          <span class="step-num">1</span>
+          <span class="step-label">Competitor Retail Price</span>
+        </div>
+        <div class="comp-input-row">
+          <span class="comp-prefix">$</span>
+          <input type="number" id="compRetail" class="comp-input" min="0" step="0.01" placeholder="0.00" inputmode="decimal" />
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-header">
+          <span class="step-num">2</span>
+          <span class="step-label">Dealer Margin on Retail</span>
+          <span class="step-hint-inline">Cost = Retail × (1 − margin%)</span>
+        </div>
+        <div class="comp-input-row">
+          <input type="number" id="compMargin" class="comp-input" min="0" max="99" step="0.1" value="30" inputmode="decimal" />
+          <span class="comp-suffix">%</span>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-header">
+          <span class="step-num">3</span>
+          <span class="step-label">Rebate</span>
+          <span class="step-hint-inline">Triple net = Cost × (1 − rebate%)</span>
+        </div>
+        <div class="comp-input-row">
+          <input type="number" id="compRebate" class="comp-input" min="0" max="99" step="0.01" value="0" inputmode="decimal" />
+          <span class="comp-suffix">%</span>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-header">
+          <span class="step-num">4</span>
+          <span class="step-label">Filter Matches (optional)</span>
+        </div>
+        <select id="compTypeFilter" class="form-select" style="margin-bottom:8px">
+          <option value="">Any product type</option>
+          <option value="door">Door Slab</option>
+          <option value="bifold">Bifold</option>
+        </select>
+        <select id="compStyleFilter" class="form-select" style="margin-bottom:8px">
+          <option value="">Any style</option>
+        </select>
+        <select id="compGroupFilter" class="form-select">
+          <option value="">All dealer groups</option>
+        </select>
+      </div>
+
+      <div class="config-actions">
+        <button id="compResetBtn" class="btn btn-ghost btn-full">↺ Reset</button>
+      </div>
+    </section>
+
+    <!-- RIGHT — Computed cost + closest matches -->
+    <section class="panel price-panel">
+      <div class="panel-header">
+        <h2 class="panel-title">Reverse Calculation</h2>
+        <span class="group-badge" id="compMatchBadge">No retail entered</span>
+      </div>
+
+      <div class="live-price-section">
+        <div class="price-breakdown">
+          <div class="price-row">
+            <span class="pr-label">Competitor Retail</span>
+            <span class="pr-value" id="compRetailDisp">—</span>
+          </div>
+          <div class="price-row">
+            <span class="pr-label">− Margin (<span id="compMarginPctLbl">30%</span>)</span>
+            <span class="pr-value" id="compMarginAmtDisp">—</span>
+          </div>
+          <div class="price-row price-subtotal-row" style="display:flex">
+            <span class="pr-label">Dealer Cost</span>
+            <span class="pr-value" id="compCostDisp">—</span>
+          </div>
+          <div class="price-row">
+            <span class="pr-label">− Rebate (<span id="compRebatePctLbl">0%</span>)</span>
+            <span class="pr-value" id="compRebateAmtDisp">—</span>
+          </div>
+          <div class="price-row price-grand">
+            <span class="pr-label">TRIPLE NET</span>
+            <span class="pr-value grand" id="compTripleNetDisp">—</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="comp-matches-section">
+        <div class="section-title-row" style="margin:0 0 10px;">
+          <h3 class="panel-title" style="font-size:13px">Closest JELD-WEN Matches</h3>
+          <span class="panel-hint" style="margin:0" id="compMatchCountLbl"></span>
+        </div>
+        <div id="compMatchesList" class="comp-matches-list">
+          <p class="empty-addons">Enter a competitor retail price to see matches.</p>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /app-main (competitor view) -->
 
   <footer class="app-footer" aria-label="Internal notice">
     <p class="footer-text">Disclaimer: This tool is for internal estimating reference only and does not constitute a final quote, order confirmation, or contractual pricing.</p>
