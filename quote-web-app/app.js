@@ -744,15 +744,6 @@
     }).join('');
   }
 
-  // Broad category labels that aren't specific door designs — hidden from
-  // the style filter so users only see actual door styles (Carrara, Camden,
-  // Birkdale, etc.).
-  const COMP_STYLE_EXCLUDE = new Set([
-    'Colonial Moulded',
-    'Flat Moulded (Shaker)',
-    'Primed Hardboard',
-  ]);
-
   // Sort sizes “naturally” — leading numeric width first.
   function sizeSortKey(s) {
     const m = String(s).match(/(\d+)/);
@@ -767,9 +758,7 @@
   function populateCompFilters() {
     const all = getAllProducts();
 
-    const styles = [...new Set(all.map(p => p.style))]
-      .filter(s => !COMP_STYLE_EXCLUDE.has(s))
-      .sort();
+    const styles = [...new Set(all.map(p => p.style))].sort();
     const styleSel = $('compStyleFilter');
     if (styleSel) {
       styles.forEach(s => {
