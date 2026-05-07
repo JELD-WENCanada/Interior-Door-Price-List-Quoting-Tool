@@ -2,7 +2,7 @@
 window.PRICING_DATA = {
   "meta": {
     "generated_at": "2026-05-07",
-    "record_count": 4110,
+    "record_count": 4298,
     "addon_count": 159
   },
   "groups": {
@@ -1663,140 +1663,260 @@ window.PRICING_DATA = {
     "PQ East": {
       "bifold": {
         "Colonial Moulded": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Conmore": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Flat Moulded (Shaker)": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Primed Hardboard": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ]
       },
       "door": {
         "Colonial Moulded": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38\" Euro",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\") Euro"
         ],
         "Conmore": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38\" Euro",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\") Euro"
         ],
         "Flat Moulded (Shaker)": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38\" Euro",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\") Euro"
         ],
         "Primed Hardboard": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38\" Euro",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\") Euro"
         ]
       }
     },
     "Trimlite": {
       "bifold": {
         "Colonial Moulded": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Conmore": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Flat Moulded (Shaker)": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ],
         "Primed Hardboard": [
-          "18\" to 24\"",
-          "26\" to 30\"",
-          "32\" to 36\""
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")"
         ]
       },
       "door": {
         "Colonial Moulded": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\"",
-          "40\", 42\", 44\", 46\", 48\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "40\" x 80\" (3'4\" x 6'8\")",
+          "42\" x 80\" (3'6\" x 6'8\")",
+          "44\" x 80\" (3'8\" x 6'8\")",
+          "46\" x 80\" (3'10\" x 6'8\")",
+          "48\" x 80\" (4'0\" x 6'8\")"
         ],
         "Conmore": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\"",
-          "40\", 42\", 44\", 46\", 48\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "40\" x 80\" (3'4\" x 6'8\")",
+          "42\" x 80\" (3'6\" x 6'8\")",
+          "44\" x 80\" (3'8\" x 6'8\")",
+          "46\" x 80\" (3'10\" x 6'8\")",
+          "48\" x 80\" (4'0\" x 6'8\")"
         ],
         "Flat Moulded (Shaker)": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\"",
-          "40\", 42\", 44\", 46\", 48\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "40\" x 80\" (3'4\" x 6'8\")",
+          "42\" x 80\" (3'6\" x 6'8\")",
+          "44\" x 80\" (3'8\" x 6'8\")",
+          "46\" x 80\" (3'10\" x 6'8\")",
+          "48\" x 80\" (4'0\" x 6'8\")"
         ],
         "Primed Hardboard": [
-          "30\"",
-          "32\"",
-          "34\"",
-          "36\"",
-          "38'",
-          "12\" to 18\"",
-          "20\" to 24\"",
-          "26\" & 28\"",
-          "40\", 42\", 44\", 46\", 48\""
+          "12\" x 80\" (1'0\" x 6'8\")",
+          "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\" (1'4\" x 6'8\")",
+          "18\" x 80\" (1'6\" x 6'8\")",
+          "20\" x 80\" (1'8\" x 6'8\")",
+          "22\" x 80\" (1'10\" x 6'8\")",
+          "24\" x 80\" (2'0\" x 6'8\")",
+          "26\" x 80\" (2'2\" x 6'8\")",
+          "28\" x 80\" (2'4\" x 6'8\")",
+          "30\" x 80\" (2'6\" x 6'8\")",
+          "32\" x 80\" (2'8\" x 6'8\")",
+          "34\" x 80\" (2'10\" x 6'8\")",
+          "36\" x 80\" (3'0\" x 6'8\")",
+          "38\" x 80\" (3'2\" x 6'8\")",
+          "40\" x 80\" (3'4\" x 6'8\")",
+          "42\" x 80\" (3'6\" x 6'8\")",
+          "44\" x 80\" (3'8\" x 6'8\")",
+          "46\" x 80\" (3'10\" x 6'8\")",
+          "48\" x 80\" (4'0\" x 6'8\")"
         ]
       }
     }
@@ -72104,7 +72224,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 57.7,
       "price_display": "$57.70"
@@ -72113,7 +72233,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 60.59,
       "price_display": "$60.59"
@@ -72122,7 +72242,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 57.7,
+      "price_display": "$57.70"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 60.59,
+      "price_display": "$60.59"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 57.7,
+      "price_display": "$57.70"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 60.59,
+      "price_display": "$60.59"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 57.7,
+      "price_display": "$57.70"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 60.59,
+      "price_display": "$60.59"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 61.3,
       "price_display": "$61.30"
@@ -72131,7 +72305,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "26\" to 30\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 64.37,
       "price_display": "$64.37"
@@ -72140,7 +72314,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 61.3,
+      "price_display": "$61.30"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 64.37,
+      "price_display": "$64.37"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 61.3,
+      "price_display": "$61.30"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 64.37,
+      "price_display": "$64.37"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 64.9,
       "price_display": "$64.90"
@@ -72149,7 +72359,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "32\" to 36\"",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 68.15,
+      "price_display": "$68.15"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 64.9,
+      "price_display": "$64.90"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 68.15,
+      "price_display": "$68.15"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 64.9,
+      "price_display": "$64.90"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 68.15,
       "price_display": "$68.15"
@@ -72158,7 +72404,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 62.5,
       "price_display": "$62.50"
@@ -72167,7 +72413,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 65.63,
       "price_display": "$65.63"
@@ -72176,7 +72422,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 62.5,
+      "price_display": "$62.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 65.63,
+      "price_display": "$65.63"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 62.5,
+      "price_display": "$62.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 65.63,
+      "price_display": "$65.63"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 62.5,
+      "price_display": "$62.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 65.63,
+      "price_display": "$65.63"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 66.1,
       "price_display": "$66.10"
@@ -72185,7 +72485,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "26\" to 30\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 69.41,
       "price_display": "$69.41"
@@ -72194,7 +72494,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 66.1,
+      "price_display": "$66.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 69.41,
+      "price_display": "$69.41"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 66.1,
+      "price_display": "$66.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 69.41,
+      "price_display": "$69.41"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 69.85,
       "price_display": "$69.85"
@@ -72203,7 +72539,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Conmore",
-      "size": "32\" to 36\"",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 73.34,
+      "price_display": "$73.34"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 69.85,
+      "price_display": "$69.85"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 73.34,
+      "price_display": "$73.34"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 69.85,
+      "price_display": "$69.85"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 73.34,
       "price_display": "$73.34"
@@ -72212,7 +72584,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 67.4,
       "price_display": "$67.40"
@@ -72221,7 +72593,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 70.77,
       "price_display": "$70.77"
@@ -72230,7 +72602,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 67.4,
+      "price_display": "$67.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 70.77,
+      "price_display": "$70.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 67.4,
+      "price_display": "$67.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 70.77,
+      "price_display": "$70.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 67.4,
+      "price_display": "$67.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 70.77,
+      "price_display": "$70.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 71.0,
       "price_display": "$71.00"
@@ -72239,7 +72665,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" to 30\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 74.55,
       "price_display": "$74.55"
@@ -72248,7 +72674,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 71.0,
+      "price_display": "$71.00"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 74.55,
+      "price_display": "$74.55"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 71.0,
+      "price_display": "$71.00"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 74.55,
+      "price_display": "$74.55"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 74.6,
       "price_display": "$74.60"
@@ -72257,7 +72719,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "32\" to 36\"",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 78.33,
+      "price_display": "$78.33"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 74.6,
+      "price_display": "$74.60"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 78.33,
+      "price_display": "$78.33"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 74.6,
+      "price_display": "$74.60"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 78.33,
       "price_display": "$78.33"
@@ -72266,7 +72764,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 48.4,
       "price_display": "$48.40"
@@ -72275,7 +72773,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 50.82,
       "price_display": "$50.82"
@@ -72284,7 +72782,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 48.4,
+      "price_display": "$48.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 50.82,
+      "price_display": "$50.82"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 48.4,
+      "price_display": "$48.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 50.82,
+      "price_display": "$50.82"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 48.4,
+      "price_display": "$48.40"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 50.82,
+      "price_display": "$50.82"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 52.35,
       "price_display": "$52.35"
@@ -72293,7 +72845,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "26\" to 30\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 54.97,
       "price_display": "$54.97"
@@ -72302,7 +72854,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 52.35,
+      "price_display": "$52.35"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 54.97,
+      "price_display": "$54.97"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 52.35,
+      "price_display": "$52.35"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 54.97,
+      "price_display": "$54.97"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
       "price": 56.45,
       "price_display": "$56.45"
@@ -72311,7 +72899,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "32\" to 36\"",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 59.27,
+      "price_display": "$59.27"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 56.45,
+      "price_display": "$56.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (LTL)",
+      "price": 59.27,
+      "price_display": "$59.27"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware (Full TL)",
+      "price": 56.45,
+      "price_display": "$56.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware (LTL)",
       "price": 59.27,
       "price_display": "$59.27"
@@ -72320,223 +72944,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 134.45,
-      "price_display": "$134.45"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 141.17,
-      "price_display": "$141.17"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 46.65,
-      "price_display": "$46.65"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 48.98,
-      "price_display": "$48.98"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 135.95,
-      "price_display": "$135.95"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 142.75,
-      "price_display": "$142.75"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 48.85,
-      "price_display": "$48.85"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 51.29,
-      "price_display": "$51.29"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 137.5,
-      "price_display": "$137.50"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 144.38,
-      "price_display": "$144.38"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 51.2,
-      "price_display": "$51.20"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 53.76,
-      "price_display": "$53.76"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 137.5,
-      "price_display": "$137.50"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 144.38,
-      "price_display": "$144.38"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 51.2,
-      "price_display": "$51.20"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 53.76,
-      "price_display": "$53.76"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38\" Euro",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 172.5,
-      "price_display": "$172.50"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38\" Euro",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 181.13,
-      "price_display": "$181.13"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38\" Euro",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 83.2,
-      "price_display": "$83.20"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38\" Euro",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 87.36,
-      "price_display": "$87.36"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 41.6,
       "price_display": "$41.60"
@@ -72545,7 +72953,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 43.68,
       "price_display": "$43.68"
@@ -72554,7 +72962,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 41.6,
+      "price_display": "$41.60"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 43.68,
+      "price_display": "$43.68"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 41.6,
+      "price_display": "$41.60"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 43.68,
+      "price_display": "$43.68"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 41.6,
+      "price_display": "$41.60"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 43.68,
+      "price_display": "$43.68"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 45.1,
       "price_display": "$45.10"
@@ -72563,7 +73025,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "20\" to 24\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 47.36,
       "price_display": "$47.36"
@@ -72572,7 +73034,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 45.1,
+      "price_display": "$45.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 47.36,
+      "price_display": "$47.36"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 45.1,
+      "price_display": "$45.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 47.36,
+      "price_display": "$47.36"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 46.25,
       "price_display": "$46.25"
@@ -72581,7 +73079,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "26\" & 28\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 48.56,
       "price_display": "$48.56"
@@ -72589,188 +73087,170 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 155.75,
-      "price_display": "$155.75"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Conmore",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 163.54,
-      "price_display": "$163.54"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Conmore",
-      "size": "30\"",
+      "style": "Colonial Moulded",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 51.4,
-      "price_display": "$51.40"
+      "price": 46.25,
+      "price_display": "$46.25"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "30\"",
+      "style": "Colonial Moulded",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 53.97,
-      "price_display": "$53.97"
+      "price": 48.56,
+      "price_display": "$48.56"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 158.8,
-      "price_display": "$158.80"
+      "price": 134.45,
+      "price_display": "$134.45"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 166.74,
-      "price_display": "$166.74"
+      "price": 141.17,
+      "price_display": "$141.17"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 53.75,
-      "price_display": "$53.75"
+      "price": 46.65,
+      "price_display": "$46.65"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 56.44,
-      "price_display": "$56.44"
+      "price": 48.98,
+      "price_display": "$48.98"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 160.35,
-      "price_display": "$160.35"
+      "price": 135.95,
+      "price_display": "$135.95"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 168.37,
-      "price_display": "$168.37"
+      "price": 142.75,
+      "price_display": "$142.75"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 56.05,
-      "price_display": "$56.05"
+      "price": 48.85,
+      "price_display": "$48.85"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 58.85,
-      "price_display": "$58.85"
+      "price": 51.29,
+      "price_display": "$51.29"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 160.35,
-      "price_display": "$160.35"
+      "price": 137.5,
+      "price_display": "$137.50"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 168.37,
-      "price_display": "$168.37"
+      "price": 144.38,
+      "price_display": "$144.38"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 56.05,
-      "price_display": "$56.05"
+      "price": 51.2,
+      "price_display": "$51.20"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 58.85,
-      "price_display": "$58.85"
+      "price": 53.76,
+      "price_display": "$53.76"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38\" Euro",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": null,
-      "price_display": "N/A"
+      "price": 137.5,
+      "price_display": "$137.50"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38\" Euro",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": null,
-      "price_display": "N/A"
+      "price": 144.38,
+      "price_display": "$144.38"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38\" Euro",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": null,
-      "price_display": "N/A"
+      "price": 51.2,
+      "price_display": "$51.20"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38\" Euro",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": null,
-      "price_display": "N/A"
+      "price": 53.76,
+      "price_display": "$53.76"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38'",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -72778,8 +73258,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38'",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -72787,8 +73267,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38'",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -72796,8 +73276,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Conmore",
-      "size": "38'",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -72805,8 +73285,44 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 172.5,
+      "price_display": "$172.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 181.13,
+      "price_display": "$181.13"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 83.2,
+      "price_display": "$83.20"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 87.36,
+      "price_display": "$87.36"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
       "style": "Conmore",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 46.45,
       "price_display": "$46.45"
@@ -72815,7 +73331,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Conmore",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 48.77,
       "price_display": "$48.77"
@@ -72824,7 +73340,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Conmore",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 46.45,
+      "price_display": "$46.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 48.77,
+      "price_display": "$48.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 46.45,
+      "price_display": "$46.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 48.77,
+      "price_display": "$48.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 46.45,
+      "price_display": "$46.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 48.77,
+      "price_display": "$48.77"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 49.95,
       "price_display": "$49.95"
@@ -72833,7 +73403,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Conmore",
-      "size": "20\" to 24\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 52.45,
       "price_display": "$52.45"
@@ -72842,7 +73412,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Conmore",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 49.95,
+      "price_display": "$49.95"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 52.45,
+      "price_display": "$52.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 49.95,
+      "price_display": "$49.95"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 52.45,
+      "price_display": "$52.45"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 51.1,
       "price_display": "$51.10"
@@ -72851,7 +73457,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Conmore",
-      "size": "26\" & 28\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 53.66,
       "price_display": "$53.66"
@@ -72859,8 +73465,26 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
+      "style": "Conmore",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 51.1,
+      "price_display": "$51.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 53.66,
+      "price_display": "$53.66"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": 155.75,
       "price_display": "$155.75"
@@ -72868,8 +73492,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": 163.54,
       "price_display": "$163.54"
@@ -72877,26 +73501,26 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 56.35,
-      "price_display": "$56.35"
+      "price": 51.4,
+      "price_display": "$51.40"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 59.17,
-      "price_display": "$59.17"
+      "price": 53.97,
+      "price_display": "$53.97"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": 158.8,
       "price_display": "$158.80"
@@ -72904,8 +73528,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": 166.74,
       "price_display": "$166.74"
@@ -72913,26 +73537,26 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 58.65,
-      "price_display": "$58.65"
+      "price": 53.75,
+      "price_display": "$53.75"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 61.58,
-      "price_display": "$61.58"
+      "price": 56.44,
+      "price_display": "$56.44"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": 160.35,
       "price_display": "$160.35"
@@ -72940,8 +73564,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": 168.37,
       "price_display": "$168.37"
@@ -72949,26 +73573,26 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 60.85,
-      "price_display": "$60.85"
+      "price": 56.05,
+      "price_display": "$56.05"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 63.89,
-      "price_display": "$63.89"
+      "price": 58.85,
+      "price_display": "$58.85"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": 160.35,
       "price_display": "$160.35"
@@ -72976,8 +73600,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": 168.37,
       "price_display": "$168.37"
@@ -72985,26 +73609,26 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 60.85,
-      "price_display": "$60.85"
+      "price": 56.05,
+      "price_display": "$56.05"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 63.89,
-      "price_display": "$63.89"
+      "price": 58.85,
+      "price_display": "$58.85"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38\" Euro",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73012,8 +73636,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38\" Euro",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73021,8 +73645,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38\" Euro",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73030,8 +73654,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38\" Euro",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73039,8 +73663,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73048,8 +73672,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73057,8 +73681,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73066,8 +73690,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73076,7 +73700,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 51.3,
       "price_display": "$51.30"
@@ -73085,7 +73709,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 53.87,
       "price_display": "$53.87"
@@ -73094,7 +73718,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 53.87,
+      "price_display": "$53.87"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 53.87,
+      "price_display": "$53.87"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 53.87,
+      "price_display": "$53.87"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 54.8,
       "price_display": "$54.80"
@@ -73103,7 +73781,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "20\" to 24\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 57.54,
       "price_display": "$57.54"
@@ -73112,7 +73790,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 54.8,
+      "price_display": "$54.80"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 57.54,
+      "price_display": "$57.54"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 54.8,
+      "price_display": "$54.80"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 57.54,
+      "price_display": "$57.54"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 55.95,
       "price_display": "$55.95"
@@ -73121,7 +73835,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" & 28\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 58.75,
       "price_display": "$58.75"
@@ -73129,152 +73843,170 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 82.0,
-      "price_display": "$82.00"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 86.1,
-      "price_display": "$86.10"
-    },
-    {
-      "group": "PQ East",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "30\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 35.1,
-      "price_display": "$35.10"
+      "price": 55.95,
+      "price_display": "$55.95"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "30\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 36.86,
-      "price_display": "$36.86"
+      "price": 58.75,
+      "price_display": "$58.75"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 82.0,
-      "price_display": "$82.00"
+      "price": 155.75,
+      "price_display": "$155.75"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 86.1,
-      "price_display": "$86.10"
+      "price": 163.54,
+      "price_display": "$163.54"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 35.95,
-      "price_display": "$35.95"
+      "price": 56.35,
+      "price_display": "$56.35"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 37.75,
-      "price_display": "$37.75"
+      "price": 59.17,
+      "price_display": "$59.17"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 82.8,
-      "price_display": "$82.80"
+      "price": 158.8,
+      "price_display": "$158.80"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 86.94,
-      "price_display": "$86.94"
+      "price": 166.74,
+      "price_display": "$166.74"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 36.75,
-      "price_display": "$36.75"
+      "price": 58.65,
+      "price_display": "$58.65"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 38.59,
-      "price_display": "$38.59"
+      "price": 61.58,
+      "price_display": "$61.58"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 82.8,
-      "price_display": "$82.80"
+      "price": 160.35,
+      "price_display": "$160.35"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 86.94,
-      "price_display": "$86.94"
+      "price": 168.37,
+      "price_display": "$168.37"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 36.75,
-      "price_display": "$36.75"
+      "price": 60.85,
+      "price_display": "$60.85"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 38.59,
-      "price_display": "$38.59"
+      "price": 63.89,
+      "price_display": "$63.89"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38\" Euro",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 160.35,
+      "price_display": "$160.35"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 168.37,
+      "price_display": "$168.37"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 60.85,
+      "price_display": "$60.85"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 63.89,
+      "price_display": "$63.89"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73282,8 +74014,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38\" Euro",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73291,8 +74023,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38\" Euro",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": null,
       "price_display": "N/A"
@@ -73300,8 +74032,8 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38\" Euro",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": null,
       "price_display": "N/A"
@@ -73309,44 +74041,44 @@ window.PRICING_DATA = {
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
-      "price": 121.2,
-      "price_display": "$121.20"
+      "price": null,
+      "price_display": "N/A"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
-      "price": 127.26,
-      "price_display": "$127.26"
+      "price": null,
+      "price_display": "N/A"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
-      "price": 65.65,
-      "price_display": "$65.65"
+      "price": null,
+      "price_display": "N/A"
     },
     {
       "group": "PQ East",
       "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
       "variant": "Slab 1 3/8 hollow core (LTL)",
-      "price": 68.93,
-      "price_display": "$68.93"
+      "price": null,
+      "price_display": "N/A"
     },
     {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 29.05,
       "price_display": "$29.05"
@@ -73355,7 +74087,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 30.5,
       "price_display": "$30.50"
@@ -73364,7 +74096,61 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 29.05,
+      "price_display": "$29.05"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 30.5,
+      "price_display": "$30.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 29.05,
+      "price_display": "$29.05"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 30.5,
+      "price_display": "$30.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 29.05,
+      "price_display": "$29.05"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 30.5,
+      "price_display": "$30.50"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 32.65,
       "price_display": "$32.65"
@@ -73373,7 +74159,7 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "20\" to 24\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 34.28,
       "price_display": "$34.28"
@@ -73382,7 +74168,43 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 32.65,
+      "price_display": "$32.65"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 34.28,
+      "price_display": "$34.28"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 32.65,
+      "price_display": "$32.65"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 34.28,
+      "price_display": "$34.28"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (Full TL)",
       "price": 33.15,
       "price_display": "$33.15"
@@ -73391,16 +74213,250 @@ window.PRICING_DATA = {
       "group": "PQ East",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "26\" & 28\"",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core (LTL)",
       "price": 34.81,
       "price_display": "$34.81"
     },
     {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 33.15,
+      "price_display": "$33.15"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 34.81,
+      "price_display": "$34.81"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 82.0,
+      "price_display": "$82.00"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 86.1,
+      "price_display": "$86.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 35.1,
+      "price_display": "$35.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 36.86,
+      "price_display": "$36.86"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 82.0,
+      "price_display": "$82.00"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 86.1,
+      "price_display": "$86.10"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 35.95,
+      "price_display": "$35.95"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 37.75,
+      "price_display": "$37.75"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 82.8,
+      "price_display": "$82.80"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 86.94,
+      "price_display": "$86.94"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 36.75,
+      "price_display": "$36.75"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 38.59,
+      "price_display": "$38.59"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 82.8,
+      "price_display": "$82.80"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 86.94,
+      "price_display": "$86.94"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 36.75,
+      "price_display": "$36.75"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 38.59,
+      "price_display": "$38.59"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": 121.2,
+      "price_display": "$121.20"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": 127.26,
+      "price_display": "$127.26"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": 65.65,
+      "price_display": "$65.65"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": 68.93,
+      "price_display": "$68.93"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/4 20-min fire-rated (Full TL)",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/4 20-min fire-rated (LTL)",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/8 hollow core (Full TL)",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "PQ East",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\") Euro",
+      "variant": "Slab 1 3/8 hollow core (LTL)",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 51.3,
       "price_display": "$51.30"
@@ -73409,7 +74465,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 51.3,
+      "price_display": "$51.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 54.5,
       "price_display": "$54.50"
@@ -73418,7 +74501,43 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Colonial Moulded",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 54.5,
+      "price_display": "$54.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 54.5,
+      "price_display": "$54.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 57.7,
+      "price_display": "$57.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 57.7,
+      "price_display": "$57.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 57.7,
       "price_display": "$57.70"
@@ -73427,7 +74546,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Conmore",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 55.5,
       "price_display": "$55.50"
@@ -73436,7 +74555,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Conmore",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 55.5,
+      "price_display": "$55.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 55.5,
+      "price_display": "$55.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 55.5,
+      "price_display": "$55.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 58.7,
       "price_display": "$58.70"
@@ -73445,7 +74591,43 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Conmore",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 58.7,
+      "price_display": "$58.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 58.7,
+      "price_display": "$58.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 62.0,
+      "price_display": "$62.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 62.0,
+      "price_display": "$62.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 62.0,
       "price_display": "$62.00"
@@ -73454,7 +74636,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 59.9,
       "price_display": "$59.90"
@@ -73463,7 +74645,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 59.9,
+      "price_display": "$59.90"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 59.9,
+      "price_display": "$59.90"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 59.9,
+      "price_display": "$59.90"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 63.1,
       "price_display": "$63.10"
@@ -73472,7 +74681,43 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Flat Moulded (Shaker)",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 63.1,
+      "price_display": "$63.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 63.1,
+      "price_display": "$63.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 66.3,
+      "price_display": "$66.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 66.3,
+      "price_display": "$66.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 66.3,
       "price_display": "$66.30"
@@ -73481,7 +74726,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "18\" to 24\"",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 43.0,
       "price_display": "$43.00"
@@ -73490,7 +74735,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "26\" to 30\"",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 43.0,
+      "price_display": "$43.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 43.0,
+      "price_display": "$43.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 43.0,
+      "price_display": "$43.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 46.5,
       "price_display": "$46.50"
@@ -73499,7 +74771,43 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "bifold",
       "style": "Primed Hardboard",
-      "size": "32\" to 36\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 46.5,
+      "price_display": "$46.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 46.5,
+      "price_display": "$46.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 50.1,
+      "price_display": "$50.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Bifold 1 3/8 c/w hardware",
+      "price": 50.1,
+      "price_display": "$50.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "bifold",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
       "variant": "Bifold 1 3/8 c/w hardware",
       "price": 50.1,
       "price_display": "$50.10"
@@ -73508,97 +74816,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 119.4,
-      "price_display": "$119.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 41.4,
-      "price_display": "$41.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 120.7,
-      "price_display": "$120.70"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 43.4,
-      "price_display": "$43.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 122.1,
-      "price_display": "$122.10"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 45.5,
-      "price_display": "$45.50"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 122.1,
-      "price_display": "$122.10"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 45.5,
-      "price_display": "$45.50"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Colonial Moulded",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 37.0,
       "price_display": "$37.00"
@@ -73607,7 +74825,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 37.0,
+      "price_display": "$37.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 37.0,
+      "price_display": "$37.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 37.0,
+      "price_display": "$37.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 40.1,
       "price_display": "$40.10"
@@ -73616,7 +74861,25 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 40.1,
+      "price_display": "$40.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 40.1,
+      "price_display": "$40.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 41.1,
       "price_display": "$41.10"
@@ -73625,7 +74888,88 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 41.1,
+      "price_display": "$41.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 119.4,
+      "price_display": "$119.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 41.4,
+      "price_display": "$41.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 120.7,
+      "price_display": "$120.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 43.4,
+      "price_display": "$43.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 122.1,
+      "price_display": "$122.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.5,
+      "price_display": "$45.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 122.1,
+      "price_display": "$122.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.5,
+      "price_display": "$45.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated",
       "price": null,
       "price_display": "N/A"
@@ -73634,7 +74978,97 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Colonial Moulded",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Colonial Moulded",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -73643,97 +75077,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Conmore",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 138.3,
-      "price_display": "$138.30"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 45.7,
-      "price_display": "$45.70"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 141.0,
-      "price_display": "$141.00"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 47.8,
-      "price_display": "$47.80"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 142.4,
-      "price_display": "$142.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 49.8,
-      "price_display": "$49.80"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 142.4,
-      "price_display": "$142.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 49.8,
-      "price_display": "$49.80"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Conmore",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 41.2,
       "price_display": "$41.20"
@@ -73742,7 +75086,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Conmore",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 41.2,
+      "price_display": "$41.20"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 41.2,
+      "price_display": "$41.20"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 41.2,
+      "price_display": "$41.20"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 44.3,
       "price_display": "$44.30"
@@ -73751,7 +75122,25 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Conmore",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 44.3,
+      "price_display": "$44.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 44.3,
+      "price_display": "$44.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 45.4,
       "price_display": "$45.40"
@@ -73760,7 +75149,88 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Conmore",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.4,
+      "price_display": "$45.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 138.3,
+      "price_display": "$138.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.7,
+      "price_display": "$45.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 141.0,
+      "price_display": "$141.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 47.8,
+      "price_display": "$47.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 142.4,
+      "price_display": "$142.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 49.8,
+      "price_display": "$49.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 142.4,
+      "price_display": "$142.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 49.8,
+      "price_display": "$49.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated",
       "price": null,
       "price_display": "N/A"
@@ -73769,7 +75239,97 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Conmore",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Conmore",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -73778,97 +75338,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 138.3,
-      "price_display": "$138.30"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.0,
-      "price_display": "$50.00"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 141.0,
-      "price_display": "$141.00"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 52.1,
-      "price_display": "$52.10"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 142.4,
-      "price_display": "$142.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.1,
-      "price_display": "$54.10"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 142.4,
-      "price_display": "$142.40"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.1,
-      "price_display": "$54.10"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Flat Moulded (Shaker)",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 45.6,
       "price_display": "$45.60"
@@ -73877,7 +75347,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.6,
+      "price_display": "$45.60"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.6,
+      "price_display": "$45.60"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 45.6,
+      "price_display": "$45.60"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 48.7,
       "price_display": "$48.70"
@@ -73886,7 +75383,25 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 48.7,
+      "price_display": "$48.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 48.7,
+      "price_display": "$48.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 49.7,
       "price_display": "$49.70"
@@ -73895,7 +75410,88 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 49.7,
+      "price_display": "$49.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 138.3,
+      "price_display": "$138.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.0,
+      "price_display": "$50.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 141.0,
+      "price_display": "$141.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 52.1,
+      "price_display": "$52.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 142.4,
+      "price_display": "$142.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.1,
+      "price_display": "$54.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 142.4,
+      "price_display": "$142.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.1,
+      "price_display": "$54.10"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated",
       "price": null,
       "price_display": "N/A"
@@ -73904,7 +75500,97 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Flat Moulded (Shaker)",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Flat Moulded (Shaker)",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": null,
       "price_display": "N/A"
@@ -73913,97 +75599,7 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "30\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 72.8,
-      "price_display": "$72.80"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "30\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 31.2,
-      "price_display": "$31.20"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 72.8,
-      "price_display": "$72.80"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "32\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 31.9,
-      "price_display": "$31.90"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 73.5,
-      "price_display": "$73.50"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "34\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 32.7,
-      "price_display": "$32.70"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 73.5,
-      "price_display": "$73.50"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "36\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 32.7,
-      "price_display": "$32.70"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
-      "variant": "Slab 1 3/4 20-min fire-rated",
-      "price": 107.6,
-      "price_display": "$107.60"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "38'",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 58.3,
-      "price_display": "$58.30"
-    },
-    {
-      "group": "Trimlite",
-      "type": "door",
-      "style": "Primed Hardboard",
-      "size": "12\" to 18\"",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 25.8,
       "price_display": "$25.80"
@@ -74012,7 +75608,34 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "20\" to 24\"",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 25.8,
+      "price_display": "$25.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 25.8,
+      "price_display": "$25.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 25.8,
+      "price_display": "$25.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 29.0,
       "price_display": "$29.00"
@@ -74021,7 +75644,25 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "26\" & 28\"",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 29.0,
+      "price_display": "$29.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 29.0,
+      "price_display": "$29.00"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 29.4,
       "price_display": "$29.40"
@@ -74030,7 +75671,106 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 29.4,
+      "price_display": "$29.40"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 72.8,
+      "price_display": "$72.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 31.2,
+      "price_display": "$31.20"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 72.8,
+      "price_display": "$72.80"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 31.9,
+      "price_display": "$31.90"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 73.5,
+      "price_display": "$73.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 32.7,
+      "price_display": "$32.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 73.5,
+      "price_display": "$73.50"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 32.7,
+      "price_display": "$32.70"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 107.6,
+      "price_display": "$107.60"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 58.3,
+      "price_display": "$58.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
       "variant": "Slab 1 3/4 20-min fire-rated",
       "price": 120.45,
       "price_display": "$120.45"
@@ -74039,7 +75779,79 @@ window.PRICING_DATA = {
       "group": "Trimlite",
       "type": "door",
       "style": "Primed Hardboard",
-      "size": "40\", 42\", 44\", 46\", 48\"",
+      "size": "40\" x 80\" (3'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 80.3,
+      "price_display": "$80.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 120.45,
+      "price_display": "$120.45"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "42\" x 80\" (3'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 80.3,
+      "price_display": "$80.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 120.45,
+      "price_display": "$120.45"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "44\" x 80\" (3'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 80.3,
+      "price_display": "$80.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 120.45,
+      "price_display": "$120.45"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "46\" x 80\" (3'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 80.3,
+      "price_display": "$80.30"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 20-min fire-rated",
+      "price": 120.45,
+      "price_display": "$120.45"
+    },
+    {
+      "group": "Trimlite",
+      "type": "door",
+      "style": "Primed Hardboard",
+      "size": "48\" x 80\" (4'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 80.3,
       "price_display": "$80.30"

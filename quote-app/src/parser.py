@@ -206,6 +206,58 @@ _BIFOLD_SECTION_RE = re.compile(r'^Bifold\s+\d+', re.IGNORECASE)
 _FIRE_SECTION_RE   = re.compile(r'^1\s*3/4\s+20\s+min', re.IGNORECASE)
 
 
+# Width (inches) → feet/inches notation, used to expand size ranges into
+# individual sizes formatted like the rest of the dealers (e.g. 12" → 1'0").
+_WIDTH_FT_IN = {
+    12: "1'0\"", 14: "1'2\"", 16: "1'4\"", 18: "1'6\"",
+    20: "1'8\"", 22: "1'10\"", 24: "2'0\"", 26: "2'2\"",
+    28: "2'4\"", 30: "2'6\"", 32: "2'8\"", 34: "2'10\"",
+    36: "3'0\"", 38: "3'2\"", 40: "3'4\"", 42: "3'6\"",
+    44: "3'8\"", 46: "3'10\"", 48: "4'0\"",
+}
+
+
+def _expand_size_range(size_str: str) -> List[str]:
+    """
+    Expand a size range string like '12" to 18"', '26" & 28"',
+    '40", 42", 44", 46", 48"', '38" Euro', or '30"' into a list of
+    individual size strings formatted like '12" x 80" (1\\'0" x 6\\'8")'.
+    Height is fixed at 80" (6'8") to match the standard format used by
+    the other dealers; the separate "Height add" rows handle taller doors.
+    """
+    s = size_str.strip()
+    is_euro = bool(re.search(r'\bEuro\b', s, re.IGNORECASE))
+    s_clean = re.sub(r'\bEuro\b', '', s, flags=re.IGNORECASE).strip()
+
+    widths: List[int] = []
+    # "12\" to 18\""  → step 2 inclusive
+    m = re.match(r'^(\d+)["\']\s*to\s*(\d+)["\']\s*$', s_clean, re.IGNORECASE)
+    if m:
+        a, b = int(m.group(1)), int(m.group(2))
+        widths = list(range(a, b + 1, 2))
+    else:
+        # "26\" & 28\"" or "40\", 42\", 44\""  → just pick out every number
+        nums = re.findall(r'(\d+)["\']', s_clean)
+        if nums:
+            widths = [int(n) for n in nums]
+
+    # Fall back to original string if we couldn't parse it
+    if not widths:
+        return [size_str]
+
+    out: List[str] = []
+    for w in widths:
+        ftin = _WIDTH_FT_IN.get(w)
+        if ftin:
+            label = f'{w}" x 80" ({ftin} x 6\'8")'
+        else:
+            label = f'{w}" x 80"'
+        if is_euro:
+            label += " Euro"
+        out.append(label)
+    return out
+
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Trimlite parser
 # ──────────────────────────────────────────────────────────────────────────────
@@ -331,9 +383,13 @@ def _parse_range_based_page(
                 pt = "door"
             variant = f"{base} ({tier})" if tier else base
 
-            for idx, style in enumerate(styles):
-                pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
-                records.append(_make_record(dealer, pt, style, size_str, variant, pd, pn, source_pdf))
+            # Expand the size range into individual sizes so the dropdown
+            # shows one entry per width (matches other dealers' format).
+            expanded = _expand_size_range(size_str)
+            for size_label in expanded:
+                for idx, style in enumerate(styles):
+                    pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
+                    records.append(_make_record(dealer, pt, style, size_label, variant, pd, pn, source_pdf))
             continue
 
     return records, addons
