@@ -40,7 +40,6 @@
     'Group F':      0.18,
     'HomeHardware': 0.21,
     'PQ East':      0.05,
-    'PQ West':      0.05,
   };
 
   function getRebatePct(group) {

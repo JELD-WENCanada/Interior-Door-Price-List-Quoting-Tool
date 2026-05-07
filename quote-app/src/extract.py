@@ -34,8 +34,10 @@ def extract_all_pdfs(pdf_dir: str) -> List[Dict[str, Any]]:
 
     # Recursively collect PDFs from pdf_dir and subfolders.
     # Skip macOS resource-fork files (start with "._").
+    # Skip the PQ_West folder (group has been removed from the tool).
     pdf_paths = []
-    for root, _dirs, files in os.walk(pdf_dir):
+    for root, dirs, files in os.walk(pdf_dir):
+        dirs[:] = [d for d in dirs if d.lower() != "pq_west"]
         for f in files:
             if f.startswith("._"):
                 continue

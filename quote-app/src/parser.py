@@ -102,11 +102,17 @@ def _make_record(
     options: Optional[List] = None,
     qty_tiers: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
+    # Normalise whitespace in the size string so identical sizes from
+    # different sections of a PDF (e.g. '12" x 80"(1\'0" x 6\'8")' vs
+    # '12" x 80" (1\'0" x 6\'8")') de-duplicate cleanly downstream.
+    size_norm = re.sub(r"\s+", " ", size.strip())
+    size_norm = re.sub(r"\s*\(\s*", " (", size_norm)
+    size_norm = re.sub(r"\s*\)", ")", size_norm)
     rec = {
         "dealer_group": dealer_group,
         "product_type": product_type,
         "style": style,
-        "size": size,
+        "size": size_norm,
         "variant": variant,
         "price": price_display,
         "price_numeric": price_numeric,
@@ -149,7 +155,7 @@ def _make_addon(
 def detect_pdf_type(filename: str) -> str:
     """
     Return one of:
-        'trimlite' | 'pq_east' | 'pq_west'
+        'trimlite' | 'pq_east'
       | 'central_a' | 'central_b' | 'central_d' | 'central_f' | 'central_k'
       | 'home_hardware'
       | 'unknown'
@@ -159,8 +165,6 @@ def detect_pdf_type(filename: str) -> str:
         return "trimlite"
     if "pq_east" in fn:
         return "pq_east"
-    if "pq_west" in fn or "ww_west" in fn or ("specialty" in fn and "west" in fn):
-        return "pq_west"
     if "_hh_" in fn or "home_hardware" in fn or "homehardware" in fn:
         return "home_hardware"
     if "ildc" in fn or "grpf" in fn or "grp_f" in fn:
@@ -402,11 +406,16 @@ def _parse_adders_page(lines: List[str], dealer: str, source_pdf: str) -> List[D
         ))
         if not last_price_match:
             continue
-        last_m = last_price_match[-1]
-        name = line[: last_m.start()].strip().rstrip(':').strip()
+        # Use FIRST price token as the boundary so the addon name doesn't
+        # accidentally absorb earlier price columns (e.g. "Machining ...
+        # $9.63 $9.15" → name "Machining ...", not "Machining ... $9.63").
+        first_m = last_price_match[0]
+        name = line[: first_m.start()].strip().rstrip(':').strip()
         # Filter: empty names or footnote lines that start with a parenthesis
         if not name or name.startswith('('):
             continue
+        # Use the LAST price (typically the higher / current tier) as the
+        # representative price.
         pd, pn = prices[-1]
         records.append(
             _make_addon(dealer, name, pd, pn, "", ["door", "bifold"], source_pdf)
@@ -476,10 +485,41 @@ _KNOWN_STYLES = {
     "CONMORE", "MADISON", "MONROE", "BIRKDALE", "CRAFTSMAN",
 }
 
+# Map raw / truncated header forms to a single canonical Title-Case style name.
+# Applied in _split_style_header / _looks_like_style_header so the rest of the
+# pipeline sees one consistent name regardless of how the PDF rendered it.
+_STYLE_ALIASES: Dict[str, str] = {
+    "COLONIST TEXT":      "Colonist Textured",
+    "COLONIST TEX":       "Colonist Textured",
+    "COLONIST TEXTURED":  "Colonist Textured",
+    "PRIMED HARDB":       "Primed Hardboard",
+    "PRIMED HARDBOARD":   "Primed Hardboard",
+    "SANTA FE":           "Santa Fe",
+    "CAMDEN":             "Camden",
+    "CARRARA":            "Carrara",
+    "EURO":               "Euro",
+    "ROCKPORT":           "Rockport",
+    "PRINCETON":          "Princeton",
+    "CONTINENTAL":        "Continental",
+    "CAMBRIDGE":          "Cambridge",
+    "CONMORE":            "Conmore",
+    "MADISON":            "Madison",
+    "MONROE":             "Monroe",
+    "BIRKDALE":           "Birkdale",
+    "CRAFTSMAN":          "Craftsman",
+}
+
+
+def _canonicalize_style(name: str) -> str:
+    """Return canonical Title-Case style name (e.g. 'PRIMED HARDB' -> 'Primed Hardboard')."""
+    key = name.strip().upper()
+    return _STYLE_ALIASES.get(key, name.strip().title())
+
 def _split_style_header(header_str: str) -> List[str]:
     """
     Split a style header string like "COLONIST TEXT CAMDEN PRIMED HARDB"
     into individual style names, trying longest-match against known styles.
+    Returns canonical Title-Case names (e.g. "Primed Hardboard").
     """
     # Try matching multi-word known styles first
     text = header_str.strip().upper()
@@ -492,13 +532,13 @@ def _split_style_header(header_str: str) -> List[str]:
         for length in (3, 2, 1):
             candidate = " ".join(tokens[i : i + length])
             if candidate in _KNOWN_STYLES:
-                result.append(candidate)
+                result.append(_canonicalize_style(candidate))
                 i += length
                 matched = True
                 break
         if not matched:
-            # Just take single token
-            result.append(tokens[i])
+            # Just take single token as-is (canonicalised)
+            result.append(_canonicalize_style(tokens[i]))
             i += 1
     return result
 
@@ -752,21 +792,28 @@ _HH_HEIGHT_RE = re.compile(r'^\s*HEIGHT\s+(\d+["\'])\s*(?:Add)?\s*(.*)$', re.I)
 
 
 def _looks_like_style_header(line: str) -> List[str]:
-    """If line contains 1+ recognized style names, return them in order."""
-    # Normalize: take uppercase tokens of length >=4
-    tokens = re.findall(r"[A-Z][A-Z]+(?:\s+[A-Z]+)*", line)
+    """If line contains 1+ recognised style names, return canonical names in order."""
+    text = line.strip().upper()
+    if not text:
+        return []
+    # Use the same longest-match logic as _split_style_header so that
+    # multi-word styles ("SANTA FE", "COLONIST TEXTURED") aren't broken apart.
+    tokens = re.findall(r"[A-Z][A-Z]+", text)
     found: List[str] = []
-    for tok in tokens:
-        tu = tok.strip().upper()
-        # Try multi-word "SANTA FE", "COLONIST TEXTURED" first
-        if tu in _KNOWN_STYLES:
-            found.append(tu.title())
-            continue
-        # Fall back to single-token match
-        for word in tu.split():
-            if word in _KNOWN_STYLES:
-                if word.title() not in found:
-                    found.append(word.title())
+    i = 0
+    while i < len(tokens):
+        matched = False
+        for length in (3, 2, 1):
+            candidate = " ".join(tokens[i : i + length])
+            if candidate in _KNOWN_STYLES:
+                canon = _canonicalize_style(candidate)
+                if canon not in found:
+                    found.append(canon)
+                i += length
+                matched = True
+                break
+        if not matched:
+            i += 1
     return found
 
 
@@ -830,7 +877,63 @@ def _parse_simple_dealer_pages(
             ))
 
     for pg in pages:
-        for raw_line in pg["lines"]:
+        page_lines = pg["lines"]
+
+        # ── Skip availability charts (no pricing on these pages) ──────────
+        first_chunk = " ".join(page_lines[:6]).lower()
+        if (
+            "sizes available" in first_chunk
+            or "dimensions disponibles" in first_chunk
+            or "modèle / model" in first_chunk
+        ):
+            continue
+
+        # ── Adders / additional-options page → parse separately ───────────
+        if any(re.search(r"(additional options|machining for|jamb add-ons)",
+                         ln, re.I) for ln in page_lines):
+            addons.extend(_parse_adders_page(page_lines, dealer_group, source_pdf))
+            continue
+
+        # ── Detect rotated "PRIMED HARDBOARD" header (vertical text) ──────
+        # pdfplumber emits rotated multi-line labels as a stack of 1-3 char
+        # fragments at the top of the page. If a contiguous run of leading
+        # short letter-only lines (after the page header text) joins to the
+        # same letters as HARDBOARDPRIMED, treat the page as a Primed
+        # Hardboard page.
+        fragments: List[str] = []
+        for ln in page_lines[:25]:
+            s = ln.strip()
+            if not s:
+                continue
+            # Accept short letter-only fragments (with possible internal spaces)
+            if len(s) <= 6 and re.match(r"^[A-Za-z]+(?:\s+[A-Za-z]+)*$", s):
+                fragments.append(re.sub(r"\s+", "", s))
+            else:
+                if fragments:
+                    break  # contiguous run ended
+                # Not started yet – keep scanning
+                continue
+        if len(fragments) >= 5:
+            joined = "".join(fragments).upper()
+            target_letters = sorted("HARDBOARDPRIMED")
+            joined_sorted = sorted(joined)
+            # Accept if joined letters are a subset of HARDBOARDPRIMED
+            # and cover at least 8 of its 15 letters.
+            if len(joined) >= 8 and all(
+                joined_sorted.count(c) <= target_letters.count(c)
+                for c in set(joined_sorted)
+            ):
+                current_styles = [_canonicalize_style("PRIMED HARDBOARD")]
+
+        # ── Detect "COLONIST" + "TEXTURED" split across lines ─────────────
+        # ILDC page 2 emits the multi-line label "COLONIST TEXTURED" where
+        # COLONIST is alone on one line and TEXTURED is on a separate line.
+        page_upper = [ln.strip().upper() for ln in page_lines[:20]]
+        has_colonist = any(ln == "COLONIST" for ln in page_upper)
+        has_textured = any(ln == "TEXTURED" for ln in page_upper)
+        force_add_colonist_textured = has_colonist and has_textured
+
+        for raw_line in page_lines:
             line = raw_line.strip()
             if not line:
                 continue
@@ -852,6 +955,10 @@ def _parse_simple_dealer_pages(
             if len(styles_here) >= 1 and not _HH_SIZE_RE.match(line) and not _HH_HEIGHT_RE.match(line):
                 # Avoid mistaking a price-only line for a header
                 if not re.search(r"\$|\d+\.\d{2}", line):
+                    if force_add_colonist_textured:
+                        ct = _canonicalize_style("COLONIST TEXTURED")
+                        if ct not in styles_here:
+                            styles_here = [ct] + styles_here
                     # Replace current style list when a header line appears
                     # (header lines only appear at the top of each page).
                     current_styles = styles_here
@@ -977,11 +1084,6 @@ def parse_pdf(pdf_data: Dict[str, Any]) -> Dict[str, List]:
         return parse_sexton(pdf_data)
     elif pdf_type == "central_f":
         return parse_ildc(pdf_data)
-    elif pdf_type == "pq_west":
-        # PQ West is supplied as XLSX only; no PDF parser needed.
-        print(f"  NOTE: '{pdf_data['filename']}' is PQ West – PDF parser not implemented "
-              f"(group is provided as XLSX). Group will appear in UI with no line items.")
-        return {"records": [], "addons": []}
     else:
         print(f"  WARNING: Unknown PDF type for '{pdf_data['filename']}' – skipping")
         return {"records": [], "addons": []}

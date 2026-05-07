@@ -31,7 +31,6 @@ GROUP_LABELS = {
     "Group K":      "Group K – Volume Independent Dealers",
     "Trimlite":     "Trimlite",
     "PQ East":      "PQ East – Specialty Building Products",
-    "PQ West":      "PQ West – Specialty Building Products (Alexandria Moulding)",
     "HomeHardware": "Home Hardware – Non-Committed",
 }
 
@@ -43,7 +42,6 @@ GROUP_REBATES = {
     "Group F":      0.18,     # ILDC
     "HomeHardware": 0.21,     # Home Hardware
     "PQ East":      0.05,     # Alexandria Moulding / PQ East
-    "PQ West":      0.05,     # Alexandria Moulding / PQ West
 }
 
 # ─── Add-on category patterns (order matters – first match wins) ─────────────
@@ -89,9 +87,20 @@ def main():
     records    = raw.get('records', [])
     raw_addons = raw.get('addons', [])
 
+    # Skip records whose "size" is actually an adder (e.g. "Height 84\" add",
+    # "1 3/8 SC 80'' add", "1 3/4 HC add"). They pollute the size dropdown and
+    # are surcharges – not selectable products. Real machining/jamb adders are
+    # surfaced via the addons array.
+    _ADDER_SIZE_RE = re.compile(r'\b(add|height)\b', re.IGNORECASE)
+
     # ── Products ──────────────────────────────────────────────────────────────
     products = []
     for r in records:
+        # Drop PQ West entirely (group has been removed from the tool)
+        if r.get('dealer_group') == 'PQ West':
+            continue
+        if _ADDER_SIZE_RE.search(r.get('size', '')):
+            continue
         price = r.get('price_numeric')       # None = N/A
         disp  = r.get('price', 'N/A')
         prod = {
@@ -116,6 +125,9 @@ def main():
     # ── Add-ons (deduplicate by group + name + price) ─────────────────────────
     seen   = {}   # key → addon dict
     for a in raw_addons:
+        # Drop PQ West entirely
+        if a.get('dealer_group') == 'PQ West':
+            continue
         pn = a.get('price_numeric')
         if pn is None:
             continue       # skip "On Request" and missing-price entries
