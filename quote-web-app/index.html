@@ -241,7 +241,7 @@
     <section class="panel config-panel">
       <div class="panel-header">
         <h2 class="panel-title">Competitor Reverse Pricing</h2>
-        <span class="panel-hint">Enter retail → work back to triple-net cost</span>
+        <span class="panel-hint">Enter retail → work back to dealer cost</span>
       </div>
 
       <div class="step-card">
@@ -270,18 +270,6 @@
       <div class="step-card">
         <div class="step-header">
           <span class="step-num">3</span>
-          <span class="step-label">Rebate</span>
-          <span class="step-hint-inline">Triple net = Cost × (1 − rebate%)</span>
-        </div>
-        <div class="comp-input-row">
-          <input type="number" id="compRebate" class="comp-input" min="0" max="99" step="0.01" value="0" inputmode="decimal" />
-          <span class="comp-suffix">%</span>
-        </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-header">
-          <span class="step-num">4</span>
           <span class="step-label">Filter Matches (optional)</span>
         </div>
         <select id="compTypeFilter" class="form-select" style="margin-bottom:8px">
@@ -319,17 +307,9 @@
             <span class="pr-label">− Margin (<span id="compMarginPctLbl">30%</span>)</span>
             <span class="pr-value" id="compMarginAmtDisp">—</span>
           </div>
-          <div class="price-row price-subtotal-row" style="display:flex">
-            <span class="pr-label">Dealer Cost</span>
-            <span class="pr-value" id="compCostDisp">—</span>
-          </div>
-          <div class="price-row">
-            <span class="pr-label">− Rebate (<span id="compRebatePctLbl">0%</span>)</span>
-            <span class="pr-value" id="compRebateAmtDisp">—</span>
-          </div>
           <div class="price-row price-grand">
-            <span class="pr-label">TRIPLE NET</span>
-            <span class="pr-value grand" id="compTripleNetDisp">—</span>
+            <span class="pr-label">DEALER COST</span>
+            <span class="pr-value grand" id="compCostDisp">—</span>
           </div>
         </div>
       </div>

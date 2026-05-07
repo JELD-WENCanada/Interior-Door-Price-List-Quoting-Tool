@@ -627,29 +627,23 @@
 
   // ── Competitor logic ───────────────────────────────────────
   const compState = {
-    retail: null, margin: 30, rebate: 0,
+    retail: null, margin: 30,
     type: '', style: '', group: '',
   };
 
   function computeCompetitor() {
     const retail = compState.retail;
     const marginPct = clampPct(compState.margin);
-    const rebatePct = clampPct(compState.rebate);
 
-    const cost       = (retail !== null) ? retail * (1 - marginPct / 100) : null;
-    const marginAmt  = (retail !== null) ? retail - cost : null;
-    const rebateAmt  = (cost   !== null) ? cost   * (rebatePct / 100) : null;
-    const tripleNet  = (cost   !== null) ? cost   - rebateAmt : null;
+    const cost      = (retail !== null) ? retail * (1 - marginPct / 100) : null;
+    const marginAmt = (retail !== null) ? retail - cost : null;
 
-    $('compRetailDisp').textContent     = fmt(retail);
-    $('compMarginPctLbl').textContent   = marginPct + '%';
-    $('compMarginAmtDisp').textContent  = (marginAmt !== null) ? '\u2212' + fmt(marginAmt) : '\u2014';
-    $('compCostDisp').textContent       = fmt(cost);
-    $('compRebatePctLbl').textContent   = rebatePct + '%';
-    $('compRebateAmtDisp').textContent  = (rebateAmt !== null && rebateAmt > 0) ? '\u2212' + fmt(rebateAmt) : fmt(rebateAmt);
-    $('compTripleNetDisp').textContent  = fmt(tripleNet);
+    $('compRetailDisp').textContent    = fmt(retail);
+    $('compMarginPctLbl').textContent  = marginPct + '%';
+    $('compMarginAmtDisp').textContent = (marginAmt !== null) ? '\u2212' + fmt(marginAmt) : '\u2014';
+    $('compCostDisp').textContent      = fmt(cost);
 
-    renderMatches(tripleNet);
+    renderMatches(cost);
   }
 
   function clampPct(v) {
@@ -676,12 +670,12 @@
     return (p.price !== null && p.price !== undefined) ? p.price : null;
   }
 
-  function renderMatches(tripleNet) {
+  function renderMatches(target) {
     const list  = $('compMatchesList');
     const badge = $('compMatchBadge');
     const cntLbl = $('compMatchCountLbl');
 
-    if (tripleNet === null || !isFinite(tripleNet) || tripleNet <= 0) {
+    if (target === null || !isFinite(target) || target <= 0) {
       list.innerHTML = '<p class="empty-addons">Enter a competitor retail price to see matches.</p>';
       badge.textContent = 'No retail entered';
       badge.className = 'group-badge';
@@ -698,14 +692,14 @@
       return eff !== null && eff > 0;
     });
 
-    // Score by absolute distance to tripleNet, prefer prices ≤ target.
+    // Score by absolute distance to target (dealer cost).
     const scored = filtered.map(p => {
       const price = productEffectivePrice(p);
-      const delta = price - tripleNet;
+      const delta = price - target;
       return { p, price, delta, absDelta: Math.abs(delta) };
     }).sort((a, b) => a.absDelta - b.absDelta);
 
-    const top = scored.slice(0, 12);
+    const top = scored.slice(0, 3);
     if (!top.length) {
       list.innerHTML = '<p class="empty-addons">No matches found with current filters.</p>';
       badge.textContent = 'No matches';
@@ -714,16 +708,16 @@
       return;
     }
 
-    badge.textContent = 'Target: ' + fmt(tripleNet);
+    badge.textContent = 'Target: ' + fmt(target);
     badge.className = 'group-badge active';
-    cntLbl.textContent = scored.length + ' candidate' + (scored.length === 1 ? '' : 's');
+    cntLbl.textContent = 'Top ' + top.length + ' of ' + scored.length;
 
     const groupsLabels = (window.PRICING_DATA && window.PRICING_DATA.groups) || {};
     list.innerHTML = top.map((m, i) => {
       const groupLabel = groupsLabels[m.p.group] || m.p.group;
       const dCls = m.delta < 0 ? 'under' : (m.delta > 0 ? 'over' : 'exact');
       const dSign = m.delta < 0 ? '\u2212' : (m.delta > 0 ? '+' : '');
-      const dPct  = (m.delta / tripleNet) * 100;
+      const dPct  = (m.delta / target) * 100;
       const dTxt  = m.delta === 0
         ? 'Match'
         : (dSign + '$' + Math.abs(m.delta).toFixed(2) + '  (' + dSign + Math.abs(dPct).toFixed(1) + '%)');
@@ -774,7 +768,6 @@
   function wireCompetitor() {
     const r  = $('compRetail');
     const m  = $('compMargin');
-    const rb = $('compRebate');
     const tf = $('compTypeFilter');
     const sf = $('compStyleFilter');
     const gf = $('compGroupFilter');
@@ -789,20 +782,15 @@
       compState.margin = parseFloat(m.value);
       computeCompetitor();
     });
-    if (rb) rb.addEventListener('input', () => {
-      compState.rebate = parseFloat(rb.value);
-      computeCompetitor();
-    });
     if (tf) tf.addEventListener('change', () => { compState.type  = tf.value; computeCompetitor(); });
     if (sf) sf.addEventListener('change', () => { compState.style = sf.value; computeCompetitor(); });
     if (gf) gf.addEventListener('change', () => { compState.group = gf.value; computeCompetitor(); });
 
     if (reset) reset.addEventListener('click', () => {
-      compState.retail = null; compState.margin = 30; compState.rebate = 0;
+      compState.retail = null; compState.margin = 30;
       compState.type = ''; compState.style = ''; compState.group = '';
       if (r) r.value = '';
       if (m) m.value = 30;
-      if (rb) rb.value = 0;
       if (tf) tf.value = '';
       if (sf) sf.value = '';
       if (gf) gf.value = '';
