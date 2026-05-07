@@ -32,14 +32,23 @@ def extract_all_pdfs(pdf_dir: str) -> List[Dict[str, Any]]:
         print(f"  ERROR: PDF directory not found: {pdf_dir}")
         return results
 
-    pdf_files = sorted([f for f in os.listdir(pdf_dir) if f.lower().endswith(".pdf")])
+    # Recursively collect PDFs from pdf_dir and subfolders.
+    # Skip macOS resource-fork files (start with "._").
+    pdf_paths = []
+    for root, _dirs, files in os.walk(pdf_dir):
+        for f in files:
+            if f.startswith("._"):
+                continue
+            if f.lower().endswith(".pdf"):
+                pdf_paths.append(os.path.join(root, f))
+    pdf_paths.sort()
 
-    if not pdf_files:
+    if not pdf_paths:
         print(f"  WARNING: No PDFs found in {pdf_dir}")
         return results
 
-    for filename in pdf_files:
-        filepath = os.path.join(pdf_dir, filename)
+    for filepath in pdf_paths:
+        filename = os.path.basename(filepath)
         pdf_data: Dict[str, Any] = {
             "filename": filename,
             "filepath": filepath,

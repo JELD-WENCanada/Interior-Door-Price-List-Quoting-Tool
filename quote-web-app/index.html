@@ -109,6 +109,20 @@
         </div>
       </div>
 
+      <!-- ── Step 6 : Quantity ─────────────────────────────── -->
+      <div class="step-card disabled" id="step-qty">
+        <div class="step-header">
+          <span class="step-num">6</span>
+          <span class="step-label">Quantity</span>
+          <span class="step-hint-inline" id="qtyHint">Optional · applies to selected line</span>
+        </div>
+        <div class="qty-row">
+          <button type="button" class="qty-btn" id="qtyMinus" aria-label="Decrease">−</button>
+          <input type="number" id="qtyInput" class="qty-input" min="1" step="1" value="1" />
+          <button type="button" class="qty-btn" id="qtyPlus" aria-label="Increase">+</button>
+        </div>
+      </div>
+
       <!-- ── Reset ────────────────────────────────────────── -->
       <div class="config-actions">
         <button id="clearSelectionBtn" class="btn btn-ghost btn-full">
@@ -158,6 +172,32 @@
             <span class="pr-value" id="basePriceDisplay">—</span>
           </div>
           <div id="addonPriceRows"></div>
+
+          <div class="price-row price-qty-row" id="qtyRow" style="display:none">
+            <span class="pr-label">Quantity</span>
+            <span class="pr-value" id="qtyDisplay">×1</span>
+          </div>
+
+          <div class="price-row price-subtotal-row" id="subtotalRow" style="display:none">
+            <span class="pr-label">Subtotal</span>
+            <span class="pr-value" id="subtotalDisplay">—</span>
+          </div>
+
+          <!-- ── Rebate section ───────────────────────────── -->
+          <div class="rebate-section" id="rebateSection" style="display:none">
+            <div class="rebate-header">
+              <label class="rebate-toggle" for="rebateApply">
+                <input type="checkbox" id="rebateApply" checked>
+                <span>Apply Dealer Rebate</span>
+              </label>
+              <span class="rebate-pct" id="rebatePctLabel"></span>
+            </div>
+            <div class="price-row rebate-row" id="rebateRow">
+              <span class="pr-label">Rebate</span>
+              <span class="pr-value rebate-value" id="rebateDisplay">—</span>
+            </div>
+          </div>
+
           <div class="price-row price-grand">
             <span class="pr-label">TOTAL</span>
             <span class="pr-value grand" id="totalDisplay">—</span>

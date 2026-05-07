@@ -100,8 +100,9 @@ def _make_record(
     price_numeric: Optional[float],
     source_pdf: str,
     options: Optional[List] = None,
+    qty_tiers: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
-    return {
+    rec = {
         "dealer_group": dealer_group,
         "product_type": product_type,
         "style": style,
@@ -112,6 +113,9 @@ def _make_record(
         "options": options or [],
         "source_pdf": source_pdf,
     }
+    if qty_tiers:
+        rec["qty_tiers"] = qty_tiers
+    return rec
 
 
 def _make_addon(
@@ -122,8 +126,9 @@ def _make_addon(
     description: str,
     applicable_to: List[str],
     source_pdf: str,
+    qty_tiers: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
-    return {
+    addon = {
         "dealer_group": dealer_group,
         "addon_name": addon_name,
         "price": price_display,
@@ -132,6 +137,9 @@ def _make_addon(
         "applicable_to": applicable_to,
         "source_pdf": source_pdf,
     }
+    if qty_tiers:
+        addon["qty_tiers"] = qty_tiers
+    return addon
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -140,19 +148,33 @@ def _make_addon(
 
 def detect_pdf_type(filename: str) -> str:
     """
-    Return one of: 'trimlite' | 'pq_east' | 'central_a' | 'central_b' | 'central_k'
+    Return one of:
+        'trimlite' | 'pq_east' | 'pq_west'
+      | 'central_a' | 'central_b' | 'central_d' | 'central_f' | 'central_k'
+      | 'home_hardware'
+      | 'unknown'
     """
     fn = filename.lower()
     if "trimlite" in fn:
         return "trimlite"
-    if "pq_east" in fn or "specialty" in fn:
+    if "pq_east" in fn:
         return "pq_east"
+    if "pq_west" in fn or "ww_west" in fn or ("specialty" in fn and "west" in fn):
+        return "pq_west"
+    if "_hh_" in fn or "home_hardware" in fn or "homehardware" in fn:
+        return "home_hardware"
+    if "ildc" in fn or "grpf" in fn or "grp_f" in fn:
+        return "central_f"
+    if "sexton" in fn or "grp_d" in fn:
+        return "central_d"
     if "grp_a" in fn or "_a_dealer" in fn:
         return "central_a"
     if "grp_b" in fn or "_aa_dealer" in fn or "grunthal" in fn:
         return "central_b"
     if "k_dealer" in fn or "_k_" in fn:
         return "central_k"
+    if "specialty" in fn:  # PQ East fallback (older filename without "pq_east")
+        return "pq_east"
     return "unknown"
 
 
@@ -447,8 +469,10 @@ _RANGE_SIZE_START_RE = re.compile(r'^(\d+["\'](?:\s*(?:to|&)\s*\d+["\'])?)')
 
 # Known style names for multi-word style splitting
 _KNOWN_STYLES = {
-    "COLONIST TEXT", "COLONIST TEX", "CAMDEN", "PRIMED HARDB", "PRIMED HARDBOARD",
-    "CARRARA", "ROCKPORT", "SANTA FE",
+    "COLONIST TEXT", "COLONIST TEX", "COLONIST TEXTURED",
+    "CAMDEN", "PRIMED HARDB", "PRIMED HARDBOARD",
+    "CARRARA", "EURO", "ROCKPORT", "SANTA FE",
+    "PRINCETON", "CONTINENTAL", "CAMBRIDGE",
     "CONMORE", "MADISON", "MONROE", "BIRKDALE", "CRAFTSMAN",
 }
 
@@ -687,6 +711,246 @@ def parse_central(pdf_data: Dict[str, Any], group_name: str) -> Dict[str, List]:
 
 
 # ──────────────────────────────────────────────────────────────────────────────
+# HomeHardware / Sexton / ILDC parser  (single-price-per-row, optional qty tiers)
+# ──────────────────────────────────────────────────────────────────────────────
+#
+# Layout (one per page):
+#     [Style availability header listing 1..N styles]
+#     Section title:  "Slab 1 3/8 hollow core", "Bifold 1 3/8 c/w hardware",
+#                     "Slab 1 3/8 solid core (Procore)", "Slab 1 3/4 hollow core",
+#                     "Slab 1 3/4 solid core",
+#                     "1 3/8\" HC Easy-Install MDF 4 9/16 x 9/16 (KD Unit)",
+#                     "1 3/8\" HC Prehung FJ Primed 4 5/8 x 11/16 (assembled unit)"
+#     Size rows:  "12\" x 80\" (1'0\" x 6'8\")  $XX.XX [ $YY.YY ]"
+#     Height adders:  "HEIGHT 84\" Add  $X.XX [ $Y.YY ]",  "HEIGHT 96\" Add ..."
+#
+# Each row carries up to N prices, where N is the number of quantity tiers:
+#     HomeHardware: 1 tier  (no breaks)
+#     Sexton      : 2 tiers (1–1099, 1100+)
+#     ILDC        : 2 tiers (1–299, 300–1099)
+#
+# Prices apply to ALL styles listed in the page header (single-price model).
+
+_HH_SECTIONS = [
+    # (regex, variant_label, product_type)
+    (re.compile(r"Slab\s+1\s*3/8\s+hollow\s+core",                  re.I), "HC",                    "door"),
+    (re.compile(r"Bifold\s+1\s*3/8\s+c/?w\s+hardware",              re.I), "HC c/w Hardware",       "bifold"),
+    (re.compile(r"Slab\s+1\s*3/8\s+solid\s+core\s*\(Procore\)",     re.I), "SC 1-3/8 (Procore)",    "door"),
+    (re.compile(r"Slab\s+1\s*3/4\s+hollow\s+core",                  re.I), "HC 1-3/4",              "door"),
+    (re.compile(r"Slab\s+1\s*3/4\s+solid\s+core",                   re.I), "SC 1-3/4",              "door"),
+    (re.compile(r"1\s*3/8\"?\s*HC\s+Easy[-\s]?Install\s+MDF",       re.I), "HC + Easy-IN MDF Unit", "door"),
+    (re.compile(r"1\s*3/8\"?\s*HC\s+Prehung\s+FJ\s+Primed",         re.I), "HC + Prehung FJP Unit", "door"),
+]
+
+# Size row e.g. "12\" x 80\" (1'0\" x 6'8\")"   or   "38\" x 80\" (3'2\" x 6'8\") EURO"
+_HH_SIZE_RE = re.compile(
+    r'^\s*(\d+["\']\s*x\s*\d+["\'](?:\s*\([^)]*\))?(?:\s+EURO)?)\s*(.*)$',
+    re.I,
+)
+# Height adder, e.g. "HEIGHT 84\" Add" or "HEIGHT 96\""
+_HH_HEIGHT_RE = re.compile(r'^\s*HEIGHT\s+(\d+["\'])\s*(?:Add)?\s*(.*)$', re.I)
+
+
+def _looks_like_style_header(line: str) -> List[str]:
+    """If line contains 1+ recognized style names, return them in order."""
+    # Normalize: take uppercase tokens of length >=4
+    tokens = re.findall(r"[A-Z][A-Z]+(?:\s+[A-Z]+)*", line)
+    found: List[str] = []
+    for tok in tokens:
+        tu = tok.strip().upper()
+        # Try multi-word "SANTA FE", "COLONIST TEXTURED" first
+        if tu in _KNOWN_STYLES:
+            found.append(tu.title())
+            continue
+        # Fall back to single-token match
+        for word in tu.split():
+            if word in _KNOWN_STYLES:
+                if word.title() not in found:
+                    found.append(word.title())
+    return found
+
+
+def _parse_simple_dealer_pages(
+    pages: List[Dict],
+    dealer_group: str,
+    source_pdf: str,
+    tier_defs: List[Dict[str, Any]],
+) -> Tuple[List[Dict], List[Dict]]:
+    """
+    Parse HomeHardware / Sexton / ILDC PDFs.
+
+    `tier_defs` is a list defining the quantity tiers, in the same order the
+    price columns appear on the page, e.g.:
+        [{"min_qty":1, "max_qty":1099}, {"min_qty":1100, "max_qty":None}]
+    For HomeHardware (single price column), pass a single-element list.
+    """
+    records: List[Dict] = []
+    addons: List[Dict] = []
+
+    n_tiers = max(1, len(tier_defs))
+    current_styles: List[str] = []
+    cur_variant: Optional[str] = None
+    cur_ptype: Optional[str] = None
+
+    def _emit(size_str: str, prices: List[Tuple[str, Optional[float]]]) -> None:
+        """Emit one record per (style × tier-1 price). Embed qty_tiers."""
+        if not current_styles or cur_variant is None or cur_ptype is None:
+            return
+        # Pad/truncate to n_tiers
+        slots = prices[:n_tiers]
+        while len(slots) < n_tiers:
+            slots.append(("NOT FOUND IN PDF", None))
+
+        # Skip rows where every tier is missing
+        if all(pn is None and pd in ("NOT FOUND IN PDF", "N/A") for pd, pn in slots):
+            # but still emit if explicitly N/A (so users see the gap) — only skip "NOT FOUND"
+            if all(pd == "NOT FOUND IN PDF" for pd, _ in slots):
+                return
+
+        # Build qty_tiers payload (only when more than one tier defined)
+        tiers_payload: Optional[List[Dict[str, Any]]] = None
+        if n_tiers > 1:
+            tiers_payload = []
+            for tdef, (pd, pn) in zip(tier_defs, slots):
+                tiers_payload.append({
+                    "min_qty":       tdef.get("min_qty"),
+                    "max_qty":       tdef.get("max_qty"),
+                    "price":         pd,
+                    "price_numeric": pn,
+                })
+
+        # Default flat price = tier-1 price
+        pd_default, pn_default = slots[0]
+
+        for style in current_styles:
+            records.append(_make_record(
+                dealer_group, cur_ptype, style, size_str, cur_variant,
+                pd_default, pn_default, source_pdf,
+                qty_tiers=tiers_payload,
+            ))
+
+    for pg in pages:
+        for raw_line in pg["lines"]:
+            line = raw_line.strip()
+            if not line:
+                continue
+
+            # ── Skip boiler-plate / footers ───────────────────────────────
+            if re.match(
+                r'^(NET PRICE|PRICE LIST|HOME HARDWARE|SEXTON|ILDC|'
+                r'Effective|Wood Grain|Moulded|Flat Panel|'
+                r'Carrara and Euro|Special Colonist|.{0,3}\d{1,2}\s+(January|February|March|April|May|June|July|August|September|October|November|December)|'
+                r'List qty|Size$|Net Price$|"?6 panel|For all other|moulded doors|N/A$)',
+                line, re.IGNORECASE,
+            ):
+                # Style availability rows ("Slab" / "Bifold" markers) still need style detection below
+                pass
+
+            # ── Style availability / header row ──────────────────────────
+            # Lines mentioning multiple known styles update current_styles.
+            styles_here = _looks_like_style_header(line)
+            if len(styles_here) >= 1 and not _HH_SIZE_RE.match(line) and not _HH_HEIGHT_RE.match(line):
+                # Avoid mistaking a price-only line for a header
+                if not re.search(r"\$|\d+\.\d{2}", line):
+                    # Replace current style list when a header line appears
+                    # (header lines only appear at the top of each page).
+                    current_styles = styles_here
+                    continue
+
+            # ── Section markers ──────────────────────────────────────────
+            section_matched = False
+            for pat, variant, ptype in _HH_SECTIONS:
+                if pat.search(line):
+                    cur_variant = variant
+                    cur_ptype = ptype
+                    section_matched = True
+                    break
+            if section_matched:
+                continue
+
+            # ── Height adder row ─────────────────────────────────────────
+            hm = _HH_HEIGHT_RE.match(line)
+            if hm and cur_variant and current_styles:
+                ht = hm.group(1)
+                rest = hm.group(2) or ""
+                prices = _extract_price_tokens(rest)
+                size_label = f"Height {ht} add"
+                # Tier handling identical to size rows
+                slots = prices[:n_tiers]
+                while len(slots) < n_tiers:
+                    slots.append(("NOT FOUND IN PDF", None))
+                if all(pd == "NOT FOUND IN PDF" for pd, _ in slots):
+                    continue
+                tiers_payload = None
+                if n_tiers > 1:
+                    tiers_payload = [
+                        {
+                            "min_qty": td.get("min_qty"),
+                            "max_qty": td.get("max_qty"),
+                            "price":         pd,
+                            "price_numeric": pn,
+                        }
+                        for td, (pd, pn) in zip(tier_defs, slots)
+                    ]
+                pd0, pn0 = slots[0]
+                v_label = f"{cur_variant}-Height-{ht}-Add"
+                for style in current_styles:
+                    records.append(_make_record(
+                        dealer_group, cur_ptype, style, size_label, v_label,
+                        pd0, pn0, source_pdf,
+                        qty_tiers=tiers_payload,
+                    ))
+                continue
+
+            # ── Size row ─────────────────────────────────────────────────
+            sm = _HH_SIZE_RE.match(line)
+            if sm and cur_variant and current_styles:
+                size_str = sm.group(1).strip()
+                rest     = sm.group(2) or ""
+                prices   = _extract_price_tokens(rest)
+                _emit(size_str, prices)
+                continue
+
+    return records, addons
+
+
+# Tier definitions per dealer
+_HH_TIERS_HOMEHARDWARE = [{"min_qty": 1, "max_qty": None}]
+_HH_TIERS_SEXTON       = [
+    {"min_qty": 1,    "max_qty": 1099},
+    {"min_qty": 1100, "max_qty": None},
+]
+_HH_TIERS_ILDC         = [
+    {"min_qty": 1,   "max_qty": 299},
+    {"min_qty": 300, "max_qty": 1099},
+]
+
+
+def parse_home_hardware(pdf_data: Dict[str, Any]) -> Dict[str, List]:
+    records, addons = _parse_simple_dealer_pages(
+        pdf_data["pages"], "HomeHardware", pdf_data["filename"],
+        _HH_TIERS_HOMEHARDWARE,
+    )
+    return {"records": records, "addons": addons}
+
+
+def parse_sexton(pdf_data: Dict[str, Any]) -> Dict[str, List]:
+    records, addons = _parse_simple_dealer_pages(
+        pdf_data["pages"], "Group D", pdf_data["filename"],
+        _HH_TIERS_SEXTON,
+    )
+    return {"records": records, "addons": addons}
+
+
+def parse_ildc(pdf_data: Dict[str, Any]) -> Dict[str, List]:
+    records, addons = _parse_simple_dealer_pages(
+        pdf_data["pages"], "Group F", pdf_data["filename"],
+        _HH_TIERS_ILDC,
+    )
+    return {"records": records, "addons": addons}
+
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Dispatcher
 # ──────────────────────────────────────────────────────────────────────────────
 
@@ -707,6 +971,17 @@ def parse_pdf(pdf_data: Dict[str, Any]) -> Dict[str, List]:
         return parse_central(pdf_data, "Group B")
     elif pdf_type == "central_k":
         return parse_central(pdf_data, "Group K")
+    elif pdf_type == "home_hardware":
+        return parse_home_hardware(pdf_data)
+    elif pdf_type == "central_d":
+        return parse_sexton(pdf_data)
+    elif pdf_type == "central_f":
+        return parse_ildc(pdf_data)
+    elif pdf_type == "pq_west":
+        # PQ West is supplied as XLSX only; no PDF parser needed.
+        print(f"  NOTE: '{pdf_data['filename']}' is PQ West – PDF parser not implemented "
+              f"(group is provided as XLSX). Group will appear in UI with no line items.")
+        return {"records": [], "addons": []}
     else:
         print(f"  WARNING: Unknown PDF type for '{pdf_data['filename']}' – skipping")
         return {"records": [], "addons": []}

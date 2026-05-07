@@ -29,7 +29,25 @@
   const state = {
     group: '', type: '', style: '', size: '', variant: '',
     activeAddons: new Set(),
+    qty: 1,
+    rebateApplied: true,
   };
+
+  // ── Fallback rebate map (used if data file omits 'rebates') ─────
+  const DEFAULT_REBATES = {
+    'Group A':      0.1275,
+    'Group D':      0.1075,
+    'Group F':      0.18,
+    'HomeHardware': 0.21,
+    'PQ East':      0.05,
+    'PQ West':      0.05,
+  };
+
+  function getRebatePct(group) {
+    if (!group) return 0;
+    const map = (DATA && DATA.rebates) || DEFAULT_REBATES;
+    return Number(map[group]) || 0;
+  }
 
   let DATA = null;
 
@@ -71,6 +89,40 @@
     });
     return hits.length ? hits[0].price : null;
   }
+
+  // Returns the matched product object (with optional qty_tiers), or null.
+  function getCurrentProduct() {
+    const hits = getProducts({
+      group: state.group, type: state.type,
+      style: state.style, size: state.size, variant: state.variant
+    });
+    return hits.length ? hits[0] : null;
+  }
+
+  // Pick the price for a given quantity from a qty_tiers list.
+  // Returns { price, tier } where tier is the matching tier object (or null).
+  function pickTierPrice(tiers, qty) {
+    if (!Array.isArray(tiers) || !tiers.length) return { price: null, tier: null };
+    const q = Math.max(1, qty || 1);
+    let chosen = null;
+    for (const t of tiers) {
+      const lo = (t.min_qty == null) ? 1 : t.min_qty;
+      const hi = (t.max_qty == null) ? Infinity : t.max_qty;
+      if (q >= lo && q <= hi) { chosen = t; break; }
+    }
+    // Fallback: if none matched (e.g. qty above last tier max), use the last tier.
+    if (!chosen) chosen = tiers[tiers.length - 1];
+    const pn = (chosen && chosen.price_numeric != null) ? chosen.price_numeric : null;
+    return { price: pn, tier: chosen };
+  }
+
+  // Format a tier's qty range as "1–1099" / "1100+".
+  function fmtTierRange(tier) {
+    if (!tier) return '';
+    const lo = tier.min_qty == null ? 1 : tier.min_qty;
+    const hi = tier.max_qty;
+    return (hi == null) ? (lo + '+') : (lo + '\u2013' + hi);
+  }
   function getGroupAddons() {
     if (!state.group) return [];
     return DATA.addons.filter(a => {
@@ -89,7 +141,7 @@
     const m = DATA.meta || {};
     el('dataMetaLabel').textContent = (m.record_count ?? '?') + ' prices \u00b7 ' + (m.addon_count ?? '?') + ' add-ons';
     el('quoteDateDisplay').textContent = new Date().toLocaleDateString('en-CA');
-    ['step-type', 'step-style', 'step-size', 'step-variant', 'step-addons'].forEach(s => setStepEnabled(s, false));
+    ['step-type', 'step-style', 'step-size', 'step-variant', 'step-addons', 'step-qty'].forEach(s => setStepEnabled(s, false));
     renderAddons();
     updatePriceDisplay();
     updateGroupBadge();
@@ -114,6 +166,35 @@
     el('sizeSelect').addEventListener('change', onSizeChange);
     el('variantSelect').addEventListener('change', onVariantChange);
     el('clearSelectionBtn').addEventListener('click', clearSelection);
+
+    // Quantity controls
+    const qtyInput = el('qtyInput');
+    if (qtyInput) {
+      qtyInput.addEventListener('input', onQtyChange);
+      qtyInput.addEventListener('change', onQtyChange);
+    }
+    const qm = el('qtyMinus'); if (qm) qm.addEventListener('click', () => bumpQty(-1));
+    const qp = el('qtyPlus');  if (qp) qp.addEventListener('click', () => bumpQty(+1));
+
+    // Rebate toggle
+    const rb = el('rebateApply');
+    if (rb) rb.addEventListener('change', () => {
+      state.rebateApplied = rb.checked;
+      updatePriceDisplay();
+    });
+  }
+
+  function onQtyChange() {
+    const v = parseInt(el('qtyInput').value, 10);
+    state.qty = (Number.isFinite(v) && v > 0) ? v : 1;
+    updatePriceDisplay();
+  }
+
+  function bumpQty(delta) {
+    const next = Math.max(1, (state.qty || 1) + delta);
+    state.qty = next;
+    el('qtyInput').value = next;
+    updatePriceDisplay();
   }
 
   // ── Handlers ─────────────────────────────────────────────────
@@ -122,7 +203,7 @@
     state.type = ''; state.style = ''; state.size = ''; state.variant = '';
     state.activeAddons.clear();
     resetTypeButtons();
-    ['step-type','step-style','step-size','step-variant','step-addons'].forEach(s => setStepEnabled(s, false));
+    ['step-type','step-style','step-size','step-variant','step-addons','step-qty'].forEach(s => setStepEnabled(s, false));
     setStepEnabled('step-type', !!state.group);
     disableAndClear(['styleSelect', 'sizeSelect', 'variantSelect']);
     updateGroupBadge(); renderAddons(); updatePriceDisplay(); updateDoorImage(); updateConfigHint();
@@ -191,9 +272,11 @@
   function clearSelection() {
     state.type = ''; state.style = ''; state.size = ''; state.variant = '';
     state.activeAddons.clear();
+    state.qty = 1;
+    const qi = el('qtyInput'); if (qi) qi.value = 1;
     resetTypeButtons();
     disableAndClear(['styleSelect', 'sizeSelect', 'variantSelect']);
-    ['step-style', 'step-size', 'step-variant', 'step-addons'].forEach(s => setStepEnabled(s, false));
+    ['step-style', 'step-size', 'step-variant', 'step-addons', 'step-qty'].forEach(s => setStepEnabled(s, false));
     if (state.group) setStepEnabled('step-type', true);
     renderAddons(); updatePriceDisplay(); updateDoorImage(); updateConfigHint();
   }
@@ -310,7 +393,20 @@
 
   // ── Price display ────────────────────────────────────────────
   function updatePriceDisplay() {
-    const basePrice  = state.variant ? getBasePrice() : null;
+    const product    = state.variant ? getCurrentProduct() : null;
+    const qty        = Math.max(1, state.qty || 1);
+
+    // Determine effective base price honoring qty_tiers if present
+    let basePrice = product ? product.price : null;
+    let activeTier = null;
+    if (product && Array.isArray(product.qty_tiers) && product.qty_tiers.length) {
+      const picked = pickTierPrice(product.qty_tiers, qty);
+      if (picked.price !== null) {
+        basePrice = picked.price;
+        activeTier = picked.tier;
+      }
+    }
+
     const activeList = getGroupAddons().filter(a => state.activeAddons.has(a.name));
     const cardEmpty   = document.querySelector('.product-card-empty');
     const cardContent = document.querySelector('.product-card-content');
@@ -346,9 +442,69 @@
       addonRows.appendChild(row);
     });
 
-    const total = basePrice !== null ? basePrice + addonTotal : null;
+    // Per-unit total (base + addons), then qty multiplier → subtotal
+    const perUnit  = basePrice !== null ? basePrice + addonTotal : null;
+    const subtotal = perUnit !== null ? perUnit * qty : null;
+
+    // Quantity row visibility (only meaningful when we have a price)
+    const qtyRow      = el('qtyRow');
+    const qtyDisplay  = el('qtyDisplay');
+    const subtotalRow = el('subtotalRow');
+    const subDisp     = el('subtotalDisplay');
+    if (perUnit !== null && qty > 1) {
+      qtyRow.style.display = '';
+      qtyDisplay.textContent = '\u00d7' + qty;
+      subtotalRow.style.display = '';
+      subDisp.textContent = fmt(subtotal);
+    } else {
+      qtyRow.style.display = 'none';
+      subtotalRow.style.display = 'none';
+    }
+
+    // Show tier badge under qty input when product uses qty_tiers
+    const tierHint = el('qtyHint');
+    if (tierHint) {
+      if (product && Array.isArray(product.qty_tiers) && product.qty_tiers.length) {
+        const lbl = activeTier ? ('Tier: qty ' + fmtTierRange(activeTier) + ' \u00b7 ' + fmt(basePrice) + ' / unit') : 'Quantity-break pricing';
+        tierHint.textContent = lbl;
+        tierHint.classList.add('tier-active');
+      } else {
+        tierHint.textContent = 'Optional \u00b7 applies to selected line';
+        tierHint.classList.remove('tier-active');
+      }
+    }
+
+    // Rebate computation
+    const rebatePct = getRebatePct(state.group);
+    const rebateSection = el('rebateSection');
+    const rebatePctLbl  = el('rebatePctLabel');
+    const rebateDisp    = el('rebateDisplay');
+    let rebateAmt = 0;
+    if (rebatePct > 0 && subtotal !== null) {
+      rebateSection.style.display = '';
+      rebatePctLbl.textContent = (rebatePct * 100).toFixed(2).replace(/\.?0+$/, '') + '%';
+      const rb = el('rebateApply');
+      const apply = !!(rb && rb.checked) && state.rebateApplied;
+      if (apply) {
+        rebateAmt = subtotal * rebatePct;
+        rebateDisp.textContent = '\u2212' + fmt(rebateAmt).replace('-', '');
+        rebateDisp.classList.add('active');
+      } else {
+        rebateAmt = 0;
+        rebateDisp.textContent = fmt(0);
+        rebateDisp.classList.remove('active');
+      }
+    } else {
+      rebateSection.style.display = 'none';
+      rebateAmt = 0;
+    }
+
+    const total = subtotal !== null ? (subtotal - rebateAmt) : null;
     el('totalDisplay').textContent = fmt(total);
     el('totalDisplay').className   = total === null ? 'pr-value grand na' : 'pr-value grand';
+
+    // Quantity step enable/disable
+    setStepEnabled('step-qty', !!state.variant);
   }
 
   // ── UI helpers ───────────────────────────────────────────────

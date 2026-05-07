@@ -24,11 +24,26 @@ OUT_JSON = os.path.join(BASE, 'pricing.json')
 
 # ─── Human-readable group labels ────────────────────────────────────────────
 GROUP_LABELS = {
-    "Group A": "Group A – Castle Dealers",
-    "Group B": "Group B – Grunthal Lumber (AA-Dealer)",
-    "Group K": "Group K – Volume Independent Dealers",
-    "Trimlite": "Trimlite",
-    "PQ East":  "PQ East – Specialty Building Products",
+    "Group A":      "Group A – Castle Dealers",
+    "Group B":      "Group B – Grunthal Lumber (AA-Dealer)",
+    "Group D":      "Group D – Sexton",
+    "Group F":      "Group F – ILDC West",
+    "Group K":      "Group K – Volume Independent Dealers",
+    "Trimlite":     "Trimlite",
+    "PQ East":      "PQ East – Specialty Building Products",
+    "PQ West":      "PQ West – Specialty Building Products (Alexandria Moulding)",
+    "HomeHardware": "Home Hardware – Non-Committed",
+}
+
+# ─── Dealer rebate percentages (off subtotal before tax) ─────────────────────
+# Maps group key → rebate as decimal (0.1275 = 12.75%).
+GROUP_REBATES = {
+    "Group A":      0.1275,   # Castle
+    "Group D":      0.1075,   # Sexton
+    "Group F":      0.18,     # ILDC
+    "HomeHardware": 0.21,     # Home Hardware
+    "PQ East":      0.05,     # Alexandria Moulding / PQ East
+    "PQ West":      0.05,     # Alexandria Moulding / PQ West
 }
 
 # ─── Add-on category patterns (order matters – first match wins) ─────────────
@@ -79,7 +94,7 @@ def main():
     for r in records:
         price = r.get('price_numeric')       # None = N/A
         disp  = r.get('price', 'N/A')
-        products.append({
+        prod = {
             'group':         r['dealer_group'],
             'type':          r['product_type'],   # 'door' | 'bifold'
             'style':         r['style'],
@@ -87,7 +102,10 @@ def main():
             'variant':       r['variant'],
             'price':         price,
             'price_display': disp,
-        })
+        }
+        if r.get('qty_tiers'):
+            prod['qty_tiers'] = r['qty_tiers']
+        products.append(prod)
 
     # Sort for consistent JS output
     products.sort(key=lambda p: (
@@ -145,6 +163,7 @@ def main():
             'addon_count':    len(addons),
         },
         'groups':  GROUP_LABELS,
+        'rebates': GROUP_REBATES,
         'catalog': catalog_out,
         'products': products,
         'addons':   addons,
