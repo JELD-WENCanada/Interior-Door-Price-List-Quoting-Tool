@@ -321,14 +321,15 @@ def _parse_range_based_page(
             prices = _extract_price_tokens(line[m.end():])
 
             if state == "slab":
-                variant = f"{tier}"
+                base = "Slab 1 3/8 hollow core"
                 pt = "door"
             elif state == "bifold":
-                variant = f"{tier}-Bifold HC c/w Hardware"
+                base = "Bifold 1 3/8 c/w hardware"
                 pt = "bifold"
             else:  # fire
-                variant = f"{tier}-SC 1-3/4 20min Fire"
+                base = "Slab 1 3/4 20-min fire-rated"
                 pt = "door"
+            variant = f"{base} ({tier})" if tier else base
 
             for idx, style in enumerate(styles):
                 pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
@@ -349,7 +350,7 @@ def parse_trimlite(pdf_data: Dict[str, Any]) -> Dict[str, List]:
         lines = pg["lines"]
 
         if pnum == 1:
-            recs, ads = _parse_range_based_page(lines, "Trimlite", "HC", source)
+            recs, ads = _parse_range_based_page(lines, "Trimlite", "", source)
             records.extend(recs)
             addons.extend(ads)
         elif pnum == 2:
@@ -714,7 +715,7 @@ def _parse_central_pages(
                         prices = _extract_price_tokens(line[sm.end():])
                     for idx, style in enumerate(current_styles):
                         pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
-                        records.append(_make_record(dealer_group, "door", style, size_str, "HC", pd, pn, source_pdf))
+                        records.append(_make_record(dealer_group, "door", style, size_str, "Slab 1 3/8 hollow core", pd, pn, source_pdf))
                     continue
 
             # ── HC Bifold size row ────────────────────────────────────────────
@@ -725,7 +726,7 @@ def _parse_central_pages(
                     prices = _extract_price_tokens(line[sm.end():])
                     for idx, style in enumerate(bifold_styles):
                         pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
-                        records.append(_make_record(dealer_group, "bifold", style, size_str, "HC c/w Hardware", pd, pn, source_pdf))
+                        records.append(_make_record(dealer_group, "bifold", style, size_str, "Bifold 1 3/8 c/w hardware", pd, pn, source_pdf))
                     continue
 
             # ── SC 1-3/4 door slab size row ───────────────────────────────────────────
@@ -736,7 +737,7 @@ def _parse_central_pages(
                     prices = _extract_price_tokens(line[sm.end():])
                     for idx, style in enumerate(sc174_styles):
                         pd, pn = prices[idx] if idx < len(prices) else ("NOT FOUND IN PDF", None)
-                        records.append(_make_record(dealer_group, "door", style, size_str, "SC 1-3/4", pd, pn, source_pdf))
+                        records.append(_make_record(dealer_group, "door", style, size_str, "Slab 1 3/4 solid core", pd, pn, source_pdf))
                     continue
 
     return records, addons
@@ -773,13 +774,13 @@ def parse_central(pdf_data: Dict[str, Any], group_name: str) -> Dict[str, List]:
 
 _HH_SECTIONS = [
     # (regex, variant_label, product_type)
-    (re.compile(r"Slab\s+1\s*3/8\s+hollow\s+core",                  re.I), "HC",                    "door"),
-    (re.compile(r"Bifold\s+1\s*3/8\s+c/?w\s+hardware",              re.I), "HC c/w Hardware",       "bifold"),
-    (re.compile(r"Slab\s+1\s*3/8\s+solid\s+core\s*\(Procore\)",     re.I), "SC 1-3/8 (Procore)",    "door"),
-    (re.compile(r"Slab\s+1\s*3/4\s+hollow\s+core",                  re.I), "HC 1-3/4",              "door"),
-    (re.compile(r"Slab\s+1\s*3/4\s+solid\s+core",                   re.I), "SC 1-3/4",              "door"),
-    (re.compile(r"1\s*3/8\"?\s*HC\s+Easy[-\s]?Install\s+MDF",       re.I), "HC + Easy-IN MDF Unit", "door"),
-    (re.compile(r"1\s*3/8\"?\s*HC\s+Prehung\s+FJ\s+Primed",         re.I), "HC + Prehung FJP Unit", "door"),
+    (re.compile(r"Slab\s+1\s*3/8\s+hollow\s+core",                  re.I), "Slab 1 3/8 hollow core",                                 "door"),
+    (re.compile(r"Bifold\s+1\s*3/8\s+c/?w\s+hardware",              re.I), "Bifold 1 3/8 c/w hardware",                              "bifold"),
+    (re.compile(r"Slab\s+1\s*3/8\s+solid\s+core\s*\(Procore\)",     re.I), "Slab 1 3/8 solid core (Procore)",                        "door"),
+    (re.compile(r"Slab\s+1\s*3/4\s+hollow\s+core",                  re.I), "Slab 1 3/4 hollow core",                                 "door"),
+    (re.compile(r"Slab\s+1\s*3/4\s+solid\s+core",                   re.I), "Slab 1 3/4 solid core",                                  "door"),
+    (re.compile(r"1\s*3/8\"?\s*HC\s+Easy[-\s]?Install\s+MDF",       re.I), "1 3/8 HC Easy-Install MDF (KD Unit)",                    "door"),
+    (re.compile(r"1\s*3/8\"?\s*HC\s+Prehung\s+FJ\s+Primed",         re.I), "1 3/8 HC Prehung FJ Primed (assembled unit)",            "door"),
 ]
 
 # Size row e.g. "12\" x 80\" (1'0\" x 6'8\")"   or   "38\" x 80\" (3'2\" x 6'8\") EURO"
