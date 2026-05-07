@@ -177,6 +177,10 @@
     const qm = el('qtyMinus'); if (qm) qm.addEventListener('click', () => bumpQty(-1));
     const qp = el('qtyPlus');  if (qp) qp.addEventListener('click', () => bumpQty(+1));
 
+    // Quantity-tier dropdown: pick a tier directly to set qty to its min.
+    const qts = el('qtyTierSelect');
+    if (qts) qts.addEventListener('change', onTierSelect);
+
     // Rebate toggle
     const rb = el('rebateApply');
     if (rb) rb.addEventListener('change', () => {
@@ -195,6 +199,23 @@
     const next = Math.max(1, (state.qty || 1) + delta);
     state.qty = next;
     el('qtyInput').value = next;
+    updatePriceDisplay();
+  }
+
+  // Triggered when the user picks a quantity-break tier directly.
+  // Sets qty to the tier's min so the rest of the pricing logic
+  // (which keys off state.qty) automatically uses the tier's price.
+  function onTierSelect() {
+    const sel = el('qtyTierSelect');
+    if (!sel) return;
+    const idx = parseInt(sel.value, 10);
+    const product = getCurrentProduct();
+    if (!product || !Array.isArray(product.qty_tiers)) return;
+    const tier = product.qty_tiers[idx];
+    if (!tier) return;
+    const lo = tier.min_qty == null ? 1 : tier.min_qty;
+    state.qty = lo;
+    const qi = el('qtyInput'); if (qi) qi.value = lo;
     updatePriceDisplay();
   }
 
@@ -472,6 +493,42 @@
       } else {
         tierHint.textContent = 'Optional \u00b7 applies to selected line';
         tierHint.classList.remove('tier-active');
+      }
+    }
+
+    // Quantity-tier dropdown: only shown when this product has tiered pricing
+    const tierRow = el('qtyTierRow');
+    const tierSel = el('qtyTierSelect');
+    if (tierRow && tierSel) {
+      if (product && Array.isArray(product.qty_tiers) && product.qty_tiers.length > 1) {
+        // Rebuild options if the tier set changed
+        const desired = product.qty_tiers.map((t, i) => {
+          const lo = t.min_qty == null ? 1 : t.min_qty;
+          const hi = t.max_qty;
+          const range = (hi == null) ? (lo + '+ units') : (lo + '\u2013' + hi + ' units');
+          const price = (t.price_numeric != null) ? ('\u00a0\u00b7\u00a0' + fmt(t.price_numeric) + ' / unit') : '';
+          return { value: String(i), label: range + price };
+        });
+        const currentSig = desired.map(o => o.value + ':' + o.label).join('|');
+        if (tierSel.dataset.sig !== currentSig) {
+          tierSel.innerHTML = '';
+          desired.forEach(o => {
+            const opt = document.createElement('option');
+            opt.value = o.value;
+            opt.textContent = o.label;
+            tierSel.appendChild(opt);
+          });
+          tierSel.dataset.sig = currentSig;
+        }
+        // Sync selection to the currently active tier
+        if (activeTier) {
+          const activeIdx = product.qty_tiers.indexOf(activeTier);
+          if (activeIdx >= 0) tierSel.value = String(activeIdx);
+        }
+        tierRow.style.display = '';
+      } else {
+        tierRow.style.display = 'none';
+        tierSel.dataset.sig = '';
       }
     }
 

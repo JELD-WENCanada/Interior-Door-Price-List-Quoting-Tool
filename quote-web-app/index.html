@@ -116,6 +116,12 @@
           <span class="step-label">Quantity</span>
           <span class="step-hint-inline" id="qtyHint">Optional · applies to selected line</span>
         </div>
+        <div class="qty-tier-row" id="qtyTierRow" style="display:none">
+          <label for="qtyTierSelect" class="qty-tier-label">Quantity-break price tier</label>
+          <select id="qtyTierSelect" class="form-select">
+            <option value="">— Select tier —</option>
+          </select>
+        </div>
         <div class="qty-row">
           <button type="button" class="qty-btn" id="qtyMinus" aria-label="Decrease">−</button>
           <input type="number" id="qtyInput" class="qty-input" min="1" step="1" value="1" />
