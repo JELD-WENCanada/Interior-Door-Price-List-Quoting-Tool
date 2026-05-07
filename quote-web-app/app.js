@@ -628,7 +628,7 @@
   // ── Competitor logic ───────────────────────────────────────
   const compState = {
     retail: null, margin: 30,
-    type: '', style: '', group: '',
+    type: '', style: '', size: '', group: '',
   };
 
   function computeCompetitor() {
@@ -687,6 +687,7 @@
     const filtered = all.filter(p => {
       if (compState.type  && p.type  !== compState.type)  return false;
       if (compState.style && p.style !== compState.style) return false;
+      if (compState.size  && p.size  !== compState.size)  return false;
       if (compState.group && p.group !== compState.group) return false;
       const eff = productEffectivePrice(p);
       return eff !== null && eff > 0;
@@ -743,9 +744,32 @@
     }).join('');
   }
 
+  // Broad category labels that aren't specific door designs — hidden from
+  // the style filter so users only see actual door styles (Carrara, Camden,
+  // Birkdale, etc.).
+  const COMP_STYLE_EXCLUDE = new Set([
+    'Colonial Moulded',
+    'Flat Moulded (Shaker)',
+    'Primed Hardboard',
+  ]);
+
+  // Sort sizes “naturally” — leading numeric width first.
+  function sizeSortKey(s) {
+    const m = String(s).match(/(\d+)/);
+    return [m ? parseInt(m[1], 10) : 9999, String(s)];
+  }
+  function compareSizes(a, b) {
+    const ka = sizeSortKey(a), kb = sizeSortKey(b);
+    if (ka[0] !== kb[0]) return ka[0] - kb[0];
+    return ka[1].localeCompare(kb[1]);
+  }
+
   function populateCompFilters() {
     const all = getAllProducts();
-    const styles = [...new Set(all.map(p => p.style))].sort();
+
+    const styles = [...new Set(all.map(p => p.style))]
+      .filter(s => !COMP_STYLE_EXCLUDE.has(s))
+      .sort();
     const styleSel = $('compStyleFilter');
     if (styleSel) {
       styles.forEach(s => {
@@ -754,6 +778,17 @@
         styleSel.appendChild(o);
       });
     }
+
+    const sizes = [...new Set(all.map(p => p.size).filter(Boolean))].sort(compareSizes);
+    const sizeSel = $('compSizeFilter');
+    if (sizeSel) {
+      sizes.forEach(s => {
+        const o = document.createElement('option');
+        o.value = s; o.textContent = s;
+        sizeSel.appendChild(o);
+      });
+    }
+
     const groupSel = $('compGroupFilter');
     const groups = (window.PRICING_DATA && window.PRICING_DATA.groups) || {};
     if (groupSel) {
@@ -770,6 +805,7 @@
     const m  = $('compMargin');
     const tf = $('compTypeFilter');
     const sf = $('compStyleFilter');
+    const zf = $('compSizeFilter');
     const gf = $('compGroupFilter');
     const reset = $('compResetBtn');
 
@@ -784,15 +820,17 @@
     });
     if (tf) tf.addEventListener('change', () => { compState.type  = tf.value; computeCompetitor(); });
     if (sf) sf.addEventListener('change', () => { compState.style = sf.value; computeCompetitor(); });
+    if (zf) zf.addEventListener('change', () => { compState.size  = zf.value; computeCompetitor(); });
     if (gf) gf.addEventListener('change', () => { compState.group = gf.value; computeCompetitor(); });
 
     if (reset) reset.addEventListener('click', () => {
       compState.retail = null; compState.margin = 30;
-      compState.type = ''; compState.style = ''; compState.group = '';
+      compState.type = ''; compState.style = ''; compState.size = ''; compState.group = '';
       if (r) r.value = '';
       if (m) m.value = 30;
       if (tf) tf.value = '';
       if (sf) sf.value = '';
+      if (zf) zf.value = '';
       if (gf) gf.value = '';
       computeCompetitor();
     });
