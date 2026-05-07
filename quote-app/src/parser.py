@@ -1095,6 +1095,11 @@ def _parse_simple_dealer_pages(
         has_colonist = any("COLONIST" in ln for ln in page_upper)
         has_textured = any(ln == "TEXTURED" for ln in page_upper)
         force_add_colonist_textured = has_colonist and has_textured
+        # Tracks whether we've seen a size or section line on this page yet.
+        # Once True, we stop accepting style-header updates so footnotes
+        # like "Carrara and Euro sticking is not identical" can't clobber
+        # the page's real style list.
+        page_has_section = False
 
         # ── Detect "split-column" layout (Sexton Conmore pages 5-6) ──────
         # In this layout the page emits ALL prices in one stacked block
@@ -1153,20 +1158,21 @@ def _parse_simple_dealer_pages(
                 line, re.IGNORECASE,
             ):
                 # Style availability rows ("Slab" / "Bifold" markers) still need style detection below
-                pass
+                continue
 
             # ── Style availability / header row ──────────────────────────
             # Lines mentioning multiple known styles update current_styles.
+            # Only allow header updates BEFORE the first size/section row of
+            # the page — otherwise stray mid-page mentions (e.g. footnote
+            # "Carrara and Euro sticking is not identical") would clobber
+            # the page's real style list.
             styles_here = _looks_like_style_header(line)
             if len(styles_here) >= 1 and not _HH_SIZE_RE.match(line) and not _HH_HEIGHT_RE.match(line):
-                # Avoid mistaking a price-only line for a header
-                if not re.search(r"\$|\d+\.\d{2}", line):
+                if not re.search(r"\$|\d+\.\d{2}", line) and not page_has_section:
                     if force_add_colonist_textured:
                         ct = _canonicalize_style("COLONIST TEXTURED")
                         if ct not in styles_here:
                             styles_here = [ct] + styles_here
-                    # Replace current style list when a header line appears
-                    # (header lines only appear at the top of each page).
                     current_styles = styles_here
                     continue
 
@@ -1177,6 +1183,7 @@ def _parse_simple_dealer_pages(
                     cur_variant = variant
                     cur_ptype = ptype
                     section_matched = True
+                    page_has_section = True
                     break
             if section_matched:
                 continue
@@ -1222,6 +1229,7 @@ def _parse_simple_dealer_pages(
                 rest     = sm.group(2) or ""
                 prices   = _extract_price_tokens(rest)
                 _emit(size_str, prices)
+                page_has_section = True
                 continue
 
     return records, addons

@@ -2,7 +2,7 @@
 window.PRICING_DATA = {
   "meta": {
     "generated_at": "2026-05-07",
-    "record_count": 4298,
+    "record_count": 4308,
     "addon_count": 159
   },
   "groups": {
@@ -1508,6 +1508,7 @@ window.PRICING_DATA = {
         "Camden": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\"",
           "16\" x 80\" (1'4\" x 6'8\")",
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
@@ -1587,11 +1588,6 @@ window.PRICING_DATA = {
           "36\" x 80\" (3'0\" x 6'8\")",
           "38\" x 80\" (3'2\" x 6'8\")"
         ],
-        "Euro": [
-          "12\" x 80\" (1'0\" x 6'8\")",
-          "14\" x 80\" (1'2\" x 6'8\")",
-          "16\" x 80\""
-        ],
         "Madison": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
@@ -1629,6 +1625,7 @@ window.PRICING_DATA = {
         "Rockport": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\"",
           "16\" x 80\" (1'4\" x 6'8\")",
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
@@ -1645,6 +1642,7 @@ window.PRICING_DATA = {
         "Santa Fe": [
           "12\" x 80\" (1'0\" x 6'8\")",
           "14\" x 80\" (1'2\" x 6'8\")",
+          "16\" x 80\"",
           "16\" x 80\" (1'4\" x 6'8\")",
           "18\" x 80\" (1'6\" x 6'8\")",
           "20\" x 80\" (1'8\" x 6'8\")",
@@ -67617,6 +67615,15 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Camden",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 129.27,
+      "price_display": "$129.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Camden",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 143.27,
       "price_display": "$143.27"
@@ -67635,9 +67642,27 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Camden",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Camden",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 143.32,
       "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Camden",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 129.27,
+      "price_display": "$129.27"
     },
     {
       "group": "HomeHardware",
@@ -67662,9 +67687,27 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Camden",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Camden",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 143.32,
       "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Camden",
+      "size": "16\" x 80\"",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
     },
     {
       "group": "HomeHardware",
@@ -69982,7 +70025,1843 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Euro",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 141.15,
+      "price_display": "$141.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 141.15,
+      "price_display": "$141.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\"",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 136.63,
+      "price_display": "$136.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.22,
+      "price_display": "$91.22"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 149.64,
+      "price_display": "$149.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 56.63,
+      "price_display": "$56.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 163.11,
+      "price_display": "$163.11"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 125.87,
+      "price_display": "$125.87"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 122.63,
+      "price_display": "$122.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 166.43,
+      "price_display": "$166.43"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.56,
+      "price_display": "$130.56"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 127.33,
+      "price_display": "$127.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 166.38,
+      "price_display": "$166.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 166.43,
+      "price_display": "$166.43"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.56,
+      "price_display": "$130.56"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 127.33,
+      "price_display": "$127.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 181.89,
+      "price_display": "$181.89"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 88.88,
+      "price_display": "$88.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Madison",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.11,
+      "price_display": "$158.11"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 141.15,
+      "price_display": "$141.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 141.15,
+      "price_display": "$141.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "16\" x 80\" (1'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\"",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 75.15,
+      "price_display": "$75.15"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 130.2,
+      "price_display": "$130.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 84.8,
+      "price_display": "$84.80"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 143.21,
+      "price_display": "$143.21"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 50.2,
+      "price_display": "$50.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 155.2,
+      "price_display": "$155.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 119.44,
+      "price_display": "$119.44"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "18\" x 80\" (1'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 116.2,
+      "price_display": "$116.20"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "20\" x 80\" (1'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "22\" x 80\" (1'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 131.38,
+      "price_display": "$131.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 85.97,
+      "price_display": "$85.97"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 144.39,
+      "price_display": "$144.39"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 51.38,
+      "price_display": "$51.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.52,
+      "price_display": "$158.52"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.61,
+      "price_display": "$120.61"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "24\" x 80\" (2'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 117.38,
+      "price_display": "$117.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "26\" x 80\" (2'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "28\" x 80\" (2'4\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 134.64,
+      "price_display": "$134.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 89.23,
+      "price_display": "$89.23"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 147.65,
+      "price_display": "$147.65"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 54.64,
+      "price_display": "$54.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 160.77,
+      "price_display": "$160.77"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 123.88,
+      "price_display": "$123.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "30\" x 80\" (2'6\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 120.64,
+      "price_display": "$120.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 136.63,
+      "price_display": "$136.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 91.22,
+      "price_display": "$91.22"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 149.64,
+      "price_display": "$149.64"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 56.63,
+      "price_display": "$56.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 163.11,
+      "price_display": "$163.11"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 125.87,
+      "price_display": "$125.87"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "32\" x 80\" (2'8\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 122.63,
+      "price_display": "$122.63"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 166.43,
+      "price_display": "$166.43"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.56,
+      "price_display": "$130.56"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "34\" x 80\" (2'10\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 127.33,
+      "price_display": "$127.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 166.38,
+      "price_display": "$166.38"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 141.33,
+      "price_display": "$141.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": null,
+      "price_display": "N/A"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 hollow core",
+      "price": 95.92,
+      "price_display": "$95.92"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 154.34,
+      "price_display": "$154.34"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 61.33,
+      "price_display": "$61.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 166.43,
+      "price_display": "$166.43"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 130.56,
+      "price_display": "$130.56"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "36\" x 80\" (3'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 127.33,
+      "price_display": "$127.33"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 181.89,
+      "price_display": "$181.89"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 88.88,
+      "price_display": "$88.88"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Monroe",
+      "size": "38\" x 80\" (3'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 158.11,
+      "price_display": "$158.11"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
       "price": 129.27,
@@ -69991,7 +71870,25 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Euro",
+      "style": "Rockport",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 143.27,
+      "price_display": "$143.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 201.73,
+      "price_display": "$201.73"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 63.27,
@@ -70000,7 +71897,16 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Euro",
+      "style": "Rockport",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 143.32,
+      "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
       "price": 129.27,
@@ -70009,7 +71915,25 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Euro",
+      "style": "Rockport",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
+      "price": 143.27,
+      "price_display": "$143.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/4 solid core",
+      "price": 201.73,
+      "price_display": "$201.73"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 hollow core",
       "price": 63.27,
@@ -70018,1901 +71942,20 @@ window.PRICING_DATA = {
     {
       "group": "HomeHardware",
       "type": "door",
-      "style": "Euro",
+      "style": "Rockport",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 solid core (Procore)",
+      "price": 143.32,
+      "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Rockport",
       "size": "16\" x 80\"",
       "variant": "Slab 1 3/8 hollow core",
       "price": 63.27,
       "price_display": "$63.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
-      "price": 141.15,
-      "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
-      "price": 141.15,
-      "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 163.11,
-      "price_display": "$163.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 166.43,
-      "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 166.38,
-      "price_display": "$166.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 166.43,
-      "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 181.89,
-      "price_display": "$181.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 88.88,
-      "price_display": "$88.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Madison",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.11,
-      "price_display": "$158.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
-      "price": 141.15,
-      "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
-      "price": 141.15,
-      "price_display": "$141.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "16\" x 80\" (1'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\"",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 75.15,
-      "price_display": "$75.15"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 130.2,
-      "price_display": "$130.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 84.8,
-      "price_display": "$84.80"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 143.21,
-      "price_display": "$143.21"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 50.2,
-      "price_display": "$50.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 155.2,
-      "price_display": "$155.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 119.44,
-      "price_display": "$119.44"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "18\" x 80\" (1'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 116.2,
-      "price_display": "$116.20"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "20\" x 80\" (1'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "22\" x 80\" (1'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 131.38,
-      "price_display": "$131.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 85.97,
-      "price_display": "$85.97"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 144.39,
-      "price_display": "$144.39"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 51.38,
-      "price_display": "$51.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.52,
-      "price_display": "$158.52"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.61,
-      "price_display": "$120.61"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "24\" x 80\" (2'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 117.38,
-      "price_display": "$117.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "26\" x 80\" (2'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "28\" x 80\" (2'4\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 134.64,
-      "price_display": "$134.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 89.23,
-      "price_display": "$89.23"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 147.65,
-      "price_display": "$147.65"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 54.64,
-      "price_display": "$54.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 160.77,
-      "price_display": "$160.77"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 123.88,
-      "price_display": "$123.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "30\" x 80\" (2'6\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 120.64,
-      "price_display": "$120.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 136.63,
-      "price_display": "$136.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 91.22,
-      "price_display": "$91.22"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 149.64,
-      "price_display": "$149.64"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 56.63,
-      "price_display": "$56.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 163.11,
-      "price_display": "$163.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 125.87,
-      "price_display": "$125.87"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "32\" x 80\" (2'8\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 122.63,
-      "price_display": "$122.63"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 166.43,
-      "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "34\" x 80\" (2'10\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 166.38,
-      "price_display": "$166.38"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 141.33,
-      "price_display": "$141.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": null,
-      "price_display": "N/A"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 hollow core",
-      "price": 95.92,
-      "price_display": "$95.92"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 154.34,
-      "price_display": "$154.34"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 61.33,
-      "price_display": "$61.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 166.43,
-      "price_display": "$166.43"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 130.56,
-      "price_display": "$130.56"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "36\" x 80\" (3'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 127.33,
-      "price_display": "$127.33"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 181.89,
-      "price_display": "$181.89"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 hollow core",
-      "price": 88.88,
-      "price_display": "$88.88"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Monroe",
-      "size": "38\" x 80\" (3'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 158.11,
-      "price_display": "$158.11"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 143.27,
-      "price_display": "$143.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 201.73,
-      "price_display": "$201.73"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "12\" x 80\" (1'0\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 143.32,
-      "price_display": "$143.32"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
-      "price": 143.27,
-      "price_display": "$143.27"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/4 solid core",
-      "price": 201.73,
-      "price_display": "$201.73"
-    },
-    {
-      "group": "HomeHardware",
-      "type": "door",
-      "style": "Rockport",
-      "size": "14\" x 80\" (1'2\" x 6'8\")",
-      "variant": "Slab 1 3/8 solid core (Procore)",
-      "price": 143.32,
-      "price_display": "$143.32"
     },
     {
       "group": "HomeHardware",
@@ -72045,6 +72088,15 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Santa Fe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 129.27,
+      "price_display": "$129.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Santa Fe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "1 3/8 HC Prehung FJ Primed (assembled unit)",
       "price": 143.27,
       "price_display": "$143.27"
@@ -72063,9 +72115,27 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Santa Fe",
       "size": "12\" x 80\" (1'0\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Santa Fe",
+      "size": "12\" x 80\" (1'0\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 143.32,
       "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Santa Fe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "1 3/8 HC Easy-Install MDF (KD Unit)",
+      "price": 129.27,
+      "price_display": "$129.27"
     },
     {
       "group": "HomeHardware",
@@ -72090,9 +72160,27 @@ window.PRICING_DATA = {
       "type": "door",
       "style": "Santa Fe",
       "size": "14\" x 80\" (1'2\" x 6'8\")",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Santa Fe",
+      "size": "14\" x 80\" (1'2\" x 6'8\")",
       "variant": "Slab 1 3/8 solid core (Procore)",
       "price": 143.32,
       "price_display": "$143.32"
+    },
+    {
+      "group": "HomeHardware",
+      "type": "door",
+      "style": "Santa Fe",
+      "size": "16\" x 80\"",
+      "variant": "Slab 1 3/8 hollow core",
+      "price": 63.27,
+      "price_display": "$63.27"
     },
     {
       "group": "HomeHardware",
