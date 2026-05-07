@@ -628,7 +628,8 @@
   // ── Competitor logic ───────────────────────────────────────
   const compState = {
     retail: null, margin: 30,
-    type: '', style: '', size: '', group: '',
+    type: '', style: '', size: '',
+    fire: '', construction: '', adder: '',
   };
 
   function computeCompetitor() {
@@ -691,7 +692,13 @@
         const w = parseWidth(p.size);
         if (w === null || String(w) !== String(compState.size)) return false;
       }
-      if (compState.group && p.group !== compState.group) return false;
+      if (compState.fire) {
+        const fr = isFireRated(p.variant);
+        if (compState.fire === 'fire'   && !fr) return false;
+        if (compState.fire === 'nofire' &&  fr) return false;
+      }
+      if (compState.construction && constructionOf(p.variant) !== compState.construction) return false;
+      if (compState.adder        && adderOf(p.variant)        !== compState.adder)        return false;
       const eff = productEffectivePrice(p);
       return eff !== null && eff > 0;
     });
@@ -764,6 +771,25 @@
     return m ? parseInt(m[1], 10) : null;
   }
 
+  // ── Variant classifiers ───────────────────────────────────
+  // Used by the Fire / Construction / Adder filters below.
+  function isFireRated(variant) {
+    return /fire[- ]?rated|\b\d+\s*-?\s*min\b/i.test(variant || '');
+  }
+  function constructionOf(variant) {
+    const v = String(variant || '').toLowerCase();
+    if (/^bifold|\bbifold\b/.test(v)) return 'bifold';
+    if (/solid\s*core|\bsc\b|procore/.test(v)) return 'sc';
+    if (/hollow\s*core|\bhc\b/.test(v))        return 'hc';
+    return 'other';
+  }
+  function adderOf(variant) {
+    const v = String(variant || '').toLowerCase();
+    if (/full\s*tl|full\s*light/.test(v)) return 'ftl';
+    if (/\bltl\b|\blight\b/.test(v))      return 'ltl';
+    return 'standard';
+  }
+
   function populateCompFilters() {
     const all = getAllProducts();
 
@@ -787,16 +813,6 @@
         sizeSel.appendChild(o);
       });
     }
-
-    const groupSel = $('compGroupFilter');
-    const groups = (window.PRICING_DATA && window.PRICING_DATA.groups) || {};
-    if (groupSel) {
-      Object.entries(groups).forEach(([id, label]) => {
-        const o = document.createElement('option');
-        o.value = id; o.textContent = label;
-        groupSel.appendChild(o);
-      });
-    }
   }
 
   function wireCompetitor() {
@@ -805,7 +821,9 @@
     const tf = $('compTypeFilter');
     const sf = $('compStyleFilter');
     const zf = $('compSizeFilter');
-    const gf = $('compGroupFilter');
+    const ff = $('compFireFilter');
+    const cf = $('compConstructionFilter');
+    const af = $('compAdderFilter');
     const reset = $('compResetBtn');
 
     if (r)  r.addEventListener('input', () => {
@@ -820,17 +838,22 @@
     if (tf) tf.addEventListener('change', () => { compState.type  = tf.value; computeCompetitor(); });
     if (sf) sf.addEventListener('change', () => { compState.style = sf.value; computeCompetitor(); });
     if (zf) zf.addEventListener('change', () => { compState.size  = zf.value; computeCompetitor(); });
-    if (gf) gf.addEventListener('change', () => { compState.group = gf.value; computeCompetitor(); });
+    if (ff) ff.addEventListener('change', () => { compState.fire         = ff.value; computeCompetitor(); });
+    if (cf) cf.addEventListener('change', () => { compState.construction = cf.value; computeCompetitor(); });
+    if (af) af.addEventListener('change', () => { compState.adder        = af.value; computeCompetitor(); });
 
     if (reset) reset.addEventListener('click', () => {
       compState.retail = null; compState.margin = 30;
-      compState.type = ''; compState.style = ''; compState.size = ''; compState.group = '';
+      compState.type = ''; compState.style = ''; compState.size = '';
+      compState.fire = ''; compState.construction = ''; compState.adder = '';
       if (r) r.value = '';
       if (m) m.value = 30;
       if (tf) tf.value = '';
       if (sf) sf.value = '';
       if (zf) zf.value = '';
-      if (gf) gf.value = '';
+      if (ff) ff.value = '';
+      if (cf) cf.value = '';
+      if (af) af.value = '';
       computeCompetitor();
     });
   }
