@@ -687,7 +687,10 @@
     const filtered = all.filter(p => {
       if (compState.type  && p.type  !== compState.type)  return false;
       if (compState.style && p.style !== compState.style) return false;
-      if (compState.size  && p.size  !== compState.size)  return false;
+      if (compState.size) {
+        const w = parseWidth(p.size);
+        if (w === null || String(w) !== String(compState.size)) return false;
+      }
       if (compState.group && p.group !== compState.group) return false;
       const eff = productEffectivePrice(p);
       return eff !== null && eff > 0;
@@ -755,6 +758,12 @@
     return ka[1].localeCompare(kb[1]);
   }
 
+  // Width (in inches) parsed from the leading number in a size string.
+  function parseWidth(size) {
+    const m = String(size || '').match(/^\s*(\d+)/);
+    return m ? parseInt(m[1], 10) : null;
+  }
+
   function populateCompFilters() {
     const all = getAllProducts();
 
@@ -768,12 +777,13 @@
       });
     }
 
-    const sizes = [...new Set(all.map(p => p.size).filter(Boolean))].sort(compareSizes);
+    const sizes = [...new Set(all.map(p => parseWidth(p.size)).filter(w => w !== null))]
+      .sort((a, b) => a - b);
     const sizeSel = $('compSizeFilter');
     if (sizeSel) {
-      sizes.forEach(s => {
+      sizes.forEach(w => {
         const o = document.createElement('option');
-        o.value = s; o.textContent = s;
+        o.value = String(w); o.textContent = w + '"';
         sizeSel.appendChild(o);
       });
     }
