@@ -687,7 +687,10 @@
     const all = getAllProducts();
     const filtered = all.filter(p => {
       if (compState.type  && p.type  !== compState.type)  return false;
-      if (compState.style && p.style !== compState.style) return false;
+      if (compState.style) {
+        const allowed = stylesEquivalentTo(compState.style);
+        if (!allowed.has(p.style)) return false;
+      }
       if (compState.size) {
         const w = parseWidth(p.size);
         if (w === null || String(w) !== String(compState.size)) return false;
@@ -769,6 +772,30 @@
   function parseWidth(size) {
     const m = String(size || '').match(/^\s*(\d+)/);
     return m ? parseInt(m[1], 10) : null;
+  }
+
+  // ── Style equivalence groups ──────────────────────────────────────────
+  // Some dealers (notably Trimlite) list doors under broad face-material
+  // categories instead of specific design names. The same physical door
+  // therefore appears as "Colonist Textured" in one price list and
+  // "Colonial Moulded" in another. To make competitor matches surface ALL
+  // pricing for the same product, picking any style in a group also pulls
+  // in every other style in that group.
+  const COMP_STYLE_GROUPS = [
+    ['Colonist Textured', 'Colonial Moulded'],
+    ['Craftsman', 'Madison', 'Monroe', 'Birkdale', 'Flat Moulded (Shaker)'],
+  ];
+  const COMP_STYLE_EQUIV = (() => {
+    const map = new Map();
+    COMP_STYLE_GROUPS.forEach(g => {
+      const set = new Set(g);
+      g.forEach(name => map.set(name, set));
+    });
+    return map;
+  })();
+  function stylesEquivalentTo(style) {
+    const set = COMP_STYLE_EQUIV.get(style);
+    return set ? set : new Set([style]);
   }
 
   // ── Variant classifiers ───────────────────────────────────
