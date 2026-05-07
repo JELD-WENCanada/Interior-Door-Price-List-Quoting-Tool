@@ -780,6 +780,7 @@ _HH_SECTIONS = [
     (re.compile(r"Slab\s+1\s*3/4\s+hollow\s+core",                  re.I), "Slab 1 3/4 hollow core",                                 "door"),
     (re.compile(r"Slab\s+1\s*3/4\s+solid\s+core",                   re.I), "Slab 1 3/4 solid core",                                  "door"),
     (re.compile(r"1\s*3/8\"?\s*HC\s+Easy[-\s]?Install\s+MDF",       re.I), "1 3/8 HC Easy-Install MDF (KD Unit)",                    "door"),
+    (re.compile(r"1\s*3/8\"?\s*HC\s+Easy[-\s]?Install\s+FJ\s+Pine", re.I), "1 3/8 HC Easy-Install FJ Pine (KD Unit)",                "door"),
     (re.compile(r"1\s*3/8\"?\s*HC\s+Prehung\s+FJ\s+Primed",         re.I), "1 3/8 HC Prehung FJ Primed (assembled unit)",            "door"),
 ]
 
@@ -816,6 +817,111 @@ def _looks_like_style_header(line: str) -> List[str]:
         if not matched:
             i += 1
     return found
+
+
+def _parse_split_column_page(
+    page_lines: List[str],
+    dealer_group: str,
+    source_pdf: str,
+    tier_defs: List[Dict[str, Any]],
+    current_styles: List[str],
+) -> List[Dict]:
+    """
+    Fallback parser for pages whose pdfplumber output emits ALL prices in a
+    stacked block before ANY size labels appear (e.g. Sexton Conmore p.5-6).
+
+    Strategy: collect price rows in order, then walk the size/section labels
+    and pair them up 1:1.
+    """
+    if not current_styles:
+        return []
+
+    records: List[Dict] = []
+    n_tiers = max(1, len(tier_defs))
+
+    # ── Collect price rows in order ──────────────────────────────────────
+    price_rows: List[List[Tuple[str, Optional[float]]]] = []
+    price_only_re = re.compile(
+        r'^\s*(?:\$[\d,]+\.\d+|N/?A)(?:\s+(?:\$[\d,]+\.\d+|N/?A)){0,5}\s*$',
+        re.I,
+    )
+    for ln in page_lines:
+        if price_only_re.match(ln):
+            tokens = _extract_price_tokens(ln)
+            # Only accept rows with the expected number of tier columns
+            if len(tokens) == n_tiers:
+                price_rows.append(tokens)
+
+    if not price_rows:
+        return []
+
+    # ── Walk size/section labels and consume prices in order ─────────────
+    cur_variant: Optional[str] = None
+    cur_ptype: Optional[str] = None
+    pi = 0  # price index
+
+    def _consume(size_label: str, ptype: str, variant: str) -> None:
+        nonlocal pi
+        if pi >= len(price_rows):
+            return
+        slots = price_rows[pi]
+        pi += 1
+        # Skip if all NOT FOUND (shouldn't happen, but defensive)
+        if all(pn is None and pd in ("NOT FOUND IN PDF",) for pd, pn in slots):
+            return
+
+        tiers_payload: Optional[List[Dict[str, Any]]] = None
+        if n_tiers > 1:
+            tiers_payload = []
+            for tdef, (pd, pn) in zip(tier_defs, slots):
+                tiers_payload.append({
+                    "min_qty":       tdef.get("min_qty"),
+                    "max_qty":       tdef.get("max_qty"),
+                    "price":         pd,
+                    "price_numeric": pn,
+                })
+        pd_default, pn_default = slots[0]
+        for style in current_styles:
+            records.append(_make_record(
+                dealer_group, ptype, style, size_label, variant,
+                pd_default, pn_default, source_pdf,
+                qty_tiers=tiers_payload,
+            ))
+
+    for raw_line in page_lines:
+        line = raw_line.strip()
+        if not line or price_only_re.match(line):
+            continue
+
+        # Section markers
+        section_matched = False
+        for pat, variant, ptype in _HH_SECTIONS:
+            if pat.search(line):
+                cur_variant = variant
+                cur_ptype = ptype
+                section_matched = True
+                break
+        if section_matched:
+            continue
+
+        if cur_variant is None or cur_ptype is None:
+            continue
+
+        # Height adder row (label only — price comes from the price block)
+        hm = _HH_HEIGHT_RE.match(line)
+        if hm and not _extract_price_tokens(hm.group(2) or ""):
+            ht = hm.group(1)
+            _consume(f"Height {ht} add", cur_ptype,
+                     f"{cur_variant}-Height-{ht}-Add")
+            continue
+
+        # Size row (label only)
+        sm = _HH_SIZE_RE.match(line)
+        if sm and not _extract_price_tokens(sm.group(2) or ""):
+            _consume(sm.group(1).strip(), cur_ptype, cur_variant)
+            continue
+
+    return records
 
 
 def _parse_simple_dealer_pages(
@@ -930,9 +1036,52 @@ def _parse_simple_dealer_pages(
         # ILDC page 2 emits the multi-line label "COLONIST TEXTURED" where
         # COLONIST is alone on one line and TEXTURED is on a separate line.
         page_upper = [ln.strip().upper() for ln in page_lines[:20]]
-        has_colonist = any(ln == "COLONIST" for ln in page_upper)
+        has_colonist = any("COLONIST" in ln for ln in page_upper)
         has_textured = any(ln == "TEXTURED" for ln in page_upper)
         force_add_colonist_textured = has_colonist and has_textured
+
+        # ── Detect "split-column" layout (Sexton Conmore pages 5-6) ──────
+        # In this layout the page emits ALL prices in one stacked block
+        # *before* any size labels appear. The normal line-by-line parser
+        # never sees a size+price combo and produces zero records, so we
+        # detect this case and fall through to a paired-pass parser.
+        price_only_re = re.compile(
+            r'^\s*(?:\$[\d,]+\.\d+|N/?A)(?:\s+(?:\$[\d,]+\.\d+|N/?A)){0,5}\s*$',
+            re.I,
+        )
+        leading_price_only = 0
+        first_size_idx = None
+        for idx, ln in enumerate(page_lines):
+            if _HH_SIZE_RE.match(ln) or _HH_HEIGHT_RE.match(ln):
+                first_size_idx = idx
+                break
+            if price_only_re.match(ln):
+                leading_price_only += 1
+        if leading_price_only >= 5 and first_size_idx is not None:
+            # Collect *all* styles mentioned in the header band (lines
+            # before the first size label that aren't price rows). On
+            # Sexton multi-style pages, 5 styles share one price column.
+            collected: list[str] = []
+            for ln in page_lines[: first_size_idx + 1]:
+                if price_only_re.match(ln):
+                    continue
+                if re.search(r"\$|\d+\.\d{2}", ln):
+                    continue
+                styles_here = _looks_like_style_header(ln)
+                for s in styles_here:
+                    if s not in collected:
+                        collected.append(s)
+            if force_add_colonist_textured:
+                ct = _canonicalize_style("COLONIST TEXTURED")
+                if ct not in collected:
+                    collected.append(ct)
+            if collected:
+                current_styles = collected
+            records.extend(_parse_split_column_page(
+                page_lines, dealer_group, source_pdf,
+                tier_defs, current_styles,
+            ))
+            continue
 
         for raw_line in page_lines:
             line = raw_line.strip()
