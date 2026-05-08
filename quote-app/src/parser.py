@@ -679,8 +679,10 @@ def _parse_central_pages(
             # e.g. "CONMORE MADISON MONROE BIRKDALE CRAFTSMAN"
             if in_bifold_hc and not bifold_styles:
                 candidate_styles = _split_style_header(line)
+                # _split_style_header returns canonical Title-Case names,
+                # but _KNOWN_STYLES holds uppercase forms — compare upper-cased.
                 if len(candidate_styles) >= 2 and all(
-                    s in _KNOWN_STYLES for s in candidate_styles
+                    s.upper() in _KNOWN_STYLES for s in candidate_styles
                 ):
                     bifold_styles = candidate_styles
                     continue
