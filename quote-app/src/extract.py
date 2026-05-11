@@ -9,6 +9,45 @@ import pdfplumber
 from typing import List, Dict, Any
 
 
+def _lines_from_words(page) -> List[str]:
+    """
+    Build text lines by grouping pdfplumber words by their vertical position.
+
+    pdfplumber's ``extract_text()`` orders text by reading flow, which can
+    re-order multi-column pages so that sizes appear in one block and their
+    matching prices in another. Grouping words by ``top`` (rounded to the
+    nearest pixel, with a small tolerance) and sorting each row left-to-right
+    keeps every (size, price) pair on the same line.
+    """
+    try:
+        words = page.extract_words(use_text_flow=False, keep_blank_chars=False)
+    except Exception:
+        words = []
+    if not words:
+        text = page.extract_text() or ""
+        return [ln.strip() for ln in text.split("\n") if ln.strip()]
+
+    # Group by y-row (within 3pt tolerance)
+    rows: List[List[Dict[str, Any]]] = []
+    for w in sorted(words, key=lambda x: (x["top"], x["x0"])):
+        placed = False
+        for row in rows:
+            if abs(row[0]["top"] - w["top"]) <= 3:
+                row.append(w)
+                placed = True
+                break
+        if not placed:
+            rows.append([w])
+
+    lines: List[str] = []
+    for row in rows:
+        row.sort(key=lambda x: x["x0"])
+        line = " ".join(w["text"] for w in row).strip()
+        if line:
+            lines.append(line)
+    return lines
+
+
 def extract_all_pdfs(pdf_dir: str) -> List[Dict[str, Any]]:
     """
     Extract text from all PDF files in the given directory.
@@ -57,11 +96,26 @@ def extract_all_pdfs(pdf_dir: str) -> List[Dict[str, Any]]:
             "pages": [],
         }
 
+        # HomeHardware PDFs have a multi-column page layout that confuses
+        # pdfplumber's default extract_text() (sizes and prices end up on
+        # different lines). Use word-bbox-based reconstruction instead so
+        # each (size, price) pair stays on the same row.
+        fn_lower = filename.lower()
+        use_word_rows = (
+            "_hh_" in fn_lower
+            or "home_hardware" in fn_lower
+            or "homehardware" in fn_lower
+        )
+
         try:
             with pdfplumber.open(filepath) as pdf:
                 for i, page in enumerate(pdf.pages):
-                    raw_text = page.extract_text() or ""
-                    lines = [ln.strip() for ln in raw_text.split("\n") if ln.strip()]
+                    if use_word_rows:
+                        lines = _lines_from_words(page)
+                        raw_text = "\n".join(lines)
+                    else:
+                        raw_text = page.extract_text() or ""
+                        lines = [ln.strip() for ln in raw_text.split("\n") if ln.strip()]
                     pdf_data["pages"].append(
                         {
                             "page_num": i + 1,
